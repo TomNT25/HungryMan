@@ -1,4 +1,4 @@
-name: API Gateway CI
+name: Product Service CI
 
 on:
   push:
@@ -7,17 +7,17 @@ on:
       - develop
       - "hungryman/**"
     paths:
-      - "Backend/API-GATEWAY/**"
+      - "Backend/Product-Service/**"
       - "Backend/Shared/**"
-      - ".github/workflows/ci/api-gateway-ci.yml"
+      - ".github/workflows/product-service-ci.yml"
   pull_request:
     branches:
       - main
       - develop
     paths:
-      - "Backend/API-GATEWAY/**"
+      - "Backend/Product-Service/**"
       - "Backend/Shared/**"
-      - ".github/workflows/ci/api-gateway-ci.yml"
+      - ".github/workflows/product-service-ci.yml"
 
 jobs:
   build:
@@ -33,7 +33,7 @@ jobs:
           dotnet-version: "10.0.x"
 
       - name: Restore dependencies
-        run: dotnet restore Backend/API-GATEWAY/API-GATEWAY.csproj
+        run: dotnet restore Backend/Product-Service/Product-Service.csproj
 
       - name: Build
-        run: dotnet build Backend/API-GATEWAY/API-GATEWAY.csproj --no-restore --configuration Release
+        run: dotnet build Backend/Product-Service/Product-Service.csproj --no-restore --configuration Release

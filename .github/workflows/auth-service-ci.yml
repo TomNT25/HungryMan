@@ -9,7 +9,7 @@ on:
     paths:
       - "Backend/Authentication-Service/**"
       - "Backend/Shared/**"
-      - ".github/workflows/ci/auth-service-ci.yml"
+      - ".github/workflows/auth-service-ci.yml"
   pull_request:
     branches:
       - main
@@ -17,7 +17,7 @@ on:
     paths:
       - "Backend/Authentication-Service/**"
       - "Backend/Shared/**"
-      - ".github/workflows/ci/auth-service-ci.yml"
+      - ".github/workflows/auth-service-ci.yml"
 
 jobs:
   build:

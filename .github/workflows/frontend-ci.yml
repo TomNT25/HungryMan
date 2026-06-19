@@ -8,14 +8,14 @@ on:
       - "hungryman/**"
     paths:
       - "Frontend/**"
-      - ".github/workflows/ci/frontend-ci.yml"
+      - ".github/workflows/frontend-ci.yml"
   pull_request:
     branches:
       - main
       - develop
     paths:
       - "Frontend/**"
-      - ".github/workflows/ci/frontend-ci.yml"
+      - ".github/workflows/frontend-ci.yml"
 
 jobs:
   build:

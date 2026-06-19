@@ -1,0 +1,18 @@
+$kind: http-request
+method: POST
+url: '{{auth_service_base_url}}/api/v1/auth/login'
+order: 1000
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "data": {
+        "email": "user@example.com",
+        "password": "P@ssw0rd!"
+      },
+      "requestId": "{{$guid}}",
+      "timestamp": "{{$isoTimestamp}}"
+    }

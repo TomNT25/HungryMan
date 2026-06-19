@@ -3,4 +3,5 @@
   <Project Path="Authentication-Service/Authentication-Service.csproj" />
   <Project Path="MessageQueue-Service/MessageQueue-Service.csproj" />
   <Project Path="Product-Service/Product-Service.csproj" />
+  <Project Path="Shared/Shared.csproj" />
 </Solution>

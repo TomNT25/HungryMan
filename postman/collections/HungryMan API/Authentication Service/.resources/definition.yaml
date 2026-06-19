@@ -1,0 +1,3 @@
+$kind: collection
+name: 'Authentication Service'
+order: 1000

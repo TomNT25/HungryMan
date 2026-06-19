@@ -1,6 +1,7 @@
 # Secrets and environments
 .env
 .env.*
+appsettings.json
 appsettings.Development.json
 appsettings.Local.json
 
@@ -21,3 +22,5 @@ obj/
 .vscode/
 *.user
 *.suo
+
+Logs/

@@ -1,0 +1,9 @@
+$kind: collection
+name: 'HungryMan API'
+variables:
+  - key: auth_service_base_url
+    value: 'https://localhost:7001'
+  - key: product_service_base_url
+    value: 'https://localhost:7002'
+  - key: api_gateway_base_url
+    value: 'https://localhost:7000'

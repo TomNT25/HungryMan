@@ -6,6 +6,10 @@
 \i tables/01_users.sql
 \i tables/02_roles.sql
 \i tables/03_user_roles.sql
+\i tables/04_permissions.sql
+\i tables/05_user_permissions.sql
+\i tables/06_role_permissions.sql
+\i tables/07_user_tokens.sql
 
 \echo '--- Deploying Views ---'
 \i views/vw_user_details.sql

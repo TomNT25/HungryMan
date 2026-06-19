@@ -1,0 +1,5 @@
+$kind: http-request
+name: 'Get Weather Forecast'
+method: GET
+url: '{{product_service_base_url}}/weatherforecast'
+order: 1000

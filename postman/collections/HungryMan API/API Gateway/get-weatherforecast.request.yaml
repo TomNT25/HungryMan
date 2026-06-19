@@ -1,0 +1,5 @@
+$kind: http-request
+name: 'Get Weather Forecast'
+method: GET
+url: '{{api_gateway_base_url}}/weatherforecast'
+order: 1000

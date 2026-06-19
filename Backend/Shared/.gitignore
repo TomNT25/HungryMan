@@ -1,0 +1,23 @@
+# Secrets and environments
+.env
+.env.*
+appsettings.Development.json
+appsettings.Local.json
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Re]leases/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bin/
+obj/
+
+# Visual Studio / VS Code local configurations
+.vs/
+.vscode/
+*.user
+*.suo

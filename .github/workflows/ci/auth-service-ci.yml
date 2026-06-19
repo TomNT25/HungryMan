@@ -1,0 +1,39 @@
+name: Authentication Service CI
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+      - 'hungryman/**'
+    paths:
+      - 'Backend/Authentication-Service/**'
+      - 'Backend/Shared/**'
+      - '.github/workflows/auth-service-ci.yml'
+  pull_request:
+    branches:
+      - main
+      - develop
+    paths:
+      - 'Backend/Authentication-Service/**'
+      - 'Backend/Shared/**'
+      - '.github/workflows/auth-service-ci.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '10.0.x'
+
+    - name: Restore dependencies
+      run: dotnet restore Backend/Authentication-Service/Authentication-Service.csproj
+
+    - name: Build
+      run: dotnet build Backend/Authentication-Service/Authentication-Service.csproj --no-restore --configuration Release

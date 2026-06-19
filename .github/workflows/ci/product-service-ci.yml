@@ -1,0 +1,39 @@
+name: Product Service CI
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+      - 'hungryman/**'
+    paths:
+      - 'Backend/Product-Service/**'
+      - 'Backend/Shared/**'
+      - '.github/workflows/product-service-ci.yml'
+  pull_request:
+    branches:
+      - main
+      - develop
+    paths:
+      - 'Backend/Product-Service/**'
+      - 'Backend/Shared/**'
+      - '.github/workflows/product-service-ci.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '10.0.x'
+
+    - name: Restore dependencies
+      run: dotnet restore Backend/Product-Service/Product-Service.csproj
+
+    - name: Build
+      run: dotnet build Backend/Product-Service/Product-Service.csproj --no-restore --configuration Release

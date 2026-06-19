@@ -5,35 +5,35 @@ on:
     branches:
       - main
       - develop
-      - 'hungryman/**'
+      - "hungryman/**"
     paths:
-      - 'Backend/API-GATEWAY/**'
-      - 'Backend/Shared/**'
-      - '.github/workflows/api-gateway-ci.yml'
+      - "Backend/API-GATEWAY/**"
+      - "Backend/Shared/**"
+      - ".github/workflows/ci/api-gateway-ci.yml"
   pull_request:
     branches:
       - main
       - develop
     paths:
-      - 'Backend/API-GATEWAY/**'
-      - 'Backend/Shared/**'
-      - '.github/workflows/api-gateway-ci.yml'
+      - "Backend/API-GATEWAY/**"
+      - "Backend/Shared/**"
+      - ".github/workflows/ci/api-gateway-ci.yml"
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: '10.0.x'
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "10.0.x"
 
-    - name: Restore dependencies
-      run: dotnet restore Backend/API-GATEWAY/API-GATEWAY.csproj
+      - name: Restore dependencies
+        run: dotnet restore Backend/API-GATEWAY/API-GATEWAY.csproj
 
-    - name: Build
-      run: dotnet build Backend/API-GATEWAY/API-GATEWAY.csproj --no-restore --configuration Release
+      - name: Build
+        run: dotnet build Backend/API-GATEWAY/API-GATEWAY.csproj --no-restore --configuration Release

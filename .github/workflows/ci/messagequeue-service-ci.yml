@@ -5,35 +5,35 @@ on:
     branches:
       - main
       - develop
-      - 'hungryman/**'
+      - "hungryman/**"
     paths:
-      - 'Backend/MessageQueue-Service/**'
-      - 'Backend/Shared/**'
-      - '.github/workflows/messagequeue-service-ci.yml'
+      - "Backend/MessageQueue-Service/**"
+      - "Backend/Shared/**"
+      - ".github/workflows/ci/messagequeue-service-ci.yml"
   pull_request:
     branches:
       - main
       - develop
     paths:
-      - 'Backend/MessageQueue-Service/**'
-      - 'Backend/Shared/**'
-      - '.github/workflows/messagequeue-service-ci.yml'
+      - "Backend/MessageQueue-Service/**"
+      - "Backend/Shared/**"
+      - ".github/workflows/ci/messagequeue-service-ci.yml"
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: '10.0.x'
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "10.0.x"
 
-    - name: Restore dependencies
-      run: dotnet restore Backend/MessageQueue-Service/MessageQueue-Service.csproj
+      - name: Restore dependencies
+        run: dotnet restore Backend/MessageQueue-Service/MessageQueue-Service.csproj
 
-    - name: Build
-      run: dotnet build Backend/MessageQueue-Service/MessageQueue-Service.csproj --no-restore --configuration Release
+      - name: Build
+        run: dotnet build Backend/MessageQueue-Service/MessageQueue-Service.csproj --no-restore --configuration Release

@@ -5,17 +5,17 @@ on:
     branches:
       - main
       - develop
-      - 'hungryman/**'
+      - "hungryman/**"
     paths:
-      - 'Frontend/**'
-      - '.github/workflows/frontend-ci.yml'
+      - "Frontend/**"
+      - ".github/workflows/ci/frontend-ci.yml"
   pull_request:
     branches:
       - main
       - develop
     paths:
-      - 'Frontend/**'
-      - '.github/workflows/frontend-ci.yml'
+      - "Frontend/**"
+      - ".github/workflows/ci/frontend-ci.yml"
 
 jobs:
   build:
@@ -26,18 +26,18 @@ jobs:
         working-directory: Frontend
 
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '20'
-        cache: 'npm'
-        cache-dependency-path: Frontend/package-lock.json
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: Frontend/package-lock.json
 
-    - name: Install dependencies
-      run: npm ci
+      - name: Install dependencies
+        run: npm ci
 
-    - name: Build Application
-      run: npm run build -- --configuration production
+      - name: Build Application
+        run: npm run build -- --configuration production

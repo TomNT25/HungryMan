@@ -7,17 +7,23 @@ FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 
-COPY ["Authentication-Service.csproj", "."]
-RUN dotnet restore "./Authentication-Service.csproj"
+COPY ["Shared/Shared.csproj", "Shared/"]
+COPY ["Authentication-Service/AuthenticationService.Domain/AuthenticationService.Domain.csproj", "Authentication-Service/AuthenticationService.Domain/"]
+COPY ["Authentication-Service/AuthenticationService.Application/AuthenticationService.Application.csproj", "Authentication-Service/AuthenticationService.Application/"]
+COPY ["Authentication-Service/AuthenticationService.Infrastructure/AuthenticationService.Infrastructure.csproj", "Authentication-Service/AuthenticationService.Infrastructure/"]
+COPY ["Authentication-Service/AuthenticationService.API/AuthenticationService.API.csproj", "Authentication-Service/AuthenticationService.API/"]
+
+RUN dotnet restore "Authentication-Service/AuthenticationService.API/AuthenticationService.API.csproj"
 
 COPY . .
-RUN dotnet build "./Authentication-Service.csproj" -c $BUILD_CONFIGURATION -o /app/build
+WORKDIR "/src/Authentication-Service/AuthenticationService.API"
+RUN dotnet build "AuthenticationService.API.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./Authentication-Service.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "AuthenticationService.API.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Authentication-Service.dll"]
+ENTRYPOINT ["dotnet", "AuthenticationService.API.dll"]

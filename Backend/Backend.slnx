@@ -1,7 +1,11 @@
 <Solution>
   <Project Path="API-GATEWAY/API-GATEWAY.csproj" />
-  <Project Path="Authentication-Service/Authentication-Service.csproj" />
+  
   <Project Path="MessageQueue-Shared/MessageQueue-Shared.csproj" />
   <Project Path="Product-Service/Product-Service.csproj" />
   <Project Path="Shared/Shared.csproj" />
+  <Project Path="Authentication-Service\AuthenticationService.API\AuthenticationService.API.csproj" />
+  <Project Path="Authentication-Service\AuthenticationService.Application\AuthenticationService.Application.csproj" />
+  <Project Path="Authentication-Service\AuthenticationService.Domain\AuthenticationService.Domain.csproj" />
+  <Project Path="Authentication-Service\AuthenticationService.Infrastructure\AuthenticationService.Infrastructure.csproj" />
 </Solution>

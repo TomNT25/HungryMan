@@ -5,7 +5,7 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
+          "Host": "hungryman-authentication-service",
           "Port": 5142
         }
       ],
@@ -55,7 +55,7 @@
       "DisableRateLimitHeaders": false,
       "QuotaExceededMessage": "API Gateway: Rate limit exceeded. Please try again later.",
       "HttpStatusCode": 429,
-      "ClientIdHeader": "ClientId"
+      "ClientIdHeader": "X-Forwarded-For"
     }
   }
 }

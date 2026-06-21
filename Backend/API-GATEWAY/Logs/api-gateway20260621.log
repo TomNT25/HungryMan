@@ -1,0 +1,5 @@
+2026-06-21 12:09:49,559 2 INFO [] Now listening on: "http://localhost:5132" - Microsoft.Hosting.Lifetime
+2026-06-21 12:09:49,583 2 INFO [] Application started. Press Ctrl+C to shut down. - Microsoft.Hosting.Lifetime
+2026-06-21 12:09:49,584 2 INFO [] Hosting environment: "Development" - Microsoft.Hosting.Lifetime
+2026-06-21 12:09:49,585 2 INFO [] Content root path: "D:\Project\HungryMan\Backend\API-GATEWAY" - Microsoft.Hosting.Lifetime
+2026-06-21 12:09:51,622 11 INFO [] Application is shutting down... - Microsoft.Hosting.Lifetime

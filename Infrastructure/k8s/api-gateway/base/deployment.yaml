@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hungryman-api-gateway
+  labels:
+    app: hungryman-api-gateway
+spec:
+  selector:
+    matchLabels:
+      app: hungryman-api-gateway
+  template:
+    metadata:
+      labels:
+        app: hungryman-api-gateway
+    spec:
+      containers:
+        - name: hungryman-api-gateway
+          image: hungryman-api-gateway-image:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 5132
+          env:
+            - name: ASPNETCORE_HTTP_PORTS
+              value: "5132"

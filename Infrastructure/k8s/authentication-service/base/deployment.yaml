@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hungryman-authentication-service
+  labels:
+    app: hungryman-authentication-service
+spec:
+  selector:
+    matchLabels:
+      app: hungryman-authentication-service
+  template:
+    metadata:
+      labels:
+        app: hungryman-authentication-service
+    spec:
+      containers:
+        - name: hungryman-authentication-service
+          image: hungryman-auth-service:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 5142
+          env:
+            - name: ASPNETCORE_HTTP_PORTS
+              value: "5142"

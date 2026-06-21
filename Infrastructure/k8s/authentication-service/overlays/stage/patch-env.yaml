@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hungryman-authentication-service
+spec:
+  replicas: 2
+  template:
+    spec:
+      containers:
+        - name: authentication-service
+          env:
+            - name: ASPNETCORE_ENVIRONMENT
+              value: "Staging"
+          resources:
+            requests:
+              memory: "256Mi"
+              cpu: "250m"
+            limits:
+              memory: "512Mi"
+              cpu: "500m"

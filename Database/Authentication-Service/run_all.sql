@@ -10,6 +10,7 @@
 \i tables/05_user_permissions.sql
 \i tables/06_role_permissions.sql
 \i tables/07_user_tokens.sql
+\i tables/08_seed_data.sql
 
 \echo '--- Deploying Views ---'
 \i views/vw_user_details.sql

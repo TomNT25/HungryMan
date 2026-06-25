@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "2",
+		"name": "Authentication-Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"Data\": {\n    \"Email\": \"admin@example.com\",\n    \"Password\": \"password123\"\n  }\n}"
+				},
+				"url": {
+					"raw": "{{auth_service_url}}/api/v1/auth/login",
+					"host": [
+						"{{auth_service_url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

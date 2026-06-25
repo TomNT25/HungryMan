@@ -12,7 +12,7 @@ builder.Host.UseSerilog((context, services, configuration) =>
     configuration.ReadFrom.Configuration(context.Configuration);
 });
 
-builder.Configuration.AddJsonFile("ocelot.json", optional: false, reloadOnChange: true);
+builder.Configuration.AddOcelotWithPlaceholders("ocelot.json", builder.Configuration);
 builder.Services.AddOcelot(builder.Configuration);
 
 builder.Services.AddDownstreamHealthChecks(builder.Configuration);

@@ -11,12 +11,25 @@ public static class HealthConfiguration
         var authHost = configuration["DownstreamEndpoints:AuthService:Host"];
         var authPort = configuration["DownstreamEndpoints:AuthService:Port"];
 
-        var productHost = configuration["DownstreamEndpoints:ProductService:Host"];
-        var productPort = configuration["DownstreamEndpoints:ProductService:Port"];
+        var healthChecks = services.AddHealthChecks();
 
-        services.AddHealthChecks()
-            .AddUrlGroup(new Uri($"http://{authHost}:{authPort}/health"), name: "Authentication Service Health Check")
-            .AddUrlGroup(new Uri($"http://{productHost}:{productPort}/health"), name: "Product Service Health Check");
+        if (!string.IsNullOrEmpty(authHost) && !string.IsNullOrEmpty(authPort))
+        {
+            healthChecks.AddUrlGroup(new Uri($"http://{authHost}:{authPort}/health"), name: "Authentication Service Health Check");
+        }
+
+        var productInstances = configuration.GetSection("DownstreamEndpoints:ProductService:Instances").GetChildren();
+        int index = 1;
+        foreach (var instance in productInstances)
+        {
+            var host = instance["Host"];
+            var port = instance["Port"];
+            if (!string.IsNullOrEmpty(host) && !string.IsNullOrEmpty(port))
+            {
+                healthChecks.AddUrlGroup(new Uri($"http://{host}:{port}/health"), name: $"Product Service Instance {index} Health Check");
+                index++;
+            }
+        }
 
         return services;
     }

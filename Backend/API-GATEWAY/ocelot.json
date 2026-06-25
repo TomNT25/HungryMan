@@ -5,8 +5,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "hungryman-authentication-service",
-          "Port": 5142
+          "Host": "{{DownstreamEndpoints:AuthService:Host}}",
+          "Port": "{{DownstreamEndpoints:AuthService:Port}}"
         }
       ],
       "UpstreamPathTemplate": "/api/v{version}/auth/{everything}",
@@ -27,12 +27,12 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5189
+          "Host": "{{DownstreamEndpoints:ProductService:Instances:0:Host}}",
+          "Port": "{{DownstreamEndpoints:ProductService:Instances:0:Port}}"
         },
         {
-          "Host": "localhost",
-          "Port": 5190
+          "Host": "{{DownstreamEndpoints:ProductService:Instances:1:Host}}",
+          "Port": "{{DownstreamEndpoints:ProductService:Instances:1:Port}}"
         }
       ],
       "UpstreamPathTemplate": "/api/v{version}/products/{everything}",
@@ -50,7 +50,7 @@
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "http://localhost:5132",
+    "BaseUrl": "{{Gateway:BaseUrl}}",
     "RateLimitOptions": {
       "DisableRateLimitHeaders": false,
       "QuotaExceededMessage": "API Gateway: Rate limit exceeded. Please try again later.",

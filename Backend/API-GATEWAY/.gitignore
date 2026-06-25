@@ -3,6 +3,7 @@
 .env.*
 appsettings.Development.json
 appsettings.Local.json
+appsettings.json
 
 # Build results
 [Dd]ebug/

@@ -1,0 +1,433 @@
+2026-06-25 08:38:47,786 1 INFO [] Now listening on: "http://localhost:5132" - Microsoft.Hosting.Lifetime
+2026-06-25 08:38:47,810 1 INFO [] Application started. Press Ctrl+C to shut down. - Microsoft.Hosting.Lifetime
+2026-06-25 08:38:47,810 1 INFO [] Hosting environment: "Development" - Microsoft.Hosting.Lifetime
+2026-06-25 08:38:47,810 1 INFO [] Content root path: "/run/media/tomnguyen254/Dev/Project/HungryMan/Backend/API-GATEWAY" - Microsoft.Hosting.Lifetime
+2026-06-25 08:40:50,147 14 WARN [c0ce8062686f856dfeaef8a0e912542b] Failed to determine the https port for redirect. - Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+2026-06-25 08:40:50,149 14 INFO [c0ce8062686f856dfeaef8a0e912542b] Generated new TraceId: "14aec481-c47f-4638-b550-3d952ccff250" - API_GATEWAY.Middlewares.TraceIdMiddleware
+2026-06-25 08:40:50,194 14 INFO [c0ce8062686f856dfeaef8a0e912542b] RequestId: 0HNMIBB4MIUPQ:00000001, PreviousRequestId: -
+Route '/api/v{version}/products/{everything}' must return rate limiting headers with the following data: 99/100 resets at 2026-06-25T01:41:50.1830708Z - Ocelot.RateLimiting.RateLimitingMiddleware
+2026-06-25 08:40:50,196 14 INFO [c0ce8062686f856dfeaef8a0e912542b] RequestId: 0HNMIBB4MIUPQ:00000001, PreviousRequestId: -
+No authentication is required for the path '/api/v1/products/health' in the route /api/v{version}/products/{everything}. - Ocelot.Authentication.AuthenticationMiddleware
+2026-06-25 08:40:50,228 12 INFO [c0ce8062686f856dfeaef8a0e912542b] RequestId: 0HNMIBB4MIUPQ:00000001, PreviousRequestId: -
+102 unknown status code of request URI:  - Ocelot.Requester.Middleware.HttpRequesterMiddleware
+2026-06-25 08:40:50,230 12 WARN [c0ce8062686f856dfeaef8a0e912542b] RequestId: 0HNMIBB4MIUPQ:00000001, PreviousRequestId: -
+ResponderMiddleware found 1 error ->
+ConnectionToDownstreamServiceError: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: Connection refused (localhost:5189)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.<SendAsync>g__CreateHandlerAndSendAsync|115_0(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Ocelot.Requester.TimeoutDelegatingHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Ocelot.Requester.MessageInvokerHttpRequester.GetResponse(HttpContext httpContext)
+Setting error response for request: GET /api/v1/products/health - Ocelot.Responder.Middleware.ResponderMiddleware
+2026-06-25 08:50:39,883 22 INFO [] Application is shutting down... - Microsoft.Hosting.Lifetime
+2026-06-25 08:51:38,317 1 INFO [] Now listening on: "http://localhost:5132" - Microsoft.Hosting.Lifetime
+2026-06-25 08:51:38,342 1 INFO [] Application started. Press Ctrl+C to shut down. - Microsoft.Hosting.Lifetime
+2026-06-25 08:51:38,342 1 INFO [] Hosting environment: "Development" - Microsoft.Hosting.Lifetime
+2026-06-25 08:51:38,342 1 INFO [] Content root path: "/run/media/tomnguyen254/Dev/Project/HungryMan/Backend/API-GATEWAY" - Microsoft.Hosting.Lifetime
+2026-06-25 08:51:42,876 11 WARN [c89fac279bae73e076d3a1c2468e9aa2] Failed to determine the https port for redirect. - Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+2026-06-25 08:51:42,877 11 INFO [c89fac279bae73e076d3a1c2468e9aa2] Generated new TraceId: "36160699-f2b0-4da2-8dd3-516d0d6ade0c" - API_GATEWAY.Middlewares.TraceIdMiddleware
+2026-06-25 08:51:42,918 11 INFO [c89fac279bae73e076d3a1c2468e9aa2] RequestId: 0HNMIBH77I2DM:00000001, PreviousRequestId: -
+Route '/api/v{version}/products/{everything}' must return rate limiting headers with the following data: 99/100 resets at 2026-06-25T01:52:42.9072387Z - Ocelot.RateLimiting.RateLimitingMiddleware
+2026-06-25 08:51:42,919 11 INFO [c89fac279bae73e076d3a1c2468e9aa2] RequestId: 0HNMIBH77I2DM:00000001, PreviousRequestId: -
+No authentication is required for the path '/api/v1/products/health' in the route /api/v{version}/products/{everything}. - Ocelot.Authentication.AuthenticationMiddleware
+2026-06-25 08:51:42,955 11 INFO [c89fac279bae73e076d3a1c2468e9aa2] RequestId: 0HNMIBH77I2DM:00000001, PreviousRequestId: -
+102 unknown status code of request URI:  - Ocelot.Requester.Middleware.HttpRequesterMiddleware
+2026-06-25 08:51:42,958 11 WARN [c89fac279bae73e076d3a1c2468e9aa2] RequestId: 0HNMIBH77I2DM:00000001, PreviousRequestId: -
+ResponderMiddleware found 1 error ->
+ConnectionToDownstreamServiceError: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: Connection refused (localhost:5189)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.<SendAsync>g__CreateHandlerAndSendAsync|115_0(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Ocelot.Requester.TimeoutDelegatingHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Ocelot.Requester.MessageInvokerHttpRequester.GetResponse(HttpContext httpContext)
+Setting error response for request: GET /api/v1/products/health - Ocelot.Responder.Middleware.ResponderMiddleware
+2026-06-25 08:55:52,914 17 INFO [] Application is shutting down... - Microsoft.Hosting.Lifetime
+2026-06-25 08:58:16,334 1 INFO [] Now listening on: "http://localhost:5132" - Microsoft.Hosting.Lifetime
+2026-06-25 08:58:16,364 1 INFO [] Application started. Press Ctrl+C to shut down. - Microsoft.Hosting.Lifetime
+2026-06-25 08:58:16,364 1 INFO [] Hosting environment: "Development" - Microsoft.Hosting.Lifetime
+2026-06-25 08:58:16,364 1 INFO [] Content root path: "/run/media/tomnguyen254/Dev/Project/HungryMan/Backend/API-GATEWAY" - Microsoft.Hosting.Lifetime
+2026-06-25 08:58:21,326 10 WARN [09aeb38f71755cf9e3e6f1d752c5f78b] Failed to determine the https port for redirect. - Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+2026-06-25 08:58:21,328 10 INFO [09aeb38f71755cf9e3e6f1d752c5f78b] Generated new TraceId: "bbd1e0fb-4c06-40a3-bd9c-8973225e7c02" - API_GATEWAY.Middlewares.TraceIdMiddleware
+2026-06-25 08:58:21,369 10 INFO [09aeb38f71755cf9e3e6f1d752c5f78b] RequestId: 0HNMIBKTVEK30:00000001, PreviousRequestId: -
+Route '/api/v{version}/products/{everything}' must return rate limiting headers with the following data: 99/100 resets at 2026-06-25T01:59:21.3579665Z - Ocelot.RateLimiting.RateLimitingMiddleware
+2026-06-25 08:58:21,370 10 INFO [09aeb38f71755cf9e3e6f1d752c5f78b] RequestId: 0HNMIBKTVEK30:00000001, PreviousRequestId: -
+No authentication is required for the path '/api/v1/products/health' in the route /api/v{version}/products/{everything}. - Ocelot.Authentication.AuthenticationMiddleware
+2026-06-25 08:58:21,403 6 INFO [09aeb38f71755cf9e3e6f1d752c5f78b] RequestId: 0HNMIBKTVEK30:00000001, PreviousRequestId: -
+102 unknown status code of request URI:  - Ocelot.Requester.Middleware.HttpRequesterMiddleware
+2026-06-25 08:58:21,405 6 WARN [09aeb38f71755cf9e3e6f1d752c5f78b] RequestId: 0HNMIBKTVEK30:00000001, PreviousRequestId: -
+ResponderMiddleware found 1 error ->
+ConnectionToDownstreamServiceError: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: Connection refused (localhost:5189)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.<SendAsync>g__CreateHandlerAndSendAsync|115_0(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Ocelot.Requester.TimeoutDelegatingHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Ocelot.Requester.MessageInvokerHttpRequester.GetResponse(HttpContext httpContext)
+Setting error response for request: GET /api/v1/products/health - Ocelot.Responder.Middleware.ResponderMiddleware
+2026-06-25 08:58:33,594 15 INFO [] Application is shutting down... - Microsoft.Hosting.Lifetime
+2026-06-25 08:58:37,851 1 INFO [] Now listening on: "http://localhost:5132" - Microsoft.Hosting.Lifetime
+2026-06-25 08:58:37,874 1 INFO [] Application started. Press Ctrl+C to shut down. - Microsoft.Hosting.Lifetime
+2026-06-25 08:58:37,875 1 INFO [] Hosting environment: "Development" - Microsoft.Hosting.Lifetime
+2026-06-25 08:58:37,875 1 INFO [] Content root path: "/run/media/tomnguyen254/Dev/Project/HungryMan/Backend/API-GATEWAY" - Microsoft.Hosting.Lifetime
+2026-06-25 08:58:40,797 11 WARN [282539551b4436990ebf7f5afaa1f586] Failed to determine the https port for redirect. - Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+2026-06-25 08:58:40,798 11 INFO [282539551b4436990ebf7f5afaa1f586] Generated new TraceId: "a47a0561-47a4-49db-be7f-2c9371999287" - API_GATEWAY.Middlewares.TraceIdMiddleware
+2026-06-25 08:58:40,837 11 INFO [282539551b4436990ebf7f5afaa1f586] RequestId: 0HNMIBL3P5IBA:00000001, PreviousRequestId: -
+Route '/api/v{version}/products/{everything}' must return rate limiting headers with the following data: 99/100 resets at 2026-06-25T01:59:40.8269959Z - Ocelot.RateLimiting.RateLimitingMiddleware
+2026-06-25 08:58:40,838 11 INFO [282539551b4436990ebf7f5afaa1f586] RequestId: 0HNMIBL3P5IBA:00000001, PreviousRequestId: -
+No authentication is required for the path '/api/v1/products/health' in the route /api/v{version}/products/{everything}. - Ocelot.Authentication.AuthenticationMiddleware
+2026-06-25 08:58:40,869 8 INFO [282539551b4436990ebf7f5afaa1f586] RequestId: 0HNMIBL3P5IBA:00000001, PreviousRequestId: -
+102 unknown status code of request URI:  - Ocelot.Requester.Middleware.HttpRequesterMiddleware
+2026-06-25 08:58:40,872 8 WARN [282539551b4436990ebf7f5afaa1f586] RequestId: 0HNMIBL3P5IBA:00000001, PreviousRequestId: -
+ResponderMiddleware found 1 error ->
+ConnectionToDownstreamServiceError: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: Connection refused (localhost:5189)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.<SendAsync>g__CreateHandlerAndSendAsync|115_0(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Ocelot.Requester.TimeoutDelegatingHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Ocelot.Requester.MessageInvokerHttpRequester.GetResponse(HttpContext httpContext)
+Setting error response for request: GET /api/v1/products/health - Ocelot.Responder.Middleware.ResponderMiddleware
+2026-06-25 08:59:38,662 13 INFO [93141f3c9068ca79764e37b21e976df0] Generated new TraceId: "01e51940-87ea-49ec-a987-b1c343a935f3" - API_GATEWAY.Middlewares.TraceIdMiddleware
+2026-06-25 08:59:38,664 13 INFO [93141f3c9068ca79764e37b21e976df0] RequestId: 0HNMIBL3P5IBA:00000002, PreviousRequestId: -
+Route '/api/v{version}/products/{everything}' must return rate limiting headers with the following data: 98/100 resets at 2026-06-25T01:59:40.8269959Z - Ocelot.RateLimiting.RateLimitingMiddleware
+2026-06-25 08:59:38,664 13 INFO [93141f3c9068ca79764e37b21e976df0] RequestId: 0HNMIBL3P5IBA:00000002, PreviousRequestId: -
+No authentication is required for the path '/api/v1/products/health' in the route /api/v{version}/products/{everything}. - Ocelot.Authentication.AuthenticationMiddleware
+2026-06-25 08:59:38,666 6 INFO [93141f3c9068ca79764e37b21e976df0] RequestId: 0HNMIBL3P5IBA:00000002, PreviousRequestId: -
+102 unknown status code of request URI:  - Ocelot.Requester.Middleware.HttpRequesterMiddleware
+2026-06-25 08:59:38,666 6 WARN [93141f3c9068ca79764e37b21e976df0] RequestId: 0HNMIBL3P5IBA:00000002, PreviousRequestId: -
+ResponderMiddleware found 1 error ->
+ConnectionToDownstreamServiceError: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: Connection refused (localhost:5190)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Ocelot.Requester.TimeoutDelegatingHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Ocelot.Requester.MessageInvokerHttpRequester.GetResponse(HttpContext httpContext)
+Setting error response for request: GET /api/v1/products/health - Ocelot.Responder.Middleware.ResponderMiddleware
+2026-06-25 08:59:39,567 6 INFO [bb42108d68342d984ba9e4488ba8adf8] Generated new TraceId: "f9d8c2f7-bc77-4703-a370-901b699227a7" - API_GATEWAY.Middlewares.TraceIdMiddleware
+2026-06-25 08:59:39,568 6 INFO [bb42108d68342d984ba9e4488ba8adf8] RequestId: 0HNMIBL3P5IBA:00000003, PreviousRequestId: -
+Route '/api/v{version}/products/{everything}' must return rate limiting headers with the following data: 97/100 resets at 2026-06-25T01:59:40.8269959Z - Ocelot.RateLimiting.RateLimitingMiddleware
+2026-06-25 08:59:39,568 6 INFO [bb42108d68342d984ba9e4488ba8adf8] RequestId: 0HNMIBL3P5IBA:00000003, PreviousRequestId: -
+No authentication is required for the path '/api/v1/products/health' in the route /api/v{version}/products/{everything}. - Ocelot.Authentication.AuthenticationMiddleware
+2026-06-25 08:59:39,569 6 INFO [bb42108d68342d984ba9e4488ba8adf8] RequestId: 0HNMIBL3P5IBA:00000003, PreviousRequestId: -
+102 unknown status code of request URI:  - Ocelot.Requester.Middleware.HttpRequesterMiddleware
+2026-06-25 08:59:39,569 6 WARN [bb42108d68342d984ba9e4488ba8adf8] RequestId: 0HNMIBL3P5IBA:00000003, PreviousRequestId: -
+ResponderMiddleware found 1 error ->
+ConnectionToDownstreamServiceError: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: Connection refused (localhost:5189)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Ocelot.Requester.TimeoutDelegatingHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Ocelot.Requester.MessageInvokerHttpRequester.GetResponse(HttpContext httpContext)
+Setting error response for request: GET /api/v1/products/health - Ocelot.Responder.Middleware.ResponderMiddleware
+2026-06-25 08:59:54,470 6 INFO [c30b74951f99ce7a84206219eb971fcc] Generated new TraceId: "94ee1077-ce7f-418c-b5b0-518d5779f298" - API_GATEWAY.Middlewares.TraceIdMiddleware
+2026-06-25 08:59:54,471 6 WARN [c30b74951f99ce7a84206219eb971fcc] RequestId: 0HNMIBL3P5IBA:00000004, PreviousRequestId: -
+DownstreamRouteFinderMiddleware setting pipeline errors because DownstreamRouteFinder returned the following ->
+UnableToFindDownstreamRouteError: Failed to match route configuration for upstream: GET /api/v1/health - Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware
+2026-06-25 08:59:54,471 6 WARN [c30b74951f99ce7a84206219eb971fcc] RequestId: 0HNMIBL3P5IBA:00000004, PreviousRequestId: -
+ResponderMiddleware found 1 error ->
+UnableToFindDownstreamRouteError: Failed to match route configuration for upstream: GET /api/v1/health
+Setting error response for request: GET /api/v1/health - Ocelot.Responder.Middleware.ResponderMiddleware
+2026-06-25 09:00:00,955 6 INFO [68376837ad0d9e40d8829f0407e02807] Generated new TraceId: "4ccb520f-9b69-4e04-8621-bbc57b741b8d" - API_GATEWAY.Middlewares.TraceIdMiddleware
+2026-06-25 09:00:00,956 6 WARN [68376837ad0d9e40d8829f0407e02807] RequestId: 0HNMIBL3P5IBA:00000005, PreviousRequestId: -
+DownstreamRouteFinderMiddleware setting pipeline errors because DownstreamRouteFinder returned the following ->
+UnableToFindDownstreamRouteError: Failed to match route configuration for upstream: GET /api/health - Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware
+2026-06-25 09:00:00,956 6 WARN [68376837ad0d9e40d8829f0407e02807] RequestId: 0HNMIBL3P5IBA:00000005, PreviousRequestId: -
+ResponderMiddleware found 1 error ->
+UnableToFindDownstreamRouteError: Failed to match route configuration for upstream: GET /api/health
+Setting error response for request: GET /api/health - Ocelot.Responder.Middleware.ResponderMiddleware
+2026-06-25 09:00:14,502 6 INFO [8cfde65ac213578499ca8a79ea0faa44] Generated new TraceId: "6a733f1b-f879-4cad-97bc-d8df1a0df7d0" - API_GATEWAY.Middlewares.TraceIdMiddleware
+2026-06-25 09:00:14,527 16 EROR [8cfde65ac213578499ca8a79ea0faa44] Health check "Product Service Health Check" with status Unhealthy completed after 11.8653ms with message 'null' - Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService
+System.Net.Http.HttpRequestException: Connection refused (localhost:5189)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.<SendAsync>g__CreateHandlerAndSendAsync|115_0(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at HealthChecks.Uris.UriHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.Uris/UriHealthCheck.cs:line 54
+2026-06-25 09:01:35,161 22 INFO [] Application is shutting down... - Microsoft.Hosting.Lifetime
+2026-06-25 09:01:37,438 1 INFO [] Now listening on: "http://localhost:5132" - Microsoft.Hosting.Lifetime
+2026-06-25 09:01:37,462 1 INFO [] Application started. Press Ctrl+C to shut down. - Microsoft.Hosting.Lifetime
+2026-06-25 09:01:37,462 1 INFO [] Hosting environment: "Development" - Microsoft.Hosting.Lifetime
+2026-06-25 09:01:37,462 1 INFO [] Content root path: "/run/media/tomnguyen254/Dev/Project/HungryMan/Backend/API-GATEWAY" - Microsoft.Hosting.Lifetime
+2026-06-25 09:01:40,471 11 WARN [841d03f0443b9a0551c80494a6cf6633] Failed to determine the https port for redirect. - Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+2026-06-25 09:01:40,472 11 INFO [841d03f0443b9a0551c80494a6cf6633] Generated new TraceId: "49335efa-5e67-46ed-8f7b-2847f638f6c7" - API_GATEWAY.Middlewares.TraceIdMiddleware
+2026-06-25 09:01:40,518 14 EROR [841d03f0443b9a0551c80494a6cf6633] Health check "Product Service Health Check" with status Unhealthy completed after 29.3593ms with message 'null' - Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService
+System.Net.Http.HttpRequestException: Connection refused (localhost:5189)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.<SendAsync>g__CreateHandlerAndSendAsync|115_0(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at HealthChecks.Uris.UriHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.Uris/UriHealthCheck.cs:line 54
+2026-06-25 09:02:12,399 18 INFO [] Application is shutting down... - Microsoft.Hosting.Lifetime
+2026-06-25 09:02:16,838 1 INFO [] Now listening on: "http://localhost:5132" - Microsoft.Hosting.Lifetime
+2026-06-25 09:02:16,861 1 INFO [] Application started. Press Ctrl+C to shut down. - Microsoft.Hosting.Lifetime
+2026-06-25 09:02:16,862 1 INFO [] Hosting environment: "Development" - Microsoft.Hosting.Lifetime
+2026-06-25 09:02:16,862 1 INFO [] Content root path: "/run/media/tomnguyen254/Dev/Project/HungryMan/Backend/API-GATEWAY" - Microsoft.Hosting.Lifetime
+2026-06-25 09:02:19,667 11 WARN [a073785b9874499ddce9525da8322dbc] Failed to determine the https port for redirect. - Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+2026-06-25 09:02:19,668 11 INFO [a073785b9874499ddce9525da8322dbc] Generated new TraceId: "5a329b65-4ba3-47d1-9647-4fc1c6c8cd31" - API_GATEWAY.Middlewares.TraceIdMiddleware
+2026-06-25 09:02:19,713 6 EROR [a073785b9874499ddce9525da8322dbc] Health check "Product Service Health Check" with status Unhealthy completed after 29.4285ms with message 'null' - Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService
+System.Net.Http.HttpRequestException: Connection refused (localhost:5189)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.<SendAsync>g__CreateHandlerAndSendAsync|115_0(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at HealthChecks.Uris.UriHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.Uris/UriHealthCheck.cs:line 54
+2026-06-25 09:02:34,369 16 INFO [] Application is shutting down... - Microsoft.Hosting.Lifetime
+2026-06-25 09:55:03,270 1 INFO [] Now listening on: "http://localhost:5132" - Microsoft.Hosting.Lifetime
+2026-06-25 09:55:03,297 1 INFO [] Application started. Press Ctrl+C to shut down. - Microsoft.Hosting.Lifetime
+2026-06-25 09:55:03,298 1 INFO [] Hosting environment: "Development" - Microsoft.Hosting.Lifetime
+2026-06-25 09:55:03,298 1 INFO [] Content root path: "/run/media/tomnguyen254/Dev/Project/HungryMan/Backend/API-GATEWAY" - Microsoft.Hosting.Lifetime
+2026-06-25 09:56:00,307 3 WARN [a9f3a6462e7d99ab9bbea9278b2f0c6b] Failed to determine the https port for redirect. - Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+2026-06-25 09:56:00,310 3 INFO [a9f3a6462e7d99ab9bbea9278b2f0c6b] Generated new TraceId: "63a0f1c2-3380-437e-9740-5f50efa693f1" - API_GATEWAY.Middlewares.TraceIdMiddleware
+2026-06-25 09:56:00,354 3 INFO [a9f3a6462e7d99ab9bbea9278b2f0c6b] RequestId: 0HNMICL4QQKDI:00000001, PreviousRequestId: -
+Route '/api/v{version}/auth/{everything}' must return rate limiting headers with the following data: 4/5 resets at 2026-06-25T02:56:10.3430125Z - Ocelot.RateLimiting.RateLimitingMiddleware
+2026-06-25 09:56:00,355 3 INFO [a9f3a6462e7d99ab9bbea9278b2f0c6b] RequestId: 0HNMICL4QQKDI:00000001, PreviousRequestId: -
+No authentication is required for the path '/api/v1/auth/login' in the route /api/v{version}/auth/{everything}. - Ocelot.Authentication.AuthenticationMiddleware
+2026-06-25 09:56:00,398 6 INFO [a9f3a6462e7d99ab9bbea9278b2f0c6b] RequestId: 0HNMICL4QQKDI:00000001, PreviousRequestId: -
+102 unknown status code of request URI:  - Ocelot.Requester.Middleware.HttpRequesterMiddleware
+2026-06-25 09:56:00,400 6 WARN [a9f3a6462e7d99ab9bbea9278b2f0c6b] RequestId: 0HNMICL4QQKDI:00000001, PreviousRequestId: -
+ResponderMiddleware found 1 error ->
+ConnectionToDownstreamServiceError: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: Resource temporarily unavailable (hungryman-authentication-service:5142)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.<SendAsync>g__CreateHandlerAndSendAsync|115_0(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Ocelot.Requester.TimeoutDelegatingHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Ocelot.Requester.MessageInvokerHttpRequester.GetResponse(HttpContext httpContext)
+Setting error response for request: POST /api/v1/auth/login - Ocelot.Responder.Middleware.ResponderMiddleware
+2026-06-25 10:08:46,612 31 INFO [cd98014e79d770b037b804568580ac5b] Generated new TraceId: "246a045d-be7a-4eeb-afbb-32a3fff0b2f3" - API_GATEWAY.Middlewares.TraceIdMiddleware
+2026-06-25 10:08:46,613 31 INFO [cd98014e79d770b037b804568580ac5b] RequestId: 0HNMICL4QQKDK:00000001, PreviousRequestId: -
+Route '/api/v{version}/auth/{everything}' must return rate limiting headers with the following data: 4/5 resets at 2026-06-25T03:08:56.6130489Z - Ocelot.RateLimiting.RateLimitingMiddleware
+2026-06-25 10:08:46,613 31 INFO [cd98014e79d770b037b804568580ac5b] RequestId: 0HNMICL4QQKDK:00000001, PreviousRequestId: -
+No authentication is required for the path '/api/v1/auth/login' in the route /api/v{version}/auth/{everything}. - Ocelot.Authentication.AuthenticationMiddleware
+2026-06-25 10:08:46,628 25 INFO [cd98014e79d770b037b804568580ac5b] RequestId: 0HNMICL4QQKDK:00000001, PreviousRequestId: -
+102 unknown status code of request URI:  - Ocelot.Requester.Middleware.HttpRequesterMiddleware
+2026-06-25 10:08:46,629 25 WARN [cd98014e79d770b037b804568580ac5b] RequestId: 0HNMICL4QQKDK:00000001, PreviousRequestId: -
+ResponderMiddleware found 1 error ->
+ConnectionToDownstreamServiceError: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: Resource temporarily unavailable (hungryman-authentication-service:5142)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Ocelot.Requester.TimeoutDelegatingHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Ocelot.Requester.MessageInvokerHttpRequester.GetResponse(HttpContext httpContext)
+Setting error response for request: POST /api/v1/auth/login - Ocelot.Responder.Middleware.ResponderMiddleware
+2026-06-25 10:09:07,382 25 INFO [95d89fa3b884b29bbe0318ce03e7e182] Generated new TraceId: "4ad5f2ae-91d1-438c-8abc-011cce151f65" - API_GATEWAY.Middlewares.TraceIdMiddleware
+2026-06-25 10:09:07,383 25 INFO [95d89fa3b884b29bbe0318ce03e7e182] RequestId: 0HNMICL4QQKDK:00000002, PreviousRequestId: -
+Route '/api/v{version}/auth/{everything}' must return rate limiting headers with the following data: 4/5 resets at 2026-06-25T03:09:17.3831180Z - Ocelot.RateLimiting.RateLimitingMiddleware
+2026-06-25 10:09:07,383 25 INFO [95d89fa3b884b29bbe0318ce03e7e182] RequestId: 0HNMICL4QQKDK:00000002, PreviousRequestId: -
+No authentication is required for the path '/api/v1/auth/login' in the route /api/v{version}/auth/{everything}. - Ocelot.Authentication.AuthenticationMiddleware
+2026-06-25 10:09:07,388 33 INFO [95d89fa3b884b29bbe0318ce03e7e182] RequestId: 0HNMICL4QQKDK:00000002, PreviousRequestId: -
+102 unknown status code of request URI:  - Ocelot.Requester.Middleware.HttpRequesterMiddleware
+2026-06-25 10:09:07,388 33 WARN [95d89fa3b884b29bbe0318ce03e7e182] RequestId: 0HNMICL4QQKDK:00000002, PreviousRequestId: -
+ResponderMiddleware found 1 error ->
+ConnectionToDownstreamServiceError: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: Resource temporarily unavailable (hungryman-authentication-service:5142)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Ocelot.Requester.TimeoutDelegatingHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Ocelot.Requester.MessageInvokerHttpRequester.GetResponse(HttpContext httpContext)
+Setting error response for request: POST /api/v1/auth/login - Ocelot.Responder.Middleware.ResponderMiddleware
+2026-06-25 10:11:27,066 36 INFO [5ac030f4038fc36cbcc53f2ce40b0e73] Generated new TraceId: "58c3f339-8257-4118-a7ec-4390be2b0f1e" - API_GATEWAY.Middlewares.TraceIdMiddleware
+2026-06-25 10:11:27,072 36 INFO [5ac030f4038fc36cbcc53f2ce40b0e73] RequestId: 0HNMICL4QQKDM:00000001, PreviousRequestId: -
+Route '/api/v{version}/auth/{everything}' must return rate limiting headers with the following data: 4/5 resets at 2026-06-25T03:11:37.0728400Z - Ocelot.RateLimiting.RateLimitingMiddleware
+2026-06-25 10:11:27,073 36 INFO [5ac030f4038fc36cbcc53f2ce40b0e73] RequestId: 0HNMICL4QQKDM:00000001, PreviousRequestId: -
+No authentication is required for the path '/api/v1/auth/login' in the route /api/v{version}/auth/{everything}. - Ocelot.Authentication.AuthenticationMiddleware
+2026-06-25 10:11:27,078 36 INFO [5ac030f4038fc36cbcc53f2ce40b0e73] RequestId: 0HNMICL4QQKDM:00000001, PreviousRequestId: -
+102 unknown status code of request URI:  - Ocelot.Requester.Middleware.HttpRequesterMiddleware
+2026-06-25 10:11:27,078 36 WARN [5ac030f4038fc36cbcc53f2ce40b0e73] RequestId: 0HNMICL4QQKDM:00000001, PreviousRequestId: -
+ResponderMiddleware found 1 error ->
+ConnectionToDownstreamServiceError: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: Resource temporarily unavailable (hungryman-authentication-service:5142)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Ocelot.Requester.TimeoutDelegatingHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Ocelot.Requester.MessageInvokerHttpRequester.GetResponse(HttpContext httpContext)
+Setting error response for request: POST /api/v1/auth/login - Ocelot.Responder.Middleware.ResponderMiddleware
+2026-06-25 10:12:51,589 34 INFO [1cde82df888e32707b72cc52727a97ce] Generated new TraceId: "85b1e435-98b9-497c-87c1-f69498283188" - API_GATEWAY.Middlewares.TraceIdMiddleware
+2026-06-25 10:12:51,590 34 INFO [1cde82df888e32707b72cc52727a97ce] RequestId: 0HNMICL4QQKDO:00000001, PreviousRequestId: -
+Route '/api/v{version}/auth/{everything}' must return rate limiting headers with the following data: 4/5 resets at 2026-06-25T03:13:01.5904426Z - Ocelot.RateLimiting.RateLimitingMiddleware
+2026-06-25 10:12:51,590 34 INFO [1cde82df888e32707b72cc52727a97ce] RequestId: 0HNMICL4QQKDO:00000001, PreviousRequestId: -
+No authentication is required for the path '/api/v1/auth/login' in the route /api/v{version}/auth/{everything}. - Ocelot.Authentication.AuthenticationMiddleware
+2026-06-25 10:12:51,598 34 INFO [1cde82df888e32707b72cc52727a97ce] RequestId: 0HNMICL4QQKDO:00000001, PreviousRequestId: -
+102 unknown status code of request URI:  - Ocelot.Requester.Middleware.HttpRequesterMiddleware
+2026-06-25 10:12:51,598 34 WARN [1cde82df888e32707b72cc52727a97ce] RequestId: 0HNMICL4QQKDO:00000001, PreviousRequestId: -
+ResponderMiddleware found 1 error ->
+ConnectionToDownstreamServiceError: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: Resource temporarily unavailable (hungryman-authentication-service:5142)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Ocelot.Requester.TimeoutDelegatingHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Ocelot.Requester.MessageInvokerHttpRequester.GetResponse(HttpContext httpContext)
+Setting error response for request: POST /api/v1/auth/login - Ocelot.Responder.Middleware.ResponderMiddleware
+2026-06-25 10:21:01,578 56 INFO [] Application is shutting down... - Microsoft.Hosting.Lifetime
+2026-06-25 10:21:04,147 1 INFO [] Now listening on: "http://localhost:5132" - Microsoft.Hosting.Lifetime
+2026-06-25 10:21:04,174 1 INFO [] Application started. Press Ctrl+C to shut down. - Microsoft.Hosting.Lifetime
+2026-06-25 10:21:04,174 1 INFO [] Hosting environment: "Development" - Microsoft.Hosting.Lifetime
+2026-06-25 10:21:04,174 1 INFO [] Content root path: "/run/media/tomnguyen254/Dev/Project/HungryMan/Backend/API-GATEWAY" - Microsoft.Hosting.Lifetime
+2026-06-25 10:21:07,011 11 WARN [7e7ee510e19beef299fa8a4b0456fd94] Failed to determine the https port for redirect. - Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+2026-06-25 10:21:07,013 11 INFO [7e7ee510e19beef299fa8a4b0456fd94] Generated new TraceId: "eccbcef5-822f-4cab-8aaa-b3b7905e5d5d" - API_GATEWAY.Middlewares.TraceIdMiddleware
+2026-06-25 10:21:07,066 11 INFO [7e7ee510e19beef299fa8a4b0456fd94] RequestId: 0HNMID35RRRO4:00000001, PreviousRequestId: -
+Route '/api/v{version}/auth/{everything}' must return rate limiting headers with the following data: 4/5 resets at 2026-06-25T03:21:17.0545293Z - Ocelot.RateLimiting.RateLimitingMiddleware
+2026-06-25 10:21:07,069 11 INFO [7e7ee510e19beef299fa8a4b0456fd94] RequestId: 0HNMID35RRRO4:00000001, PreviousRequestId: -
+No authentication is required for the path '/api/v1/auth/login' in the route /api/v{version}/auth/{everything}. - Ocelot.Authentication.AuthenticationMiddleware
+2026-06-25 10:21:07,111 11 INFO [7e7ee510e19beef299fa8a4b0456fd94] RequestId: 0HNMID35RRRO4:00000001, PreviousRequestId: -
+102 unknown status code of request URI:  - Ocelot.Requester.Middleware.HttpRequesterMiddleware
+2026-06-25 10:21:07,114 11 WARN [7e7ee510e19beef299fa8a4b0456fd94] RequestId: 0HNMID35RRRO4:00000001, PreviousRequestId: -
+ResponderMiddleware found 1 error ->
+ConnectionToDownstreamServiceError: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: Resource temporarily unavailable (hungryman-authentication-service:5142)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.<SendAsync>g__CreateHandlerAndSendAsync|115_0(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Ocelot.Requester.TimeoutDelegatingHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Ocelot.Requester.MessageInvokerHttpRequester.GetResponse(HttpContext httpContext)
+Setting error response for request: POST /api/v1/auth/login - Ocelot.Responder.Middleware.ResponderMiddleware
+2026-06-25 10:21:31,270 15 INFO [] Application is shutting down... - Microsoft.Hosting.Lifetime

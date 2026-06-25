@@ -25,7 +25,24 @@ app.UseMiddleware<TraceIdMiddleware>();
 app.UseRouting();
 app.UseEndpoints(endpoints =>
 {
-    endpoints.MapHealthChecks("/health");
+    endpoints.MapHealthChecks("/health", new Microsoft.AspNetCore.Diagnostics.HealthChecks.HealthCheckOptions
+    {
+        ResponseWriter = async (context, report) =>
+        {
+            context.Response.ContentType = "application/json";
+            var result = System.Text.Json.JsonSerializer.Serialize(new
+            {
+                status = report.Status.ToString(),
+                checks = report.Entries.Select(e => new
+                {
+                    service = e.Key,
+                    status = e.Value.Status.ToString(),
+                    error = e.Value.Exception?.Message
+                })
+            });
+            await context.Response.WriteAsync(result);
+        }
+    });
 });
 
 app.Use(async (context, next) =>

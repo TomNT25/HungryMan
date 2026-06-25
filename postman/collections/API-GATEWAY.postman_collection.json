@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "1",
+		"name": "API-GATEWAY",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Auth Login via Gateway",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"Data\": {\n    \"Email\": \"admin@hungryman.com\",\n    \"Password\": \"123456\"\n  }\n}"
+				},
+				"url": {
+					"raw": "{{api_gateway_url}}/api/v1/auth/login",
+					"host": [
+						"{{api_gateway_url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Products WeatherForecast via Gateway",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api_gateway_url}}/api/v1/products/weatherforecast",
+					"host": [
+						"{{api_gateway_url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"products",
+						"weatherforecast"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

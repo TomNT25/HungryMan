@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  hungryman-api-gateway:
+    image: hungryman-api-gateway
+    container_name: hungryman-api-gateway
+    build:
+      context: ..
+      dockerfile: API-GATEWAY/Dockerfile
+    env_file:
+      - .env
+    ports:
+      - "5132:5132"
+    networks:
+      - hungryman-network
+
+networks:
+  hungryman-network:
+    name: authentication-service_hungryman-network
+    external: true

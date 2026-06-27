@@ -1,0 +1,6 @@
+@HungryMan_Authentication_Service_HostAddress = http://localhost:5142
+
+GET {{HungryMan_Authentication_Service_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

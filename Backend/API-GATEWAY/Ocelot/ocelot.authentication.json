@@ -1,0 +1,26 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/v{version}/auth/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "{{DownstreamEndpoints:AuthService:Host}}",
+          "Port": "{{DownstreamEndpoints:AuthService:Port}}"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v{version}/auth/{everything}",
+      "UpstreamMethods": [ "Get", "Post", "Put", "Delete", "Options" ],
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      },
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "10s",
+        "PeriodTimespan": 10,
+        "Limit": 5
+      }
+    }
+  ]
+}

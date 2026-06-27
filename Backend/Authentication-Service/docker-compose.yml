@@ -1,0 +1,51 @@
+version: '3.8'
+
+services:
+  hungryman-authentication-redis:
+    image: redis:7-alpine
+    container_name: hungryman-authentication-redis
+    environment:
+      - REDIS_PASSWORD=${REDIS_PASSWORD}
+    ports:
+      - "6379:6379"
+    networks:
+      - hungryman-network
+
+  hungryman-authentication-database:
+    image: postgres:15-alpine
+    container_name: hungryman-authentication-database
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
+    ports:
+      - "5433:5432"
+    volumes:
+      - auth-db-data:/var/lib/postgresql/data
+    networks:
+      - hungryman-network
+
+  hungryman-authentication-service:
+    image: hungryman-authentication-service
+    container_name: hungryman-authentication-service
+    build:
+      context: ..
+      dockerfile: Authentication-Service/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT}
+      - ASPNETCORE_HTTP_PORTS=${ASPNETCORE_HTTP_PORTS}
+      - Database__ConnectionString=${Database__ConnectionString}
+      - Redis__ConnectionString=${Redis__ConnectionString}
+    ports:
+      - "5142:5142"
+    depends_on:
+      - hungryman-authentication-database
+    networks:
+      - hungryman-network
+
+volumes:
+  auth-db-data:
+
+networks:
+  hungryman-network:
+    driver: bridge

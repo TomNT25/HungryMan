@@ -1,0 +1,115 @@
+name: Authentication Service CI/CD
+
+on:
+  push:
+    branches:
+      - main
+      - "release/*"
+      - develop
+    paths:
+      - "Backend/Authentication-Service/**"
+      - "Backend/Shared/**"
+      - ".github/workflows/auth-service-ci.yml"
+  pull_request:
+    branches:
+      - main
+      - develop
+    paths:
+      - "Backend/Authentication-Service/**"
+      - "Backend/Shared/**"
+
+# env:
+#   IMAGE_NAME: ${{ secrets.REGISTRY_USERNAME }}/hungryman-authentication-service
+
+jobs:
+  build-and-test:
+    name: Build & Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "10.0.x"
+
+      - name: Restore dependencies
+        run: dotnet restore Backend/Authentication-Service/AuthenticationService.API/AuthenticationService.API.csproj
+
+      - name: Build
+        run: dotnet build Backend/Authentication-Service/AuthenticationService.API/AuthenticationService.API.csproj --no-restore -c Release
+
+      - name: Test
+        # Placeholder for executing xUnit/NUnit tests once the test suite is configured
+        run: echo "Run dotnet test here when the test suite is ready!"
+
+  # docker-build-push:
+  #   name: Docker Build & Push
+  #   needs: build-and-test
+  #   runs-on: ubuntu-latest
+  #   if: github.event_name == 'push' # Only trigger deployments on actual merges, not PR validations
+  #   steps:
+  #     - name: Checkout Repository
+  #       uses: actions/checkout@v4
+
+  #     - name: Log in to Docker Registry
+  #       uses: docker/login-action@v3
+  #       with:
+  #         username: ${{ secrets.REGISTRY_USERNAME }}
+  #         password: ${{ secrets.REGISTRY_PASSWORD }}
+
+  #     - name: Build and Push Docker Image
+  #       uses: docker/build-push-action@v5
+  #       with:
+  #         context: Backend
+  #         file: Backend/Authentication-Service/Dockerfile
+  #         push: true
+  #         tags: |
+  #           ${{ env.IMAGE_NAME }}:${{ github.sha }}
+  #           ${{ env.IMAGE_NAME }}:latest
+
+  # deploy-k8s:
+  #   name: Deploy to Kubernetes
+  #   needs: docker-build-push
+  #   runs-on: ubuntu-latest
+  #   if: github.event_name == 'push'
+  #   steps:
+  #     - name: Checkout Repository
+  #       uses: actions/checkout@v4
+
+  #     - name: Determine Environment Context
+  #       id: set_env
+  #       run: |
+  #         if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
+  #           echo "ENV_NAME=prod" >> $GITHUB_ENV
+  #           echo "KUBE_CONFIG=${{ secrets.KUBECONFIG_PROD }}" >> $GITHUB_ENV
+  #         elif [[ "${{ github.ref }}" == refs/heads/release/* ]]; then
+  #           echo "ENV_NAME=stage" >> $GITHUB_ENV
+  #           echo "KUBE_CONFIG=${{ secrets.KUBECONFIG_STAGE }}" >> $GITHUB_ENV
+  #         elif [[ "${{ github.ref }}" == "refs/heads/develop" ]]; then
+  #           echo "ENV_NAME=dev" >> $GITHUB_ENV
+  #           echo "KUBE_CONFIG=${{ secrets.KUBECONFIG_DEV }}" >> $GITHUB_ENV
+  #         fi
+
+  #     - name: Setup kubectl
+  #       uses: azure/setup-kubectl@v3
+  #       with:
+  #         version: "latest"
+
+  #     - name: Configure kubeconfig
+  #       run: |
+  #         mkdir -p $HOME/.kube
+  #         echo "${KUBE_CONFIG}" > $HOME/.kube/config
+  #         chmod 600 $HOME/.kube/config
+
+  #     - name: Update Kustomize Image Tag
+  #       working-directory: Infrastructure/k8s/authentication-service/overlays/${{ env.ENV_NAME }}
+  #       run: |
+  #         # kustomize is pre-installed on GitHub ubuntu-latest runners
+  #         kustomize edit set image auth-service-image=${{ env.IMAGE_NAME }}:${{ github.sha }}
+
+  #     - name: Apply to Cluster
+  #       working-directory: Infrastructure/k8s/authentication-service/overlays/${{ env.ENV_NAME }}
+  #       run: |
+  #         kubectl apply -k .

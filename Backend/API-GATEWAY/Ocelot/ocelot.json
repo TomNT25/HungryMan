@@ -1,0 +1,12 @@
+{
+  "Routes": [],
+  "GlobalConfiguration": {
+    "BaseUrl": "{{Gateway:BaseUrl}}",
+    "RateLimitOptions": {
+      "DisableRateLimitHeaders": false,
+      "QuotaExceededMessage": "API Gateway: Rate limit exceeded. Please try again later.",
+      "HttpStatusCode": 429,
+      "ClientIdHeader": "X-Forwarded-For"
+    }
+  }
+}

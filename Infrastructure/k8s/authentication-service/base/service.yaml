@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hungryman-authentication-service
+  labels:
+    app: hungryman-authentication-service
+spec:
+  type: ClusterIP
+  ports:
+    - port: 5142
+      targetPort: 5142
+      protocol: TCP
+  selector:
+    app: hungryman-authentication-service

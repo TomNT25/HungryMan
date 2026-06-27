@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using System.Text;
+using System.Text.Json.Nodes;
 using System.Text.RegularExpressions;
 using Microsoft.Extensions.Configuration;
 
@@ -16,9 +17,42 @@ public static class OcelotConfiguration
             throw new FileNotFoundException($"Ocelot configuration file not found at: {filePath}");
         }
 
-        var jsonContent = File.ReadAllText(filePath);
+        var baseJson = File.ReadAllText(filePath);
+        var baseNode = JsonNode.Parse(baseJson) as JsonObject ?? new JsonObject();
 
-        var replacedJson = Regex.Replace(jsonContent, @"""?\{\{([^}]+)\}\}""?", match =>
+        if (!baseNode.ContainsKey("Routes") || baseNode["Routes"] == null)
+        {
+            baseNode["Routes"] = new JsonArray();
+        }
+        var routesArray = baseNode["Routes"] as JsonArray ?? new JsonArray();
+
+        var directory = Path.GetDirectoryName(filePath) ?? Directory.GetCurrentDirectory();
+        var ocelotFiles = Directory.GetFiles(directory, "ocelot.*.json");
+
+        foreach (var file in ocelotFiles)
+        {
+            if (Path.GetFileName(file).Equals(Path.GetFileName(relativePath), StringComparison.OrdinalIgnoreCase))
+            {
+                continue;
+            }
+
+            var content = File.ReadAllText(file);
+            var node = JsonNode.Parse(content);
+            if (node != null && node["Routes"] is JsonArray routes)
+            {
+                foreach (var route in routes)
+                {
+                    if (route != null)
+                    {
+                        routesArray.Add(route.DeepClone());
+                    }
+                }
+            }
+        }
+
+        var mergedJson = baseNode.ToJsonString();
+
+        var replacedJson = Regex.Replace(mergedJson, @"""?\{\{([^}]+)\}\}""?", match =>
         {
             var key = match.Groups[1].Value.Trim();
             var value = baseConfig[key];

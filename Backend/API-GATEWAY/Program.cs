@@ -6,13 +6,12 @@ using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configure Serilog
 builder.Host.UseSerilog((context, services, configuration) =>
 {
     configuration.ReadFrom.Configuration(context.Configuration);
 });
 
-builder.Configuration.AddOcelotWithPlaceholders("ocelot.json", builder.Configuration);
+builder.Configuration.AddOcelotWithPlaceholders("Ocelot/ocelot.json", builder.Configuration);
 builder.Services.AddOcelot(builder.Configuration);
 
 builder.Services.AddDownstreamHealthChecks(builder.Configuration);

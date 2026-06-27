@@ -1,9 +1,7 @@
 # Secrets and environments
 .env
 .env.*
-appsettings.Development.json
-appsettings.Local.json
-appsettings.json
+appsettings.*
 
 # Build results
 [Dd]ebug/

@@ -1,0 +1,30 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/v{version}/products/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "{{DownstreamEndpoints:ProductService:Instances:0:Host}}",
+          "Port": "{{DownstreamEndpoints:ProductService:Instances:0:Port}}"
+        },
+        {
+          "Host": "{{DownstreamEndpoints:ProductService:Instances:1:Host}}",
+          "Port": "{{DownstreamEndpoints:ProductService:Instances:1:Port}}"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v{version}/products/{everything}",
+      "UpstreamMethods": [ "Get", "Post", "Put", "Delete", "Options" ],
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      },
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1m",
+        "PeriodTimespan": 60,
+        "Limit": 100
+      }
+    }
+  ]
+}

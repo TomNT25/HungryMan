@@ -12,7 +12,6 @@ public static class AuthenticationServiceDbConfiguration
         var dbOptions = new DatabaseOptions();
         configuration.GetSection("Database").Bind(dbOptions);
 
-        // Register EF Core Interceptors
         services.AddSingleton<AuditableEntitySaveChangesInterceptor>();
         services.AddSingleton<LoggingDbCommandInterceptor>();
         services.AddSingleton<LoggingDbConnectionInterceptor>();

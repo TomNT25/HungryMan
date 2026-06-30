@@ -2,6 +2,7 @@
 .env
 .env.*
 appsettings.*
+!appsettings.Example.json
 
 # Build results
 [Dd]ebug/
@@ -14,6 +15,8 @@ x86/
 [Aa]rm64/
 bin/
 obj/
+
+Logs/
 
 # Visual Studio / VS Code local configurations
 .vs/

@@ -2,6 +2,7 @@
 .env
 .env.*
 appsettings.*
+!appsettings.Example.json
 
 # Build results
 [Dd]ebug/

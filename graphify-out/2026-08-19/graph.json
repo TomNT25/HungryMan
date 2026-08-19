@@ -1605,7 +1605,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_api_controllers_v1_authcontroller",
       "community": 9,
-      "community_name": ".Login",
+      "community_name": "BaseAPIResponse",
       "norm_label": "authcontroller.cs"
     },
     {
@@ -1621,7 +1621,7 @@
       "_origin": "ast",
       "id": "csharp_namespace:39b784afa7b37e8b",
       "community": 9,
-      "community_name": ".Login",
+      "community_name": "BaseAPIResponse",
       "norm_label": "authenticationservice.api.controllers.v1"
     },
     {
@@ -1638,7 +1638,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_api_controllers_v1_authcontroller_authenticationservice_api_controllers_v1_authcontroller",
       "community": 9,
-      "community_name": ".Login",
+      "community_name": "BaseAPIResponse",
       "norm_label": "authcontroller"
     },
     {
@@ -1649,7 +1649,7 @@
       "_origin": "ast",
       "id": "controllerbase",
       "community": 9,
-      "community_name": ".Login",
+      "community_name": "BaseAPIResponse",
       "norm_label": "controllerbase"
     },
     {
@@ -1660,7 +1660,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_api_controllers_v1_authcontroller_cs_ilogger",
       "community": 9,
-      "community_name": ".Login",
+      "community_name": "BaseAPIResponse",
       "norm_label": "ilogger"
     },
     {
@@ -1671,7 +1671,7 @@
       "_origin": "ast",
       "id": "isender",
       "community": 9,
-      "community_name": ".Login",
+      "community_name": "BaseAPIResponse",
       "norm_label": "isender"
     },
     {
@@ -1687,8 +1687,8 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_api_controllers_v1_authcontroller_authenticationservice_api_controllers_v1_authcontroller_login",
-      "community": 9,
-      "community_name": ".Login",
+      "community": 3,
+      "community_name": "LoginHandler",
       "norm_label": ".login()"
     },
     {
@@ -1698,8 +1698,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_api_controllers_v1_authcontroller_cs_task",
-      "community": 9,
-      "community_name": ".Login",
+      "community": 3,
+      "community_name": "LoginHandler",
       "norm_label": "task"
     },
     {
@@ -1709,8 +1709,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "actionresult",
-      "community": 9,
-      "community_name": ".Login",
+      "community": 3,
+      "community_name": "LoginHandler",
       "norm_label": "actionresult"
     },
     {
@@ -1720,8 +1720,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "httppost",
-      "community": 9,
-      "community_name": ".Login",
+      "community": 3,
+      "community_name": "LoginHandler",
       "norm_label": "httppost"
     },
     {
@@ -1731,8 +1731,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "route",
-      "community": 9,
-      "community_name": ".Login",
+      "community": 3,
+      "community_name": "LoginHandler",
       "norm_label": "route"
     },
     {
@@ -1743,7 +1743,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_api_dependencyinjection",
       "community": 24,
-      "community_name": "AuthenticationService.API/DependencyInjection.cs",
+      "community_name": "AuthenticationService.API/Program.cs",
       "norm_label": "authenticationservice.api/dependencyinjection.cs"
     },
     {
@@ -1759,7 +1759,7 @@
       "_origin": "ast",
       "id": "csharp_namespace:2df1c8c6141ff373",
       "community": 24,
-      "community_name": "AuthenticationService.API/DependencyInjection.cs",
+      "community_name": "AuthenticationService.API/Program.cs",
       "norm_label": "authenticationservice.api"
     },
     {
@@ -1776,7 +1776,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_api_dependencyinjection_authenticationservice_api_dependencyinjection",
       "community": 24,
-      "community_name": "AuthenticationService.API/DependencyInjection.cs",
+      "community_name": "AuthenticationService.API/Program.cs",
       "norm_label": "dependencyinjection"
     },
     {
@@ -1793,7 +1793,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_api_dependencyinjection_authenticationservice_api_dependencyinjection_addapiservices",
       "community": 24,
-      "community_name": "AuthenticationService.API/DependencyInjection.cs",
+      "community_name": "AuthenticationService.API/Program.cs",
       "norm_label": ".addapiservices()"
     },
     {
@@ -1804,7 +1804,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_api_dependencyinjection_cs_iservicecollection",
       "community": 24,
-      "community_name": "AuthenticationService.API/DependencyInjection.cs",
+      "community_name": "AuthenticationService.API/Program.cs",
       "norm_label": "iservicecollection"
     },
     {
@@ -2058,7 +2058,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_api_program",
-      "community": 35,
+      "community": 24,
       "community_name": "AuthenticationService.API/Program.cs",
       "norm_label": "authenticationservice.api/program.cs"
     },
@@ -2461,7 +2461,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_dependencyinjection",
       "community": 35,
-      "community_name": "AuthenticationService.API/Program.cs",
+      "community_name": "AuthenticationService.Application/DependencyInjection.cs",
       "norm_label": "authenticationservice.application/dependencyinjection.cs"
     },
     {
@@ -2477,7 +2477,7 @@
       "_origin": "ast",
       "id": "csharp_namespace:ba70e0c050052669",
       "community": 35,
-      "community_name": "AuthenticationService.API/Program.cs",
+      "community_name": "AuthenticationService.Application/DependencyInjection.cs",
       "norm_label": "authenticationservice.application"
     },
     {
@@ -2494,7 +2494,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_dependencyinjection_authenticationservice_application_dependencyinjection",
       "community": 35,
-      "community_name": "AuthenticationService.API/Program.cs",
+      "community_name": "AuthenticationService.Application/DependencyInjection.cs",
       "norm_label": "dependencyinjection"
     },
     {
@@ -2511,7 +2511,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_dependencyinjection_authenticationservice_application_dependencyinjection_addapplicationservices",
       "community": 35,
-      "community_name": "AuthenticationService.API/Program.cs",
+      "community_name": "AuthenticationService.Application/DependencyInjection.cs",
       "norm_label": ".addapplicationservices()"
     },
     {
@@ -2522,7 +2522,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_dependencyinjection_cs_iservicecollection",
       "community": 35,
-      "community_name": "AuthenticationService.API/Program.cs",
+      "community_name": "AuthenticationService.Application/DependencyInjection.cs",
       "norm_label": "iservicecollection"
     },
     {
@@ -2576,7 +2576,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "irequest",
-      "community": 49,
+      "community": 12,
       "community_name": ".Handle",
       "norm_label": "irequest"
     },
@@ -2604,8 +2604,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "irequesthandler",
-      "community": 49,
-      "community_name": ".Handle",
+      "community": 3,
+      "community_name": "LoginHandler",
       "norm_label": "irequesthandler"
     },
     {
@@ -2654,8 +2654,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_features_v1_login_loginhandler",
-      "community": 36,
-      "community_name": "AuthenticationService.Application.Features.v1.Login",
+      "community": 3,
+      "community_name": "LoginHandler",
       "norm_label": "loginhandler.cs"
     },
     {
@@ -2671,8 +2671,8 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_features_v1_login_loginhandler_authenticationservice_application_features_v1_login_loginhandler",
-      "community": 49,
-      "community_name": ".Handle",
+      "community": 3,
+      "community_name": "LoginHandler",
       "norm_label": "loginhandler"
     },
     {
@@ -2682,8 +2682,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_features_v1_login_loginhandler_cs_iconfiguration",
-      "community": 49,
-      "community_name": ".Handle",
+      "community": 3,
+      "community_name": "LoginHandler",
       "norm_label": "iconfiguration"
     },
     {
@@ -2699,7 +2699,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_features_v1_login_loginhandler_authenticationservice_application_features_v1_login_loginhandler_handle",
-      "community": 49,
+      "community": 51,
       "community_name": ".Handle",
       "norm_label": ".handle()"
     },
@@ -2710,7 +2710,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_features_v1_login_loginhandler_cs_cancellationtoken",
-      "community": 49,
+      "community": 51,
       "community_name": ".Handle",
       "norm_label": "cancellationtoken"
     },
@@ -2721,7 +2721,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_features_v1_login_loginhandler_cs_task",
-      "community": 49,
+      "community": 51,
       "community_name": ".Handle",
       "norm_label": "task"
     },
@@ -2732,8 +2732,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_features_v1_login_loginrequestdto",
-      "community": 49,
-      "community_name": ".Handle",
+      "community": 3,
+      "community_name": "LoginHandler",
       "norm_label": "loginrequestdto.cs"
     },
     {
@@ -2749,8 +2749,8 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_features_v1_login_loginrequestdto_authenticationservice_application_features_v1_login_loginrequestdto",
-      "community": 49,
-      "community_name": ".Handle",
+      "community": 3,
+      "community_name": "LoginHandler",
       "norm_label": "loginrequestdto"
     },
     {
@@ -2760,8 +2760,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_features_v1_login_loginresponsedto",
-      "community": 49,
-      "community_name": ".Handle",
+      "community": 3,
+      "community_name": "LoginHandler",
       "norm_label": "loginresponsedto.cs"
     },
     {
@@ -2777,8 +2777,8 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_features_v1_login_loginresponsedto_authenticationservice_application_features_v1_login_loginresponsedto",
-      "community": 49,
-      "community_name": ".Handle",
+      "community": 3,
+      "community_name": "LoginHandler",
       "norm_label": "loginresponsedto"
     },
     {
@@ -2788,8 +2788,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_features_v1_login_loginvalidator",
-      "community": 21,
-      "community_name": "LoginValidatorTests",
+      "community": 36,
+      "community_name": "AuthenticationService.Application.Features.v1.Login",
       "norm_label": "loginvalidator.cs"
     },
     {
@@ -2805,8 +2805,8 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_features_v1_login_loginvalidator_authenticationservice_application_features_v1_login_loginvalidator",
-      "community": 21,
-      "community_name": "LoginValidatorTests",
+      "community": 36,
+      "community_name": "AuthenticationService.Application.Features.v1.Login",
       "norm_label": "loginvalidator"
     },
     {
@@ -2816,8 +2816,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "abstractvalidator",
-      "community": 21,
-      "community_name": "LoginValidatorTests",
+      "community": 36,
+      "community_name": "AuthenticationService.Application.Features.v1.Login",
       "norm_label": "abstractvalidator"
     },
     {
@@ -2872,7 +2872,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_interfaces_irepository",
       "community": 0,
-      "community_name": "Repository",
+      "community_name": "IRepository",
       "norm_label": "irepository.cs"
     },
     {
@@ -2889,7 +2889,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_interfaces_irepository_authenticationservice_application_interfaces_irepository",
       "community": 0,
-      "community_name": "Repository",
+      "community_name": "IRepository",
       "norm_label": "irepository"
     },
     {
@@ -2906,7 +2906,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_interfaces_irepository_authenticationservice_application_interfaces_irepository_asqueryable",
       "community": 0,
-      "community_name": "Repository",
+      "community_name": "IRepository",
       "norm_label": ".asqueryable()"
     },
     {
@@ -2917,7 +2917,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_interfaces_irepository_cs_iqueryable",
       "community": 0,
-      "community_name": "Repository",
+      "community_name": "IRepository",
       "norm_label": "iqueryable"
     },
     {
@@ -2934,7 +2934,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_interfaces_irepository_authenticationservice_application_interfaces_irepository_getbyidasync",
       "community": 0,
-      "community_name": "Repository",
+      "community_name": "IRepository",
       "norm_label": ".getbyidasync()"
     },
     {
@@ -2945,7 +2945,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_interfaces_irepository_cs_cancellationtoken",
       "community": 0,
-      "community_name": "Repository",
+      "community_name": "IRepository",
       "norm_label": "cancellationtoken"
     },
     {
@@ -2956,7 +2956,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_interfaces_irepository_cs_task",
       "community": 0,
-      "community_name": "Repository",
+      "community_name": "IRepository",
       "norm_label": "task"
     },
     {
@@ -2973,7 +2973,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_interfaces_irepository_authenticationservice_application_interfaces_irepository_getallasync",
       "community": 0,
-      "community_name": "Repository",
+      "community_name": "IRepository",
       "norm_label": ".getallasync()"
     },
     {
@@ -2984,7 +2984,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_interfaces_irepository_cs_list",
       "community": 0,
-      "community_name": "Repository",
+      "community_name": "IRepository",
       "norm_label": "list"
     },
     {
@@ -3001,7 +3001,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_interfaces_irepository_authenticationservice_application_interfaces_irepository_addasync",
       "community": 0,
-      "community_name": "Repository",
+      "community_name": "IRepository",
       "norm_label": ".addasync()"
     },
     {
@@ -3018,7 +3018,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_interfaces_irepository_authenticationservice_application_interfaces_irepository_updateasync",
       "community": 0,
-      "community_name": "Repository",
+      "community_name": "IRepository",
       "norm_label": ".updateasync()"
     },
     {
@@ -3035,7 +3035,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_interfaces_irepository_authenticationservice_application_interfaces_irepository_deleteasync",
       "community": 0,
-      "community_name": "Repository",
+      "community_name": "IRepository",
       "norm_label": ".deleteasync()"
     },
     {
@@ -3052,7 +3052,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_interfaces_irepository_authenticationservice_application_interfaces_irepository_savechangesasync",
       "community": 0,
-      "community_name": "Repository",
+      "community_name": "IRepository",
       "norm_label": ".savechangesasync()"
     },
     {
@@ -3062,8 +3062,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_interfaces_irolepermissionrepository",
-      "community": 37,
-      "community_name": "Permission",
+      "community": 39,
+      "community_name": "RolePermission",
       "norm_label": "irolepermissionrepository.cs"
     },
     {
@@ -3079,8 +3079,8 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_interfaces_irolepermissionrepository_authenticationservice_application_interfaces_irolepermissionrepository",
-      "community": 37,
-      "community_name": "Permission",
+      "community": 39,
+      "community_name": "RolePermission",
       "norm_label": "irolepermissionrepository"
     },
     {
@@ -3118,8 +3118,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_interfaces_iuserpermissionrepository",
-      "community": 40,
-      "community_name": "UserPermission",
+      "community": 4,
+      "community_name": "AuthenticationService.Domain.Entities",
       "norm_label": "iuserpermissionrepository.cs"
     },
     {
@@ -3241,8 +3241,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_interfaces_iusertokenrepository",
-      "community": 42,
-      "community_name": "UserToken",
+      "community": 4,
+      "community_name": "AuthenticationService.Domain.Entities",
       "norm_label": "iusertokenrepository.cs"
     },
     {
@@ -3407,8 +3407,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_domain_entities_rolepermission",
-      "community": 37,
-      "community_name": "Permission",
+      "community": 39,
+      "community_name": "RolePermission",
       "norm_label": "rolepermission.cs"
     },
     {
@@ -3424,8 +3424,8 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_domain_entities_rolepermission_authenticationservice_domain_entities_rolepermission",
-      "community": 37,
-      "community_name": "Permission",
+      "community": 39,
+      "community_name": "RolePermission",
       "norm_label": "rolepermission"
     },
     {
@@ -3435,8 +3435,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_domain_entities_rolepermission_cs_datetime",
-      "community": 37,
-      "community_name": "Permission",
+      "community": 39,
+      "community_name": "RolePermission",
       "norm_label": "datetime"
     },
     {
@@ -3702,7 +3702,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_databaseconfiguration_authenticationservicedbconfiguration",
       "community": 7,
-      "community_name": "LoggingDbTransactionInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "authenticationservicedbconfiguration.cs"
     },
     {
@@ -3735,7 +3735,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_databaseconfiguration_authenticationservicedbconfiguration_authenticationservice_infrastructure_databaseconfiguration_authenticationservicedbconfiguration",
       "community": 7,
-      "community_name": "LoggingDbTransactionInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "authenticationservicedbconfiguration"
     },
     {
@@ -3752,7 +3752,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_databaseconfiguration_authenticationservicedbconfiguration_authenticationservice_infrastructure_databaseconfiguration_authenticationservicedbconfiguration_adddatabaseconfiguration",
       "community": 7,
-      "community_name": "LoggingDbTransactionInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": ".adddatabaseconfiguration()"
     },
     {
@@ -3763,7 +3763,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_databaseconfiguration_authenticationservicedbconfiguration_cs_iservicecollection",
       "community": 7,
-      "community_name": "LoggingDbTransactionInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "iservicecollection"
     },
     {
@@ -3774,7 +3774,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_databaseconfiguration_authenticationservicedbconfiguration_cs_iconfiguration",
       "community": 7,
-      "community_name": "LoggingDbTransactionInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "iconfiguration"
     },
     {
@@ -3784,8 +3784,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_databaseconfiguration_authenticationservicedbcontext",
-      "community": 28,
-      "community_name": "AuthenticationServiceDbContext",
+      "community": 4,
+      "community_name": "AuthenticationService.Domain.Entities",
       "norm_label": "authenticationservicedbcontext.cs"
     },
     {
@@ -4169,8 +4169,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_dependencyinjection",
-      "community": 4,
-      "community_name": "AuthenticationService.Domain.Entities",
+      "community": 24,
+      "community_name": "AuthenticationService.API/Program.cs",
       "norm_label": "authenticationservice.infrastructure/dependencyinjection.cs"
     },
     {
@@ -4185,7 +4185,7 @@
       },
       "_origin": "ast",
       "id": "csharp_namespace:02c6622f626a72cc",
-      "community": 35,
+      "community": 24,
       "community_name": "AuthenticationService.API/Program.cs",
       "norm_label": "authenticationservice.infrastructure"
     },
@@ -4202,8 +4202,8 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_dependencyinjection_authenticationservice_infrastructure_dependencyinjection",
-      "community": 20,
-      "community_name": ".AddInfrastructureServices",
+      "community": 24,
+      "community_name": "AuthenticationService.API/Program.cs",
       "norm_label": "dependencyinjection"
     },
     {
@@ -4219,8 +4219,8 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_dependencyinjection_authenticationservice_infrastructure_dependencyinjection_addinfrastructureservices",
-      "community": 20,
-      "community_name": ".AddInfrastructureServices",
+      "community": 24,
+      "community_name": "AuthenticationService.API/Program.cs",
       "norm_label": ".addinfrastructureservices()"
     },
     {
@@ -4230,8 +4230,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_dependencyinjection_cs_iservicecollection",
-      "community": 20,
-      "community_name": ".AddInfrastructureServices",
+      "community": 24,
+      "community_name": "AuthenticationService.API/Program.cs",
       "norm_label": "iservicecollection"
     },
     {
@@ -4241,8 +4241,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_dependencyinjection_cs_iconfiguration",
-      "community": 20,
-      "community_name": ".AddInfrastructureServices",
+      "community": 24,
+      "community_name": "AuthenticationService.API/Program.cs",
       "norm_label": "iconfiguration"
     },
     {
@@ -4252,7 +4252,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_auditableentitysavechangesinterceptor",
-      "community": 3,
+      "community": 7,
       "community_name": ".SavingChangesAsync",
       "norm_label": "auditableentitysavechangesinterceptor.cs"
     },
@@ -4269,7 +4269,7 @@
       "_origin": "ast",
       "id": "csharp_namespace:8ade5e5d374c53f5",
       "community": 7,
-      "community_name": "LoggingDbTransactionInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "authenticationservice.infrastructure.interceptors"
     },
     {
@@ -4285,7 +4285,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_auditableentitysavechangesinterceptor_authenticationservice_infrastructure_interceptors_auditableentitysavechangesinterceptor",
-      "community": 3,
+      "community": 7,
       "community_name": ".SavingChangesAsync",
       "norm_label": "auditableentitysavechangesinterceptor"
     },
@@ -4296,7 +4296,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "savechangesinterceptor",
-      "community": 3,
+      "community": 7,
       "community_name": ".SavingChangesAsync",
       "norm_label": "savechangesinterceptor"
     },
@@ -4313,7 +4313,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_auditableentitysavechangesinterceptor_authenticationservice_infrastructure_interceptors_auditableentitysavechangesinterceptor_savingchanges",
-      "community": 3,
+      "community": 7,
       "community_name": ".SavingChangesAsync",
       "norm_label": ".savingchanges()"
     },
@@ -4324,7 +4324,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "dbcontexteventdata",
-      "community": 3,
+      "community": 7,
       "community_name": ".SavingChangesAsync",
       "norm_label": "dbcontexteventdata"
     },
@@ -4335,7 +4335,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_auditableentitysavechangesinterceptor_cs_interceptionresult",
-      "community": 3,
+      "community": 7,
       "community_name": ".SavingChangesAsync",
       "norm_label": "interceptionresult"
     },
@@ -4352,7 +4352,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_auditableentitysavechangesinterceptor_authenticationservice_infrastructure_interceptors_auditableentitysavechangesinterceptor_savingchangesasync",
-      "community": 3,
+      "community": 7,
       "community_name": ".SavingChangesAsync",
       "norm_label": ".savingchangesasync()"
     },
@@ -4363,7 +4363,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_auditableentitysavechangesinterceptor_cs_cancellationtoken",
-      "community": 3,
+      "community": 7,
       "community_name": ".SavingChangesAsync",
       "norm_label": "cancellationtoken"
     },
@@ -4374,7 +4374,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_auditableentitysavechangesinterceptor_cs_valuetask",
-      "community": 3,
+      "community": 7,
       "community_name": ".SavingChangesAsync",
       "norm_label": "valuetask"
     },
@@ -4391,7 +4391,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_auditableentitysavechangesinterceptor_authenticationservice_infrastructure_interceptors_auditableentitysavechangesinterceptor_updateentities",
-      "community": 3,
+      "community": 7,
       "community_name": ".SavingChangesAsync",
       "norm_label": ".updateentities()"
     },
@@ -4402,7 +4402,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_auditableentitysavechangesinterceptor_cs_dbcontext",
-      "community": 3,
+      "community": 7,
       "community_name": ".SavingChangesAsync",
       "norm_label": "dbcontext"
     },
@@ -4414,7 +4414,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbcommandinterceptor",
       "community": 7,
-      "community_name": "LoggingDbTransactionInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "loggingdbcommandinterceptor.cs"
     },
     {
@@ -4620,7 +4620,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbconnectioninterceptor",
       "community": 7,
-      "community_name": "LoggingDbTransactionInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "loggingdbconnectioninterceptor.cs"
     },
     {
@@ -4637,7 +4637,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbconnectioninterceptor_authenticationservice_infrastructure_interceptors_loggingdbconnectioninterceptor",
       "community": 7,
-      "community_name": "LoggingDbTransactionInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "loggingdbconnectioninterceptor"
     },
     {
@@ -4648,7 +4648,7 @@
       "_origin": "ast",
       "id": "dbconnectioninterceptor",
       "community": 7,
-      "community_name": "LoggingDbTransactionInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "dbconnectioninterceptor"
     },
     {
@@ -4659,7 +4659,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbconnectioninterceptor_cs_ilogger",
       "community": 7,
-      "community_name": "LoggingDbTransactionInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "ilogger"
     },
     {
@@ -4676,7 +4676,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbconnectioninterceptor_authenticationservice_infrastructure_interceptors_loggingdbconnectioninterceptor_connectionopened",
       "community": 7,
-      "community_name": "LoggingDbTransactionInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": ".connectionopened()"
     },
     {
@@ -4687,7 +4687,7 @@
       "_origin": "ast",
       "id": "dbconnection",
       "community": 7,
-      "community_name": "LoggingDbTransactionInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "dbconnection"
     },
     {
@@ -4698,7 +4698,7 @@
       "_origin": "ast",
       "id": "connectionendeventdata",
       "community": 7,
-      "community_name": "LoggingDbTransactionInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "connectionendeventdata"
     },
     {
@@ -4715,7 +4715,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbconnectioninterceptor_authenticationservice_infrastructure_interceptors_loggingdbconnectioninterceptor_connectionopenedasync",
       "community": 7,
-      "community_name": "LoggingDbTransactionInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": ".connectionopenedasync()"
     },
     {
@@ -4726,7 +4726,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbconnectioninterceptor_cs_cancellationtoken",
       "community": 7,
-      "community_name": "LoggingDbTransactionInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "cancellationtoken"
     },
     {
@@ -4737,7 +4737,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbconnectioninterceptor_cs_task",
       "community": 7,
-      "community_name": "LoggingDbTransactionInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "task"
     },
     {
@@ -4754,7 +4754,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbconnectioninterceptor_authenticationservice_infrastructure_interceptors_loggingdbconnectioninterceptor_connectionclosed",
       "community": 7,
-      "community_name": "LoggingDbTransactionInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": ".connectionclosed()"
     },
     {
@@ -4765,7 +4765,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbtransactioninterceptor",
       "community": 7,
-      "community_name": "LoggingDbTransactionInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "loggingdbtransactioninterceptor.cs"
     },
     {
@@ -4781,7 +4781,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbtransactioninterceptor_authenticationservice_infrastructure_interceptors_loggingdbtransactioninterceptor",
-      "community": 7,
+      "community": 20,
       "community_name": "LoggingDbTransactionInterceptor",
       "norm_label": "loggingdbtransactioninterceptor"
     },
@@ -4792,7 +4792,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "dbtransactioninterceptor",
-      "community": 7,
+      "community": 20,
       "community_name": "LoggingDbTransactionInterceptor",
       "norm_label": "dbtransactioninterceptor"
     },
@@ -4803,7 +4803,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbtransactioninterceptor_cs_ilogger",
-      "community": 7,
+      "community": 20,
       "community_name": "LoggingDbTransactionInterceptor",
       "norm_label": "ilogger"
     },
@@ -4820,7 +4820,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbtransactioninterceptor_authenticationservice_infrastructure_interceptors_loggingdbtransactioninterceptor_transactioncommitted",
-      "community": 7,
+      "community": 20,
       "community_name": "LoggingDbTransactionInterceptor",
       "norm_label": ".transactioncommitted()"
     },
@@ -4831,7 +4831,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "dbtransaction",
-      "community": 7,
+      "community": 20,
       "community_name": "LoggingDbTransactionInterceptor",
       "norm_label": "dbtransaction"
     },
@@ -4842,7 +4842,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "transactionendeventdata",
-      "community": 7,
+      "community": 20,
       "community_name": "LoggingDbTransactionInterceptor",
       "norm_label": "transactionendeventdata"
     },
@@ -4859,7 +4859,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbtransactioninterceptor_authenticationservice_infrastructure_interceptors_loggingdbtransactioninterceptor_transactioncommittedasync",
-      "community": 7,
+      "community": 20,
       "community_name": "LoggingDbTransactionInterceptor",
       "norm_label": ".transactioncommittedasync()"
     },
@@ -4870,7 +4870,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbtransactioninterceptor_cs_cancellationtoken",
-      "community": 7,
+      "community": 20,
       "community_name": "LoggingDbTransactionInterceptor",
       "norm_label": "cancellationtoken"
     },
@@ -4881,7 +4881,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbtransactioninterceptor_cs_task",
-      "community": 7,
+      "community": 20,
       "community_name": "LoggingDbTransactionInterceptor",
       "norm_label": "task"
     },
@@ -4898,7 +4898,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbtransactioninterceptor_authenticationservice_infrastructure_interceptors_loggingdbtransactioninterceptor_transactionrolledback",
-      "community": 7,
+      "community": 20,
       "community_name": "LoggingDbTransactionInterceptor",
       "norm_label": ".transactionrolledback()"
     },
@@ -4915,7 +4915,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbtransactioninterceptor_authenticationservice_infrastructure_interceptors_loggingdbtransactioninterceptor_transactionrolledbackasync",
-      "community": 7,
+      "community": 20,
       "community_name": "LoggingDbTransactionInterceptor",
       "norm_label": ".transactionrolledbackasync()"
     },
@@ -4987,7 +4987,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_repositories_repository_authenticationservice_infrastructure_repositories_repository",
-      "community": 0,
+      "community": 26,
       "community_name": "Repository",
       "norm_label": "repository"
     },
@@ -4998,7 +4998,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_repositories_repository_cs_dbset",
-      "community": 0,
+      "community": 26,
       "community_name": "Repository",
       "norm_label": "dbset"
     },
@@ -5015,7 +5015,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_repositories_repository_authenticationservice_infrastructure_repositories_repository_asqueryable",
-      "community": 0,
+      "community": 26,
       "community_name": "Repository",
       "norm_label": ".asqueryable()"
     },
@@ -5026,7 +5026,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_repositories_repository_cs_iqueryable",
-      "community": 0,
+      "community": 26,
       "community_name": "Repository",
       "norm_label": "iqueryable"
     },
@@ -5043,7 +5043,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_repositories_repository_authenticationservice_infrastructure_repositories_repository_getbyidasync",
-      "community": 0,
+      "community": 26,
       "community_name": "Repository",
       "norm_label": ".getbyidasync()"
     },
@@ -5054,7 +5054,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_repositories_repository_cs_cancellationtoken",
-      "community": 0,
+      "community": 26,
       "community_name": "Repository",
       "norm_label": "cancellationtoken"
     },
@@ -5065,7 +5065,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_repositories_repository_cs_task",
-      "community": 0,
+      "community": 26,
       "community_name": "Repository",
       "norm_label": "task"
     },
@@ -5082,7 +5082,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_repositories_repository_authenticationservice_infrastructure_repositories_repository_getallasync",
-      "community": 0,
+      "community": 26,
       "community_name": "Repository",
       "norm_label": ".getallasync()"
     },
@@ -5093,7 +5093,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_repositories_repository_cs_list",
-      "community": 0,
+      "community": 26,
       "community_name": "Repository",
       "norm_label": "list"
     },
@@ -5110,7 +5110,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_repositories_repository_authenticationservice_infrastructure_repositories_repository_addasync",
-      "community": 0,
+      "community": 26,
       "community_name": "Repository",
       "norm_label": ".addasync()"
     },
@@ -5127,7 +5127,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_repositories_repository_authenticationservice_infrastructure_repositories_repository_updateasync",
-      "community": 0,
+      "community": 26,
       "community_name": "Repository",
       "norm_label": ".updateasync()"
     },
@@ -5144,7 +5144,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_repositories_repository_authenticationservice_infrastructure_repositories_repository_deleteasync",
-      "community": 0,
+      "community": 26,
       "community_name": "Repository",
       "norm_label": ".deleteasync()"
     },
@@ -5161,7 +5161,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_repositories_repository_authenticationservice_infrastructure_repositories_repository_savechangesasync",
-      "community": 0,
+      "community": 26,
       "community_name": "Repository",
       "norm_label": ".savechangesasync()"
     },
@@ -5189,8 +5189,8 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_repositories_rolepermissionrepository_authenticationservice_infrastructure_repositories_rolepermissionrepository",
-      "community": 37,
-      "community_name": "Permission",
+      "community": 39,
+      "community_name": "RolePermission",
       "norm_label": "rolepermissionrepository"
     },
     {
@@ -5430,7 +5430,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_unittests_application_behaviors_validationbehaviortests_authenticationservice_unittests_application_behaviors_testrequest",
-      "community": 49,
+      "community": 12,
       "community_name": ".Handle",
       "norm_label": "testrequest"
     },
@@ -5441,7 +5441,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "testresponse",
-      "community": 49,
+      "community": 12,
       "community_name": ".Handle",
       "norm_label": "testresponse"
     },
@@ -5671,7 +5671,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_unittests_application_features_v1_login_loginhandlertests_authenticationservice_unittests_application_features_v1_login_loginhandlertests",
-      "community": 49,
+      "community": 51,
       "community_name": ".Handle",
       "norm_label": "loginhandlertests"
     },
@@ -5682,7 +5682,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_unittests_application_features_v1_login_loginhandlertests_cs_mock",
-      "community": 49,
+      "community": 51,
       "community_name": ".Handle",
       "norm_label": "mock"
     },
@@ -5699,7 +5699,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_unittests_application_features_v1_login_loginhandlertests_authenticationservice_unittests_application_features_v1_login_loginhandlertests_handle_userdoesnotexist_verifiesdummyhashandthrowsunauthorizedaccessexception",
-      "community": 49,
+      "community": 51,
       "community_name": ".Handle",
       "norm_label": ".handle_userdoesnotexist_verifiesdummyhashandthrowsunauthorizedaccessexception()"
     },
@@ -5710,7 +5710,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_unittests_application_features_v1_login_loginhandlertests_cs_task",
-      "community": 49,
+      "community": 51,
       "community_name": ".Handle",
       "norm_label": "task"
     },
@@ -5721,7 +5721,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_unittests_application_features_v1_login_loginhandlertests_cs_fact",
-      "community": 49,
+      "community": 51,
       "community_name": ".Handle",
       "norm_label": "fact"
     },
@@ -5738,7 +5738,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_unittests_application_features_v1_login_loginhandlertests_authenticationservice_unittests_application_features_v1_login_loginhandlertests_handle_passwordincorrect_throwsunauthorizedaccessexception",
-      "community": 49,
+      "community": 51,
       "community_name": ".Handle",
       "norm_label": ".handle_passwordincorrect_throwsunauthorizedaccessexception()"
     },
@@ -5755,7 +5755,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_unittests_application_features_v1_login_loginhandlertests_authenticationservice_unittests_application_features_v1_login_loginhandlertests_handle_validcredentials_returnsloginresponsedtowithtokensandexpiresin",
-      "community": 49,
+      "community": 51,
       "community_name": ".Handle",
       "norm_label": ".handle_validcredentials_returnsloginresponsedtowithtokensandexpiresin()"
     },
@@ -6817,8 +6817,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_shared_entities_iuser",
-      "community": 49,
-      "community_name": ".Handle",
+      "community": 50,
+      "community_name": "IJwtService",
       "norm_label": "iuser.cs"
     },
     {
@@ -6834,7 +6834,7 @@
       "_origin": "ast",
       "id": "csharp_namespace:60e69a9750bb490e",
       "community": 49,
-      "community_name": ".Handle",
+      "community_name": "Shared.Helpers.Interfaces",
       "norm_label": "shared.entities"
     },
     {
@@ -6850,8 +6850,8 @@
       },
       "_origin": "ast",
       "id": "backend_shared_entities_iuser_shared_entities_iuser",
-      "community": 49,
-      "community_name": ".Handle",
+      "community": 50,
+      "community_name": "IJwtService",
       "norm_label": "iuser"
     },
     {
@@ -6862,7 +6862,7 @@
       "_origin": "ast",
       "id": "backend_shared_helpers_implements_jwtservice",
       "community": 49,
-      "community_name": ".Handle",
+      "community_name": "Shared.Helpers.Interfaces",
       "norm_label": "jwtservice.cs"
     },
     {
@@ -6878,7 +6878,7 @@
       "_origin": "ast",
       "id": "csharp_namespace:dcfdfd93b2a31908",
       "community": 49,
-      "community_name": ".Handle",
+      "community_name": "Shared.Helpers.Interfaces",
       "norm_label": "shared.helpers.implements"
     },
     {
@@ -6894,8 +6894,8 @@
       },
       "_origin": "ast",
       "id": "backend_shared_helpers_implements_jwtservice_shared_helpers_implements_jwtservice",
-      "community": 49,
-      "community_name": ".Handle",
+      "community": 53,
+      "community_name": "JwtService",
       "norm_label": "jwtservice"
     },
     {
@@ -6905,8 +6905,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_shared_helpers_implements_jwtservice_cs_iconfiguration",
-      "community": 49,
-      "community_name": ".Handle",
+      "community": 53,
+      "community_name": "JwtService",
       "norm_label": "iconfiguration"
     },
     {
@@ -6916,8 +6916,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_shared_helpers_implements_jwtservice_cs_string",
-      "community": 49,
-      "community_name": ".Handle",
+      "community": 53,
+      "community_name": "JwtService",
       "norm_label": "string"
     },
     {
@@ -6927,8 +6927,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_shared_helpers_implements_jwtservice_cs_int",
-      "community": 49,
-      "community_name": ".Handle",
+      "community": 53,
+      "community_name": "JwtService",
       "norm_label": "int"
     },
     {
@@ -6944,8 +6944,8 @@
       },
       "_origin": "ast",
       "id": "backend_shared_helpers_implements_jwtservice_shared_helpers_implements_jwtservice_generateaccesstoken",
-      "community": 49,
-      "community_name": ".Handle",
+      "community": 50,
+      "community_name": "IJwtService",
       "norm_label": ".generateaccesstoken()"
     },
     {
@@ -6955,8 +6955,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_shared_helpers_implements_jwtservice_cs_ienumerable",
-      "community": 49,
-      "community_name": ".Handle",
+      "community": 50,
+      "community_name": "IJwtService",
       "norm_label": "ienumerable"
     },
     {
@@ -6972,8 +6972,8 @@
       },
       "_origin": "ast",
       "id": "backend_shared_helpers_implements_jwtservice_shared_helpers_implements_jwtservice_generaterefreshtoken",
-      "community": 49,
-      "community_name": ".Handle",
+      "community": 53,
+      "community_name": "JwtService",
       "norm_label": ".generaterefreshtoken()"
     },
     {
@@ -6989,8 +6989,8 @@
       },
       "_origin": "ast",
       "id": "backend_shared_helpers_implements_jwtservice_shared_helpers_implements_jwtservice_getprincipalfromtoken",
-      "community": 49,
-      "community_name": ".Handle",
+      "community": 53,
+      "community_name": "JwtService",
       "norm_label": ".getprincipalfromtoken()"
     },
     {
@@ -7000,8 +7000,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_shared_helpers_implements_jwtservice_cs_claimsprincipal",
-      "community": 49,
-      "community_name": ".Handle",
+      "community": 53,
+      "community_name": "JwtService",
       "norm_label": "claimsprincipal"
     },
     {
@@ -7017,8 +7017,8 @@
       },
       "_origin": "ast",
       "id": "backend_shared_helpers_implements_jwtservice_shared_helpers_implements_jwtservice_validatetoken",
-      "community": 49,
-      "community_name": ".Handle",
+      "community": 53,
+      "community_name": "JwtService",
       "norm_label": ".validatetoken()"
     },
     {
@@ -7029,7 +7029,7 @@
       "_origin": "ast",
       "id": "backend_shared_helpers_implements_passwordhasher",
       "community": 49,
-      "community_name": ".Handle",
+      "community_name": "Shared.Helpers.Interfaces",
       "norm_label": "passwordhasher.cs"
     },
     {
@@ -7046,7 +7046,7 @@
       "_origin": "ast",
       "id": "backend_shared_helpers_implements_passwordhasher_shared_helpers_implements_passwordhasher",
       "community": 49,
-      "community_name": ".Handle",
+      "community_name": "Shared.Helpers.Interfaces",
       "norm_label": "passwordhasher"
     },
     {
@@ -7063,7 +7063,7 @@
       "_origin": "ast",
       "id": "backend_shared_helpers_implements_passwordhasher_shared_helpers_implements_passwordhasher_hashpassword",
       "community": 49,
-      "community_name": ".Handle",
+      "community_name": "Shared.Helpers.Interfaces",
       "norm_label": ".hashpassword()"
     },
     {
@@ -7080,7 +7080,7 @@
       "_origin": "ast",
       "id": "backend_shared_helpers_implements_passwordhasher_shared_helpers_implements_passwordhasher_verifyhashedpassword",
       "community": 49,
-      "community_name": ".Handle",
+      "community_name": "Shared.Helpers.Interfaces",
       "norm_label": ".verifyhashedpassword()"
     },
     {
@@ -7091,7 +7091,7 @@
       "_origin": "ast",
       "id": "backend_shared_helpers_interfaces_ijwtservice",
       "community": 49,
-      "community_name": ".Handle",
+      "community_name": "Shared.Helpers.Interfaces",
       "norm_label": "ijwtservice.cs"
     },
     {
@@ -7106,8 +7106,8 @@
       },
       "_origin": "ast",
       "id": "csharp_namespace:0ba32e20a91935c1",
-      "community": 36,
-      "community_name": "AuthenticationService.Application.Features.v1.Login",
+      "community": 49,
+      "community_name": "Shared.Helpers.Interfaces",
       "norm_label": "shared.helpers.interfaces"
     },
     {
@@ -7123,8 +7123,8 @@
       },
       "_origin": "ast",
       "id": "backend_shared_helpers_interfaces_ijwtservice_shared_helpers_interfaces_ijwtservice",
-      "community": 49,
-      "community_name": ".Handle",
+      "community": 50,
+      "community_name": "IJwtService",
       "norm_label": "ijwtservice"
     },
     {
@@ -7140,8 +7140,8 @@
       },
       "_origin": "ast",
       "id": "backend_shared_helpers_interfaces_ijwtservice_shared_helpers_interfaces_ijwtservice_generateaccesstoken",
-      "community": 49,
-      "community_name": ".Handle",
+      "community": 50,
+      "community_name": "IJwtService",
       "norm_label": ".generateaccesstoken()"
     },
     {
@@ -7151,8 +7151,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_shared_helpers_interfaces_ijwtservice_cs_ienumerable",
-      "community": 49,
-      "community_name": ".Handle",
+      "community": 50,
+      "community_name": "IJwtService",
       "norm_label": "ienumerable"
     },
     {
@@ -7168,8 +7168,8 @@
       },
       "_origin": "ast",
       "id": "backend_shared_helpers_interfaces_ijwtservice_shared_helpers_interfaces_ijwtservice_generaterefreshtoken",
-      "community": 49,
-      "community_name": ".Handle",
+      "community": 50,
+      "community_name": "IJwtService",
       "norm_label": ".generaterefreshtoken()"
     },
     {
@@ -7185,8 +7185,8 @@
       },
       "_origin": "ast",
       "id": "backend_shared_helpers_interfaces_ijwtservice_shared_helpers_interfaces_ijwtservice_getprincipalfromtoken",
-      "community": 49,
-      "community_name": ".Handle",
+      "community": 50,
+      "community_name": "IJwtService",
       "norm_label": ".getprincipalfromtoken()"
     },
     {
@@ -7196,8 +7196,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_shared_helpers_interfaces_ijwtservice_cs_claimsprincipal",
-      "community": 49,
-      "community_name": ".Handle",
+      "community": 50,
+      "community_name": "IJwtService",
       "norm_label": "claimsprincipal"
     },
     {
@@ -7213,8 +7213,8 @@
       },
       "_origin": "ast",
       "id": "backend_shared_helpers_interfaces_ijwtservice_shared_helpers_interfaces_ijwtservice_validatetoken",
-      "community": 49,
-      "community_name": ".Handle",
+      "community": 50,
+      "community_name": "IJwtService",
       "norm_label": ".validatetoken()"
     },
     {
@@ -7225,7 +7225,7 @@
       "_origin": "ast",
       "id": "backend_shared_helpers_interfaces_ipasswordhasher",
       "community": 49,
-      "community_name": ".Handle",
+      "community_name": "Shared.Helpers.Interfaces",
       "norm_label": "ipasswordhasher.cs"
     },
     {
@@ -7242,7 +7242,7 @@
       "_origin": "ast",
       "id": "backend_shared_helpers_interfaces_ipasswordhasher_shared_helpers_interfaces_ipasswordhasher",
       "community": 49,
-      "community_name": ".Handle",
+      "community_name": "Shared.Helpers.Interfaces",
       "norm_label": "ipasswordhasher"
     },
     {
@@ -7259,7 +7259,7 @@
       "_origin": "ast",
       "id": "backend_shared_helpers_interfaces_ipasswordhasher_shared_helpers_interfaces_ipasswordhasher_hashpassword",
       "community": 49,
-      "community_name": ".Handle",
+      "community_name": "Shared.Helpers.Interfaces",
       "norm_label": ".hashpassword()"
     },
     {
@@ -7276,7 +7276,7 @@
       "_origin": "ast",
       "id": "backend_shared_helpers_interfaces_ipasswordhasher_shared_helpers_interfaces_ipasswordhasher_verifyhashedpassword",
       "community": 49,
-      "community_name": ".Handle",
+      "community_name": "Shared.Helpers.Interfaces",
       "norm_label": ".verifyhashedpassword()"
     },
     {
@@ -7287,7 +7287,7 @@
       "_origin": "ast",
       "id": "backend_shared_models_baseapirequest",
       "community": 9,
-      "community_name": ".Login",
+      "community_name": "BaseAPIResponse",
       "norm_label": "baseapirequest.cs"
     },
     {
@@ -7303,7 +7303,7 @@
       "_origin": "ast",
       "id": "csharp_namespace:b90a23cd6d2facf3",
       "community": 9,
-      "community_name": ".Login",
+      "community_name": "BaseAPIResponse",
       "norm_label": "shared.models"
     },
     {
@@ -7320,7 +7320,7 @@
       "_origin": "ast",
       "id": "backend_shared_models_baseapirequest_shared_models_baseapirequest",
       "community": 9,
-      "community_name": ".Login",
+      "community_name": "BaseAPIResponse",
       "norm_label": "baseapirequest"
     },
     {
@@ -7331,7 +7331,7 @@
       "_origin": "ast",
       "id": "backend_shared_models_baseapirequest_cs_datetime",
       "community": 9,
-      "community_name": ".Login",
+      "community_name": "BaseAPIResponse",
       "norm_label": "datetime"
     },
     {
@@ -7342,7 +7342,7 @@
       "_origin": "ast",
       "id": "backend_shared_models_baseapiresponse",
       "community": 9,
-      "community_name": ".Login",
+      "community_name": "BaseAPIResponse",
       "norm_label": "baseapiresponse.cs"
     },
     {
@@ -7359,7 +7359,7 @@
       "_origin": "ast",
       "id": "backend_shared_models_baseapiresponse_shared_models_baseapiresponse",
       "community": 9,
-      "community_name": ".Login",
+      "community_name": "BaseAPIResponse",
       "norm_label": "baseapiresponse"
     },
     {
@@ -7370,7 +7370,7 @@
       "_origin": "ast",
       "id": "backend_shared_models_baseapiresponse_cs_list",
       "community": 9,
-      "community_name": ".Login",
+      "community_name": "BaseAPIResponse",
       "norm_label": "list"
     },
     {
@@ -7381,7 +7381,7 @@
       "_origin": "ast",
       "id": "backend_shared_models_baseapiresponse_cs_datetime",
       "community": 9,
-      "community_name": ".Login",
+      "community_name": "BaseAPIResponse",
       "norm_label": "datetime"
     },
     {
@@ -7398,7 +7398,7 @@
       "_origin": "ast",
       "id": "backend_shared_models_baseapiresponse_shared_models_baseapiresponse_success",
       "community": 9,
-      "community_name": ".Login",
+      "community_name": "BaseAPIResponse",
       "norm_label": ".success()"
     },
     {
@@ -7415,7 +7415,7 @@
       "_origin": "ast",
       "id": "backend_shared_models_baseapiresponse_shared_models_baseapiresponse_failure",
       "community": 9,
-      "community_name": ".Login",
+      "community_name": "BaseAPIResponse",
       "norm_label": ".failure()"
     },
     {
@@ -7426,7 +7426,7 @@
       "_origin": "ast",
       "id": "backend_shared_models_paginationrequest",
       "community": 9,
-      "community_name": ".Login",
+      "community_name": "BaseAPIResponse",
       "norm_label": "paginationrequest.cs"
     },
     {
@@ -7443,7 +7443,7 @@
       "_origin": "ast",
       "id": "backend_shared_models_paginationrequest_shared_models_paginationrequest",
       "community": 9,
-      "community_name": ".Login",
+      "community_name": "BaseAPIResponse",
       "norm_label": "paginationrequest"
     },
     {
@@ -7454,7 +7454,7 @@
       "_origin": "ast",
       "id": "backend_shared_models_paginationrequest_cs_int",
       "community": 9,
-      "community_name": ".Login",
+      "community_name": "BaseAPIResponse",
       "norm_label": "int"
     },
     {
@@ -7465,7 +7465,7 @@
       "_origin": "ast",
       "id": "backend_shared_models_paginationresponse",
       "community": 9,
-      "community_name": ".Login",
+      "community_name": "BaseAPIResponse",
       "norm_label": "paginationresponse.cs"
     },
     {
@@ -7482,7 +7482,7 @@
       "_origin": "ast",
       "id": "backend_shared_models_paginationresponse_shared_models_paginationresponse",
       "community": 9,
-      "community_name": ".Login",
+      "community_name": "BaseAPIResponse",
       "norm_label": "paginationresponse"
     },
     {
@@ -7493,7 +7493,7 @@
       "_origin": "ast",
       "id": "backend_shared_models_paginationresponse_cs_ienumerable",
       "community": 9,
-      "community_name": ".Login",
+      "community_name": "BaseAPIResponse",
       "norm_label": "ienumerable"
     },
     {
@@ -7660,39 +7660,6 @@
       "community": 52,
       "community_name": "plugins",
       "norm_label": "warn"
-    },
-    {
-      "label": "build.js",
-      "file_type": "code",
-      "source_file": "Frontend/build.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "frontend_build",
-      "community": 26,
-      "community_name": "build.js",
-      "norm_label": "build.js"
-    },
-    {
-      "label": "args",
-      "file_type": "code",
-      "source_file": "Frontend/build.js",
-      "source_location": "L4",
-      "_origin": "ast",
-      "id": "frontend_build_args",
-      "community": 26,
-      "community_name": "build.js",
-      "norm_label": "args"
-    },
-    {
-      "label": "cleanArgs",
-      "file_type": "code",
-      "source_file": "Frontend/build.js",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "frontend_build_cleanargs",
-      "community": 26,
-      "community_name": "build.js",
-      "norm_label": "cleanargs"
     },
     {
       "label": "package.json",
@@ -20545,28 +20512,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "Frontend/build.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "frontend_build",
-      "target": "frontend_build_args",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Frontend/build.js",
-      "source_location": "L7",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "frontend_build",
-      "target": "frontend_build_cleanargs",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "Frontend/package.json",
       "source_location": "L12",
       "weight": 1.0,
@@ -22532,5 +22477,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "aa11457bf4dd8673f74a231ef6644006a5052406"
+  "built_at_commit": "0a2ee518aacb0f6b82b8266e1eb962cf3f8fe963"
 }

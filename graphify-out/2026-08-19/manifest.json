@@ -535,8 +535,8 @@
     "semantic_hash": "2b195b3cfa2d4de916c702cca4bff262"
   },
   "Frontend/package.json": {
-    "mtime": 1787157968.8996925,
-    "ast_hash": "36023be523644676393750b479dc9fd9",
+    "mtime": 1787069862.0548604,
+    "ast_hash": "49501bd64983e5134bae56b1c233c6b6",
     "semantic_hash": ""
   },
   "Frontend/tsconfig.app.json": {
@@ -867,11 +867,6 @@
   "Frontend/src/assets/vite.svg": {
     "mtime": 1787069254.531375,
     "ast_hash": "9960a24288958394ac50e57ff638b036",
-    "semantic_hash": ""
-  },
-  "Frontend/build.js": {
-    "mtime": 1787157964.449734,
-    "ast_hash": "3398b116ed55cb61ff76e7c97b78ce08",
     "semantic_hash": ""
   }
 }

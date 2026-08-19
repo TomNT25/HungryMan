@@ -1,0 +1,627 @@
+{
+  "Backend/API-GATEWAY/API-GATEWAY.csproj": {
+    "mtime": 1782803257.106542,
+    "ast_hash": "738bcb703bc9679f3e526dc2770d61fe",
+    "semantic_hash": "738bcb703bc9679f3e526dc2770d61fe"
+  },
+  "Backend/API-GATEWAY/Configuration/HealthConfiguration.cs": {
+    "mtime": 1782365385.9160235,
+    "ast_hash": "dfec460d3b8ee37f32d8e0f8c077ef85",
+    "semantic_hash": "dfec460d3b8ee37f32d8e0f8c077ef85"
+  },
+  "Backend/API-GATEWAY/Configuration/OcelotConfiguration.cs": {
+    "mtime": 1782553348.5337794,
+    "ast_hash": "cd790c9b43cb51d949ec0e73278d9b47",
+    "semantic_hash": "cd790c9b43cb51d949ec0e73278d9b47"
+  },
+  "Backend/API-GATEWAY/Middlewares/TraceIdMiddleware.cs": {
+    "mtime": 1782322330.0645852,
+    "ast_hash": "8153636f2637d31d913f4209c70ec5a1",
+    "semantic_hash": "8153636f2637d31d913f4209c70ec5a1"
+  },
+  "Backend/API-GATEWAY/Ocelot/ocelot.authentication.json": {
+    "mtime": 1782553348.5337794,
+    "ast_hash": "6fa3134a2e0861269ab2848d8b7232b8",
+    "semantic_hash": "6fa3134a2e0861269ab2848d8b7232b8"
+  },
+  "Backend/API-GATEWAY/Ocelot/ocelot.json": {
+    "mtime": 1782553348.5337794,
+    "ast_hash": "b3e20e4a631243198b8695c8cfa1de05",
+    "semantic_hash": "b3e20e4a631243198b8695c8cfa1de05"
+  },
+  "Backend/API-GATEWAY/Ocelot/ocelot.product.json": {
+    "mtime": 1782553348.5337794,
+    "ast_hash": "bc5dfa5d3507f378cdd5fd2e665caa10",
+    "semantic_hash": "bc5dfa5d3507f378cdd5fd2e665caa10"
+  },
+  "Backend/API-GATEWAY/Program.cs": {
+    "mtime": 1782803316.6397846,
+    "ast_hash": "fc14cf14ae9ae502243399ad02a97a7c",
+    "semantic_hash": "fc14cf14ae9ae502243399ad02a97a7c"
+  },
+  "Backend/API-GATEWAY/Properties/launchSettings.json": {
+    "mtime": 1782322330.0645852,
+    "ast_hash": "8cb3555cdfee9dbc41cbbe469ddd525b",
+    "semantic_hash": "8cb3555cdfee9dbc41cbbe469ddd525b"
+  },
+  "Backend/API-GATEWAY/appsettings.Example.json": {
+    "mtime": 1782790616.1736133,
+    "ast_hash": "ab1c988c524cb8cab936ec27fb700e6b",
+    "semantic_hash": "ab1c988c524cb8cab936ec27fb700e6b"
+  },
+  "Backend/API-GATEWAY/dotnet-install.sh": {
+    "mtime": 1782363764.6434526,
+    "ast_hash": "bbbd1f898ceb859c30145f6293686e62",
+    "semantic_hash": "bbbd1f898ceb859c30145f6293686e62"
+  },
+  "Backend/Authentication-Service/AuthenticationService.API/AuthenticationService.API.csproj": {
+    "mtime": 1782322330.0655851,
+    "ast_hash": "c2d9961e1c483d1e12169aa8a414fe57",
+    "semantic_hash": "c2d9961e1c483d1e12169aa8a414fe57"
+  },
+  "Backend/Authentication-Service/AuthenticationService.API/Controllers/v1/AuthController.cs": {
+    "mtime": 1783952960.7668135,
+    "ast_hash": "ac31c8a3a0e5dbe368c398e52ee3dabe",
+    "semantic_hash": "ac31c8a3a0e5dbe368c398e52ee3dabe"
+  },
+  "Backend/Authentication-Service/AuthenticationService.API/DependencyInjection.cs": {
+    "mtime": 1782322330.066585,
+    "ast_hash": "8a0ea2af7c45c17006fce2565a72aebb",
+    "semantic_hash": "8a0ea2af7c45c17006fce2565a72aebb"
+  },
+  "Backend/Authentication-Service/AuthenticationService.API/Middlewares/GlobalExceptionMiddleware.cs": {
+    "mtime": 1782803432.9473877,
+    "ast_hash": "60710a5355a4f003c572957c374d0597",
+    "semantic_hash": "60710a5355a4f003c572957c374d0597"
+  },
+  "Backend/Authentication-Service/AuthenticationService.API/Middlewares/TraceIdMiddleware.cs": {
+    "mtime": 1782322330.066585,
+    "ast_hash": "c46965817eff97a8aed33a70607357b8",
+    "semantic_hash": "c46965817eff97a8aed33a70607357b8"
+  },
+  "Backend/Authentication-Service/AuthenticationService.API/Program.cs": {
+    "mtime": 1782803700.9240856,
+    "ast_hash": "c7d6bc96cf7d1717b05a732968ed39a1",
+    "semantic_hash": "c7d6bc96cf7d1717b05a732968ed39a1"
+  },
+  "Backend/Authentication-Service/AuthenticationService.API/Properties/launchSettings.json": {
+    "mtime": 1782322330.066585,
+    "ast_hash": "82eb8cc85814a2396dd84e663a93e3f0",
+    "semantic_hash": "82eb8cc85814a2396dd84e663a93e3f0"
+  },
+  "Backend/Authentication-Service/AuthenticationService.API/appsettings.Example.json": {
+    "mtime": 1782790616.1736133,
+    "ast_hash": "6dc32db6ad7a463166fa74ba378a68e3",
+    "semantic_hash": "6dc32db6ad7a463166fa74ba378a68e3"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Application/AuthenticationService.Application.csproj": {
+    "mtime": 1782322330.066585,
+    "ast_hash": "42e203a7df2b7afca4a4f15c2dc050c1",
+    "semantic_hash": "42e203a7df2b7afca4a4f15c2dc050c1"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Application/Behaviors/ValidationBehavior.cs": {
+    "mtime": 1783606161.5992153,
+    "ast_hash": "fe6f55f63f3a1b2d3f9c20999a124bc2",
+    "semantic_hash": "fe6f55f63f3a1b2d3f9c20999a124bc2"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Application/DependencyInjection.cs": {
+    "mtime": 1782804311.934889,
+    "ast_hash": "62397e909197d9d10679e3bfa60a6d64",
+    "semantic_hash": "62397e909197d9d10679e3bfa60a6d64"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Application/Features/v1/Login/GetUserByEmailQuery.cs": {
+    "mtime": 1782803925.6493638,
+    "ast_hash": "1cf99f0f81e9de100021e75c96bc3581",
+    "semantic_hash": "1cf99f0f81e9de100021e75c96bc3581"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Application/Features/v1/Login/LoginHandler.cs": {
+    "mtime": 1782804319.7659168,
+    "ast_hash": "7d51e5fbebfe81d385037112562822cd",
+    "semantic_hash": "7d51e5fbebfe81d385037112562822cd"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Application/Features/v1/Login/LoginRequestDTO.cs": {
+    "mtime": 1782803992.295647,
+    "ast_hash": "481f61cac08be80504dfa3ec1dc7b33a",
+    "semantic_hash": "481f61cac08be80504dfa3ec1dc7b33a"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Application/Features/v1/Login/LoginResponseDTO.cs": {
+    "mtime": 1782803999.831679,
+    "ast_hash": "d10d68ff237047c2f358f34bce7ac936",
+    "semantic_hash": "d10d68ff237047c2f358f34bce7ac936"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Application/Features/v1/Login/LoginValidator.cs": {
+    "mtime": 1782804035.36283,
+    "ast_hash": "6f9134673c70b61d1e74006b9bc85b80",
+    "semantic_hash": "6f9134673c70b61d1e74006b9bc85b80"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Application/Interfaces/IPermissionRepository.cs": {
+    "mtime": 1782322330.0685852,
+    "ast_hash": "8d763864aa3e0b9bade901e287827730",
+    "semantic_hash": "8d763864aa3e0b9bade901e287827730"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Application/Interfaces/IRepository.cs": {
+    "mtime": 1782322330.0685852,
+    "ast_hash": "5254021b2b9b2684b9d512ac2e6c922b",
+    "semantic_hash": "5254021b2b9b2684b9d512ac2e6c922b"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Application/Interfaces/IRolePermissionRepository.cs": {
+    "mtime": 1782322330.0685852,
+    "ast_hash": "1fbb11db232908fae781a2fd14917850",
+    "semantic_hash": "1fbb11db232908fae781a2fd14917850"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Application/Interfaces/IRoleRepository.cs": {
+    "mtime": 1782322330.0685852,
+    "ast_hash": "8ba42c7c087962f0e604beddf57ba64b",
+    "semantic_hash": "8ba42c7c087962f0e604beddf57ba64b"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Application/Interfaces/IUserPermissionRepository.cs": {
+    "mtime": 1782322330.0685852,
+    "ast_hash": "c04d16bf3101c858901ab3474f5df942",
+    "semantic_hash": "c04d16bf3101c858901ab3474f5df942"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Application/Interfaces/IUserRepository.cs": {
+    "mtime": 1782454202.864877,
+    "ast_hash": "17d0ac88dd35d9d6f1df4db6896fcb31",
+    "semantic_hash": "17d0ac88dd35d9d6f1df4db6896fcb31"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Application/Interfaces/IUserRoleRepository.cs": {
+    "mtime": 1782322330.0685852,
+    "ast_hash": "f67498e48c0b7674d4023d0a02cc8564",
+    "semantic_hash": "f67498e48c0b7674d4023d0a02cc8564"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Application/Interfaces/IUserTokenRepository.cs": {
+    "mtime": 1782322330.0685852,
+    "ast_hash": "a6d91a84771ee98652d09cf8057eba85",
+    "semantic_hash": "a6d91a84771ee98652d09cf8057eba85"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Domain/AuthenticationService.Domain.csproj": {
+    "mtime": 1782322330.069585,
+    "ast_hash": "9549e1524d8cb7c845163b192932828c",
+    "semantic_hash": "9549e1524d8cb7c845163b192932828c"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Domain/Entities/Permission.cs": {
+    "mtime": 1782322330.069585,
+    "ast_hash": "1034c83c14eb1ca849abaeb06541191f",
+    "semantic_hash": "1034c83c14eb1ca849abaeb06541191f"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Domain/Entities/Role.cs": {
+    "mtime": 1782322330.069585,
+    "ast_hash": "f52f27a185300449f6567723d3d5a1eb",
+    "semantic_hash": "f52f27a185300449f6567723d3d5a1eb"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Domain/Entities/RolePermission.cs": {
+    "mtime": 1782322330.069585,
+    "ast_hash": "708d597e453d7150ceab5811f095b687",
+    "semantic_hash": "708d597e453d7150ceab5811f095b687"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Domain/Entities/User.cs": {
+    "mtime": 1782322330.069585,
+    "ast_hash": "0474975d1202f9f4865a1fcec3321e5c",
+    "semantic_hash": "0474975d1202f9f4865a1fcec3321e5c"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Domain/Entities/UserPermission.cs": {
+    "mtime": 1782322330.070585,
+    "ast_hash": "346962a30ed68eb4beb287c1318737ad",
+    "semantic_hash": "346962a30ed68eb4beb287c1318737ad"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Domain/Entities/UserRole.cs": {
+    "mtime": 1782322330.070585,
+    "ast_hash": "9baa1b4549264a6a49608d691c08a2eb",
+    "semantic_hash": "9baa1b4549264a6a49608d691c08a2eb"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Domain/Entities/UserToken.cs": {
+    "mtime": 1782322330.070585,
+    "ast_hash": "db1dda87c3800f0abc2a6ebfbb036d58",
+    "semantic_hash": "db1dda87c3800f0abc2a6ebfbb036d58"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Infrastructure/AuthenticationService.Infrastructure.csproj": {
+    "mtime": 1783914071.7815006,
+    "ast_hash": "40d058f443d63edb91bd2df78ab395f0",
+    "semantic_hash": "40d058f443d63edb91bd2df78ab395f0"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Infrastructure/DatabaseConfiguration/AuthenticationServiceDbConfiguration.cs": {
+    "mtime": 1782790616.1746132,
+    "ast_hash": "94bdfed17e81d35c8fd50918131e4922",
+    "semantic_hash": "94bdfed17e81d35c8fd50918131e4922"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Infrastructure/DatabaseConfiguration/AuthenticationServiceDbContext.cs": {
+    "mtime": 1782322330.0715852,
+    "ast_hash": "06928f3761b609fccf864616c165cc46",
+    "semantic_hash": "06928f3761b609fccf864616c165cc46"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Infrastructure/DatabaseConfiguration/AuthenticationServiceDbContextFactory.cs": {
+    "mtime": 1782790616.1746132,
+    "ast_hash": "dac83fe7e452041ec815bfc69736507b",
+    "semantic_hash": "dac83fe7e452041ec815bfc69736507b"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Infrastructure/DatabaseConfiguration/DatabaseOptions.cs": {
+    "mtime": 1782322330.0715852,
+    "ast_hash": "a6d928f22ebc9cfbfd50473a135528f0",
+    "semantic_hash": "a6d928f22ebc9cfbfd50473a135528f0"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Infrastructure/DatabaseConfiguration/Migrations/20260627102327_InitialCreate.Designer.cs": {
+    "mtime": 1782790616.1746132,
+    "ast_hash": "71ce71a9c0b5dc68a961be81dc471ae4",
+    "semantic_hash": "71ce71a9c0b5dc68a961be81dc471ae4"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Infrastructure/DatabaseConfiguration/Migrations/20260627102327_InitialCreate.cs": {
+    "mtime": 1782790616.1746132,
+    "ast_hash": "6971ba67a6d5ff9043b9a01ae10c70de",
+    "semantic_hash": "6971ba67a6d5ff9043b9a01ae10c70de"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Infrastructure/DatabaseConfiguration/Migrations/AuthenticationServiceDbContextModelSnapshot.cs": {
+    "mtime": 1782790616.1746132,
+    "ast_hash": "8d4ff2aba3810b35d121f8b59ac0bc9f",
+    "semantic_hash": "8d4ff2aba3810b35d121f8b59ac0bc9f"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Infrastructure/DependencyInjection.cs": {
+    "mtime": 1783954626.3052168,
+    "ast_hash": "030779f43be4aca4a01a7eb9b72556cd",
+    "semantic_hash": "030779f43be4aca4a01a7eb9b72556cd"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Infrastructure/Interceptors/AuditableEntitySaveChangesInterceptor.cs": {
+    "mtime": 1783515855.9708261,
+    "ast_hash": "afc32b479f058afe3fa51e33c0e03d42",
+    "semantic_hash": "afc32b479f058afe3fa51e33c0e03d42"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Infrastructure/Interceptors/LoggingDbCommandInterceptor.cs": {
+    "mtime": 1782322330.0715852,
+    "ast_hash": "0646863b1710f0697c5c9a0259d191f5",
+    "semantic_hash": "0646863b1710f0697c5c9a0259d191f5"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Infrastructure/Interceptors/LoggingDbConnectionInterceptor.cs": {
+    "mtime": 1782322330.0715852,
+    "ast_hash": "8263b106e2bec1db53beff8a2900f138",
+    "semantic_hash": "8263b106e2bec1db53beff8a2900f138"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Infrastructure/Interceptors/LoggingDbTransactionInterceptor.cs": {
+    "mtime": 1782322330.0715852,
+    "ast_hash": "02db6701663030f0cd9bcb4e9c00a2e8",
+    "semantic_hash": "02db6701663030f0cd9bcb4e9c00a2e8"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Infrastructure/Repositories/PermissionRepository.cs": {
+    "mtime": 1782322330.072585,
+    "ast_hash": "aad9f1847003444070a1907ae7187906",
+    "semantic_hash": "aad9f1847003444070a1907ae7187906"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Infrastructure/Repositories/Repository.cs": {
+    "mtime": 1782322330.072585,
+    "ast_hash": "c3c7a776c7a5893f096e17226513352c",
+    "semantic_hash": "c3c7a776c7a5893f096e17226513352c"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Infrastructure/Repositories/RolePermissionRepository.cs": {
+    "mtime": 1782322330.072585,
+    "ast_hash": "d9f6691b7d1aecf522cd33501e934322",
+    "semantic_hash": "d9f6691b7d1aecf522cd33501e934322"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Infrastructure/Repositories/RoleRepository.cs": {
+    "mtime": 1782322330.072585,
+    "ast_hash": "5daa9f2d75dafa175dc3f1f1ec5aa5f9",
+    "semantic_hash": "5daa9f2d75dafa175dc3f1f1ec5aa5f9"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Infrastructure/Repositories/UserPermissionRepository.cs": {
+    "mtime": 1782322330.072585,
+    "ast_hash": "ab121ab562aadf9a7af3aa4f3f367c5e",
+    "semantic_hash": "ab121ab562aadf9a7af3aa4f3f367c5e"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Infrastructure/Repositories/UserRepository.cs": {
+    "mtime": 1782454008.0568128,
+    "ast_hash": "73011f0b14d31ef7088716eb21d906f4",
+    "semantic_hash": "73011f0b14d31ef7088716eb21d906f4"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Infrastructure/Repositories/UserRoleRepository.cs": {
+    "mtime": 1782322330.072585,
+    "ast_hash": "fcce9cbeb4583590855da090b879719b",
+    "semantic_hash": "fcce9cbeb4583590855da090b879719b"
+  },
+  "Backend/Authentication-Service/AuthenticationService.Infrastructure/Repositories/UserTokenRepository.cs": {
+    "mtime": 1782322330.073585,
+    "ast_hash": "958505c0eacc0fa5d5cbabf6b38f45eb",
+    "semantic_hash": "958505c0eacc0fa5d5cbabf6b38f45eb"
+  },
+  "Backend/Authentication-Service/AuthenticationService.UnitTests/Application/Behaviors/ValidationBehaviorTests.cs": {
+    "mtime": 1783606990.3227358,
+    "ast_hash": "669bc9bf62d9743acaa337ebeaa51d6d",
+    "semantic_hash": "669bc9bf62d9743acaa337ebeaa51d6d"
+  },
+  "Backend/Authentication-Service/AuthenticationService.UnitTests/Application/Features/v1/Login/GetUserByEmailQueryHandlerTests.cs": {
+    "mtime": 1783606433.0456328,
+    "ast_hash": "e83964b9d523214f49a1006283fe5c5c",
+    "semantic_hash": "e83964b9d523214f49a1006283fe5c5c"
+  },
+  "Backend/Authentication-Service/AuthenticationService.UnitTests/Application/Features/v1/Login/LoginHandlerTests.cs": {
+    "mtime": 1783606445.0881972,
+    "ast_hash": "98a4682ac54da0d0798e9fe2d893f529",
+    "semantic_hash": "98a4682ac54da0d0798e9fe2d893f529"
+  },
+  "Backend/Authentication-Service/AuthenticationService.UnitTests/Application/Features/v1/Login/LoginValidatorTests.cs": {
+    "mtime": 1783606453.8229275,
+    "ast_hash": "63a90c18c056ee142bc125274997d5bc",
+    "semantic_hash": "63a90c18c056ee142bc125274997d5bc"
+  },
+  "Backend/Authentication-Service/AuthenticationService.UnitTests/AuthenticationService.UnitTests.csproj": {
+    "mtime": 1782790616.1746132,
+    "ast_hash": "9837128fc978934ac108ec3be1445d2e",
+    "semantic_hash": "9837128fc978934ac108ec3be1445d2e"
+  },
+  "Backend/Authentication-Service/AuthenticationService.UnitTests/Infrastructure/AuthenticationServiceDbContextTests.cs": {
+    "mtime": 1782790616.1756134,
+    "ast_hash": "88025b42d142aaaa17a095f00e622813",
+    "semantic_hash": "88025b42d142aaaa17a095f00e622813"
+  },
+  "Backend/Authentication-Service/Properties/launchSettings.json": {
+    "mtime": 1782322330.073585,
+    "ast_hash": "af633ecef8ec4857f52f840aa5697569",
+    "semantic_hash": "af633ecef8ec4857f52f840aa5697569"
+  },
+  "Backend/Backend.slnx": {
+    "mtime": 1782790616.1756134,
+    "ast_hash": "3395cdb0e608aefcdf930116e5dd21d8",
+    "semantic_hash": "3395cdb0e608aefcdf930116e5dd21d8"
+  },
+  "Backend/MessageQueue-Shared/DependencyInjection.cs": {
+    "mtime": 1783954624.265518,
+    "ast_hash": "c0afa3edd528e3fe6034604e5a294709",
+    "semantic_hash": "c0afa3edd528e3fe6034604e5a294709"
+  },
+  "Backend/MessageQueue-Shared/KafkaSettings.cs": {
+    "mtime": 1783954607.3355331,
+    "ast_hash": "485a6659d48d129d3894459ca68f2107",
+    "semantic_hash": "485a6659d48d129d3894459ca68f2107"
+  },
+  "Backend/MessageQueue-Shared/MessageQueue-Shared.csproj": {
+    "mtime": 1783954613.3039646,
+    "ast_hash": "5834a9e79dde9eb98543421bc41614a1",
+    "semantic_hash": "5834a9e79dde9eb98543421bc41614a1"
+  },
+  "Backend/MessageQueue-Shared/RabbitMqSettings.cs": {
+    "mtime": 1783914030.0548692,
+    "ast_hash": "447bb695879729d1cbb205cf52c4eabc",
+    "semantic_hash": "447bb695879729d1cbb205cf52c4eabc"
+  },
+  "Backend/Product-Service/Product-Service.csproj": {
+    "mtime": 1782322330.0745852,
+    "ast_hash": "0e8439466995fdbc896a4e38cc0783f7",
+    "semantic_hash": "0e8439466995fdbc896a4e38cc0783f7"
+  },
+  "Backend/Product-Service/Program.cs": {
+    "mtime": 1782322330.0745852,
+    "ast_hash": "876cb4c9856b2e2ccade65639b59924a",
+    "semantic_hash": "876cb4c9856b2e2ccade65639b59924a"
+  },
+  "Backend/Product-Service/Properties/launchSettings.json": {
+    "mtime": 1782322330.0745852,
+    "ast_hash": "98fb3b56dcb268991425af932faaa7ce",
+    "semantic_hash": "98fb3b56dcb268991425af932faaa7ce"
+  },
+  "Backend/Shared/Entities/IUser.cs": {
+    "mtime": 1782322330.0745852,
+    "ast_hash": "0a88853b71ab493c253ae1fb076bfdc4",
+    "semantic_hash": "0a88853b71ab493c253ae1fb076bfdc4"
+  },
+  "Backend/Shared/Helpers/Implements/JwtService.cs": {
+    "mtime": 1782322330.0745852,
+    "ast_hash": "a1d412c71fe0893a2009bf93e21466fc",
+    "semantic_hash": "a1d412c71fe0893a2009bf93e21466fc"
+  },
+  "Backend/Shared/Helpers/Implements/PasswordHasher.cs": {
+    "mtime": 1782322330.0745852,
+    "ast_hash": "2de37c298c7a235c709512831cbb03b0",
+    "semantic_hash": "2de37c298c7a235c709512831cbb03b0"
+  },
+  "Backend/Shared/Helpers/Interfaces/IJwtService.cs": {
+    "mtime": 1782322330.0745852,
+    "ast_hash": "01b1b6f82e973774dcea2c6e30da5305",
+    "semantic_hash": "01b1b6f82e973774dcea2c6e30da5305"
+  },
+  "Backend/Shared/Helpers/Interfaces/IPasswordHasher.cs": {
+    "mtime": 1782322330.0745852,
+    "ast_hash": "de9ecdc117b004a303d9b5f34277cfdb",
+    "semantic_hash": "de9ecdc117b004a303d9b5f34277cfdb"
+  },
+  "Backend/Shared/Models/BaseAPIRequest.cs": {
+    "mtime": 1782322330.0745852,
+    "ast_hash": "53a6cba96e5ba5d586b44a613562562d",
+    "semantic_hash": "53a6cba96e5ba5d586b44a613562562d"
+  },
+  "Backend/Shared/Models/BaseAPIResponse.cs": {
+    "mtime": 1782322330.0755851,
+    "ast_hash": "8f8f108349664f9e943d9551f589485c",
+    "semantic_hash": "8f8f108349664f9e943d9551f589485c"
+  },
+  "Backend/Shared/Models/PaginationRequest.cs": {
+    "mtime": 1782322330.0755851,
+    "ast_hash": "01bed4087adb5798ee7cc94611555756",
+    "semantic_hash": "01bed4087adb5798ee7cc94611555756"
+  },
+  "Backend/Shared/Models/PaginationResponse.cs": {
+    "mtime": 1782322330.0755851,
+    "ast_hash": "3fb3f13cdbd9ed310a2dc3397b80ad6c",
+    "semantic_hash": "3fb3f13cdbd9ed310a2dc3397b80ad6c"
+  },
+  "Backend/Shared/Shared.csproj": {
+    "mtime": 1782322330.0755851,
+    "ast_hash": "44d43e81987b90db08fbc0e276dc07ff",
+    "semantic_hash": "44d43e81987b90db08fbc0e276dc07ff"
+  },
+  "Database/Authentication-Service/functions/fn_update_timestamp.sql": {
+    "mtime": 1782789912.8798785,
+    "ast_hash": "a7b1a01bbe07b86859fbce5d0b93e087",
+    "semantic_hash": "a7b1a01bbe07b86859fbce5d0b93e087"
+  },
+  "Database/Authentication-Service/run_all.sql": {
+    "mtime": 1782789912.8818786,
+    "ast_hash": "9351a4cc1cc293ec2c25f2a37d423b8e",
+    "semantic_hash": "9351a4cc1cc293ec2c25f2a37d423b8e"
+  },
+  "Database/Authentication-Service/stored_procedures/sp_create_user.sql": {
+    "mtime": 1782789912.8828785,
+    "ast_hash": "e8e73730979560414a7165bb2f6aea48",
+    "semantic_hash": "e8e73730979560414a7165bb2f6aea48"
+  },
+  "Database/Authentication-Service/tables/01_users.sql": {
+    "mtime": 1782789912.8828785,
+    "ast_hash": "a924625ecd9c20cc1535f448f011e786",
+    "semantic_hash": "a924625ecd9c20cc1535f448f011e786"
+  },
+  "Database/Authentication-Service/tables/02_roles.sql": {
+    "mtime": 1782789912.8828785,
+    "ast_hash": "d5a3447816e7a36a992b8ae95e67e33c",
+    "semantic_hash": "d5a3447816e7a36a992b8ae95e67e33c"
+  },
+  "Database/Authentication-Service/tables/03_user_roles.sql": {
+    "mtime": 1782789912.8828785,
+    "ast_hash": "f70db5ff878c60c2cd320c612dd3cdcb",
+    "semantic_hash": "f70db5ff878c60c2cd320c612dd3cdcb"
+  },
+  "Database/Authentication-Service/tables/04_permissions.sql": {
+    "mtime": 1782789912.8828785,
+    "ast_hash": "2ff96f3ff34b2126891e0ebea8669b80",
+    "semantic_hash": "2ff96f3ff34b2126891e0ebea8669b80"
+  },
+  "Database/Authentication-Service/tables/05_user_permissions.sql": {
+    "mtime": 1782789912.8838787,
+    "ast_hash": "f2d1ae981b0f7a214801cf1618021656",
+    "semantic_hash": "f2d1ae981b0f7a214801cf1618021656"
+  },
+  "Database/Authentication-Service/tables/06_role_permissions.sql": {
+    "mtime": 1782789912.8838787,
+    "ast_hash": "8bd01f228841bcded78899bbc2720fce",
+    "semantic_hash": "8bd01f228841bcded78899bbc2720fce"
+  },
+  "Database/Authentication-Service/tables/07_user_tokens.sql": {
+    "mtime": 1782789912.8838787,
+    "ast_hash": "bfe2a05e7b9ed1680221cb43b9c284aa",
+    "semantic_hash": "bfe2a05e7b9ed1680221cb43b9c284aa"
+  },
+  "Database/Authentication-Service/tables/08_seed_data.sql": {
+    "mtime": 1782789912.8838787,
+    "ast_hash": "09d5820bc0f4fb45992f09e429e05dcd",
+    "semantic_hash": "09d5820bc0f4fb45992f09e429e05dcd"
+  },
+  "Database/Authentication-Service/views/vw_user_details.sql": {
+    "mtime": 1782789912.8838787,
+    "ast_hash": "a25785da76fc57a4eaffc788c4607e9b",
+    "semantic_hash": "a25785da76fc57a4eaffc788c4607e9b"
+  },
+  "Database/Product-Service/functions/fn_update_timestamp.sql": {
+    "mtime": 1782789912.8838787,
+    "ast_hash": "a7b1a01bbe07b86859fbce5d0b93e087",
+    "semantic_hash": "a7b1a01bbe07b86859fbce5d0b93e087"
+  },
+  "Database/Product-Service/run_all.sql": {
+    "mtime": 1782789912.8838787,
+    "ast_hash": "3285ae6fcee20acd23bab978ea147f66",
+    "semantic_hash": "3285ae6fcee20acd23bab978ea147f66"
+  },
+  "Database/Product-Service/stored_procedures/sp_create_product.sql": {
+    "mtime": 1782789912.8838787,
+    "ast_hash": "26e765317801b8facffdd5a06ecb13db",
+    "semantic_hash": "26e765317801b8facffdd5a06ecb13db"
+  },
+  "Database/Product-Service/tables/01_categories.sql": {
+    "mtime": 1782789912.8848786,
+    "ast_hash": "879348faed13acb7d9dabdece2a82d2e",
+    "semantic_hash": "879348faed13acb7d9dabdece2a82d2e"
+  },
+  "Database/Product-Service/tables/02_products.sql": {
+    "mtime": 1782789912.8848786,
+    "ast_hash": "ec746e4e33005c63b6e0e2d493aec6e6",
+    "semantic_hash": "ec746e4e33005c63b6e0e2d493aec6e6"
+  },
+  "Database/Product-Service/views/vw_product_catalog.sql": {
+    "mtime": 1782789912.8848786,
+    "ast_hash": "2b195b3cfa2d4de916c702cca4bff262",
+    "semantic_hash": "2b195b3cfa2d4de916c702cca4bff262"
+  },
+  "Frontend/.vscode/extensions.json": {
+    "mtime": 1782322330.076585,
+    "ast_hash": "d3b118b41884c371c18cbd55e392eb07",
+    "semantic_hash": "d3b118b41884c371c18cbd55e392eb07"
+  },
+  "Frontend/.vscode/launch.json": {
+    "mtime": 1782322330.076585,
+    "ast_hash": "c6799d2f7ae6f5d7a740d1023654bb8d",
+    "semantic_hash": "c6799d2f7ae6f5d7a740d1023654bb8d"
+  },
+  "Frontend/.vscode/mcp.json": {
+    "mtime": 1782322330.076585,
+    "ast_hash": "f379347bd44231ed133462aa2ae502aa",
+    "semantic_hash": "f379347bd44231ed133462aa2ae502aa"
+  },
+  "Frontend/.vscode/tasks.json": {
+    "mtime": 1782322330.076585,
+    "ast_hash": "903821282d5c5b46a4673a263eeb9dee",
+    "semantic_hash": "903821282d5c5b46a4673a263eeb9dee"
+  },
+  "Frontend/angular.json": {
+    "mtime": 1782322330.076585,
+    "ast_hash": "9f37df5e4e4bbb7b74ebf518eb5af3af",
+    "semantic_hash": "9f37df5e4e4bbb7b74ebf518eb5af3af"
+  },
+  "Frontend/package.json": {
+    "mtime": 1781775139.7966268,
+    "ast_hash": "e724fc7e94342ab9c9edd58ffc143b16",
+    "semantic_hash": "e724fc7e94342ab9c9edd58ffc143b16"
+  },
+  "Frontend/src/app/app.config.ts": {
+    "mtime": 1782322330.076585,
+    "ast_hash": "da471005d16ef07ff7f99a0cfcc8ea64",
+    "semantic_hash": "da471005d16ef07ff7f99a0cfcc8ea64"
+  },
+  "Frontend/src/app/app.routes.ts": {
+    "mtime": 1782322330.077585,
+    "ast_hash": "9e82134f3e41732656270447c4c872fe",
+    "semantic_hash": "9e82134f3e41732656270447c4c872fe"
+  },
+  "Frontend/src/app/app.spec.ts": {
+    "mtime": 1782322330.077585,
+    "ast_hash": "160469e424e919faea3aa4253bfa1b5e",
+    "semantic_hash": "160469e424e919faea3aa4253bfa1b5e"
+  },
+  "Frontend/src/app/app.ts": {
+    "mtime": 1782322330.077585,
+    "ast_hash": "1fe6f9b75be52f807c69aef9298d8527",
+    "semantic_hash": "1fe6f9b75be52f807c69aef9298d8527"
+  },
+  "Frontend/src/main.ts": {
+    "mtime": 1782322330.077585,
+    "ast_hash": "ac0b277dca1867b341af9e2d25224ae9",
+    "semantic_hash": "ac0b277dca1867b341af9e2d25224ae9"
+  },
+  "Frontend/tsconfig.app.json": {
+    "mtime": 1782322330.077585,
+    "ast_hash": "67a3f20f3c9369570c8dc70e3d5bb7ce",
+    "semantic_hash": "67a3f20f3c9369570c8dc70e3d5bb7ce"
+  },
+  "Frontend/tsconfig.json": {
+    "mtime": 1782322330.077585,
+    "ast_hash": "d4886a8a9be1c35a2d17ab5e0f4439c2",
+    "semantic_hash": "d4886a8a9be1c35a2d17ab5e0f4439c2"
+  },
+  "Frontend/tsconfig.spec.json": {
+    "mtime": 1782322330.077585,
+    "ast_hash": "9261a8f9db3b2c991df0e6f9d51828b1",
+    "semantic_hash": "9261a8f9db3b2c991df0e6f9d51828b1"
+  },
+  "postman/collections/API-GATEWAY.postman_collection.json": {
+    "mtime": 1782363764.6434526,
+    "ast_hash": "3374f291f899f9779e5524dc14353920",
+    "semantic_hash": "3374f291f899f9779e5524dc14353920"
+  },
+  "postman/collections/Authentication-Service.postman_collection.json": {
+    "mtime": 1782363764.6434526,
+    "ast_hash": "9df68e25ec459e2613ef0c151ce63ee4",
+    "semantic_hash": "9df68e25ec459e2613ef0c151ce63ee4"
+  },
+  "postman/collections/Product-Service.postman_collection.json": {
+    "mtime": 1782363764.6434526,
+    "ast_hash": "2d8c146addd17a435b3a57564d0dbfdc",
+    "semantic_hash": "2d8c146addd17a435b3a57564d0dbfdc"
+  },
+  "postman/environments/HungryMan-Local.postman_environment.json": {
+    "mtime": 1782363764.6434526,
+    "ast_hash": "bf805bb9e05229eef860ae16ab7f76b9",
+    "semantic_hash": "bf805bb9e05229eef860ae16ab7f76b9"
+  }
+}

@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using AuthenticationService.Application.Interfaces;
 using Scrutor;
+using MessageQueue_Service;
 
 namespace AuthenticationService.Infrastructure;
 
@@ -12,6 +13,8 @@ public static class DependencyInjection
     public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddDatabaseConfiguration(configuration);
+        
+        services.AddRabbitMqBroker(configuration);
 
         services.Scan(scan => scan
             .FromAssemblies(typeof(DependencyInjection).Assembly)

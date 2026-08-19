@@ -3,6 +3,9 @@ using Ocelot.Middleware;
 using API_GATEWAY.Middlewares;
 using API_GATEWAY.Configuration;
 using Serilog;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +16,24 @@ builder.Host.UseSerilog((context, services, configuration) =>
 
 builder.Configuration.AddOcelotWithPlaceholders("Ocelot/ocelot.json", builder.Configuration);
 builder.Services.AddOcelot(builder.Configuration);
+
+builder.Services.AddAuthentication(x =>
+{
+    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(x =>
+{
+    x.RequireHttpsMetadata = false;
+    x.SaveToken = true;
+    x.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"])),
+        ValidateIssuer = true,
+        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+        ValidateAudience = false
+    };
+});
 
 builder.Services.AddDownstreamHealthChecks(builder.Configuration);
 
@@ -53,6 +74,8 @@ app.Use(async (context, next) =>
     }
     await next();
 });
+
+app.UseAuthentication();
 
 await app.UseOcelot();
 

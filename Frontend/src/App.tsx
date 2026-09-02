@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
-import { AuthProvider, useAuth } from './context/AuthContext';
-import { CartProvider } from './context/CartContext';
-import { Navbar } from './components/Navbar';
-import { LoginView } from './views/LoginView';
-import { DashboardView } from './views/DashboardView';
-import { CartView } from './views/CartView';
-import { ProfileView } from './views/ProfileView';
+import { AuthProvider, useAuth } from './presentation/context/AuthContext';
+import { CartProvider } from './presentation/context/CartContext';
+import { Navbar } from './presentation/components/Navbar';
+import { LoginView } from './presentation/views/LoginView';
+import { DashboardView } from './presentation/views/DashboardView';
+import { CartView } from './presentation/views/CartView';
+import { ProfileView } from './presentation/views/ProfileView';
 
 // Route Guard for authenticated paths
 const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {

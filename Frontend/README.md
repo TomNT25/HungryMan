@@ -1,32 +1,39 @@
-# React + TypeScript + Vite
+# HungryMan - React + TypeScript Clean Architecture Storefront
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+HungryMan is a modern food delivery web application built with **React 19**, **TypeScript**, **Vite**, and **Vanilla CSS**. The application features a glassmorphic UI, robust state management, and strict **Clean Architecture** separation between domain entities, business use cases, repository infrastructure, and presentation components.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📖 Architecture & Technology Documentation
 
-## React Compiler
+For a detailed breakdown of the Clean Architecture layers, data flow sequence diagrams, design patterns, and offline fallback strategy, please refer to the dedicated architecture guide:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+👉 **[Read full ARCHITECTURE.md](file:///d:/Project/HungryMan/Frontend/ARCHITECTURE.md)**
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## 🚀 Quick Start
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+### 1. Install Dependencies
+```bash
+npm install
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+### 2. Start Development Server
+```bash
+npm run dev
+```
+
+### 3. Build for Production
+```bash
+npm run build
+```
+
+---
+
+## 🔑 Offline Developer Credentials
+
+If the backend .NET Core API Gateway microservices are not running locally, you can preview the full storefront experience using local mock credentials:
+
+- **Email**: `admin@hungryman.com`
+- **Password**: `password123`

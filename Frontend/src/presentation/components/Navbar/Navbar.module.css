@@ -1,0 +1,161 @@
+.navbarContainer {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 16px 24px;
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.navbarContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background: rgba(15, 20, 31, 0.7);
+}
+
+.navLogo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logoIconBg {
+  background: var(--accent-gradient);
+  padding: 8px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoIcon {
+  color: #0c0f16;
+}
+
+.logoText {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.accentText {
+  background: var(--accent-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navActions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.navCartBtn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--glass-border);
+  transition: all var(--transition-fast);
+}
+
+.navCartBtn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 95, 109, 0.2);
+  transform: translateY(-1px);
+}
+
+.cartBadge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  min-width: 20px;
+  height: 20px;
+  font-size: 0.7rem;
+  box-shadow: 0 4px 10px rgba(255, 95, 109, 0.4);
+}
+
+.navProfileLink {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 12px 6px 6px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--glass-border);
+  border-radius: 14px;
+}
+
+.navProfileLink:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 195, 113, 0.2);
+}
+
+.avatarPlaceholder {
+  background: var(--bg-tertiary);
+  color: var(--accent-secondary);
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 195, 113, 0.1);
+}
+
+.userInfoText {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.username {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.userRole {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.btnLogout {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 10px;
+  transition: all var(--transition-fast);
+  display: flex;
+  align-items: center;
+}
+
+.btnLogout:hover {
+  color: var(--error);
+  background: rgba(239, 68, 68, 0.08);
+}
+
+.btnLoginNav {
+  padding: 8px 18px;
+  font-size: 0.85rem;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .userInfoText {
+    display: none;
+  }
+  .navProfileLink {
+    padding: 6px;
+  }
+}

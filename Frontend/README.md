@@ -4,11 +4,10 @@ HungryMan is a modern food delivery web application built with **React 19**, **T
 
 ---
 
-## 📖 Architecture & Technology Documentation
+## 📖 Architecture & Learning Guides
 
-For a detailed breakdown of the Clean Architecture layers, data flow sequence diagrams, design patterns, and offline fallback strategy, please refer to the dedicated architecture guide:
-
-👉 **[Read full ARCHITECTURE.md](file:///d:/Project/HungryMan/Frontend/ARCHITECTURE.md)**
+- 👉 **[Clean Architecture Guide (`ARCHITECTURE.md`)](file:///d:/Project/HungryMan/Frontend/ARCHITECTURE.md)**: In-depth breakdown of Clean Architecture layers, sequence diagrams, design patterns, and component triplet layout.
+- 👉 **[React & Frontend Guide (`REACT_GUIDE.md`)](file:///d:/Project/HungryMan/Frontend/REACT_GUIDE.md)**: Fundamentals, basic/advanced concepts, custom hooks, Context API, performance optimization, and Component Triplet examples.
 
 ---
 

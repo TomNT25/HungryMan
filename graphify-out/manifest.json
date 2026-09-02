@@ -630,8 +630,8 @@
     "semantic_hash": ""
   },
   "Frontend/README.md": {
-    "mtime": 1788274134.0500317,
-    "ast_hash": "f89b13ae6496b805ac2d3bc020864376",
+    "mtime": 1788367155.556969,
+    "ast_hash": "f0ce53fac22d9a4ff20ea32ba71735d0",
     "semantic_hash": ""
   },
   "Infrastructure/k8s/api-gateway/base/deployment.yaml": {
@@ -1102,6 +1102,11 @@
   "Frontend/src/presentation/views/Profile/useProfile.ts": {
     "mtime": 1788365106.9324863,
     "ast_hash": "f52eda246c91fd79551b7c4f948a1552",
+    "semantic_hash": ""
+  },
+  "Frontend/REACT_GUIDE.md": {
+    "mtime": 1788367150.0874546,
+    "ast_hash": "522e5f4eb272a5301f88ca681102f589",
     "semantic_hash": ""
   }
 }

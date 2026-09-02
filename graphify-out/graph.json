@@ -1604,8 +1604,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_api_controllers_v1_authcontroller",
-      "community": 11,
-      "community_name": "GlobalExceptionMiddleware",
+      "community": 48,
+      "community_name": ".Login",
       "norm_label": "authcontroller.cs"
     },
     {
@@ -1620,8 +1620,8 @@
       },
       "_origin": "ast",
       "id": "csharp_namespace:39b784afa7b37e8b",
-      "community": 11,
-      "community_name": "GlobalExceptionMiddleware",
+      "community": 48,
+      "community_name": ".Login",
       "norm_label": "authenticationservice.api.controllers.v1"
     },
     {
@@ -1637,8 +1637,8 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_api_controllers_v1_authcontroller_authenticationservice_api_controllers_v1_authcontroller",
-      "community": 11,
-      "community_name": "GlobalExceptionMiddleware",
+      "community": 48,
+      "community_name": ".Login",
       "norm_label": "authcontroller"
     },
     {
@@ -1648,8 +1648,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "controllerbase",
-      "community": 11,
-      "community_name": "GlobalExceptionMiddleware",
+      "community": 48,
+      "community_name": ".Login",
       "norm_label": "controllerbase"
     },
     {
@@ -1659,8 +1659,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_api_controllers_v1_authcontroller_cs_ilogger",
-      "community": 11,
-      "community_name": "GlobalExceptionMiddleware",
+      "community": 48,
+      "community_name": ".Login",
       "norm_label": "ilogger"
     },
     {
@@ -1670,8 +1670,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "isender",
-      "community": 11,
-      "community_name": "GlobalExceptionMiddleware",
+      "community": 48,
+      "community_name": ".Login",
       "norm_label": "isender"
     },
     {
@@ -1687,8 +1687,8 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_api_controllers_v1_authcontroller_authenticationservice_api_controllers_v1_authcontroller_login",
-      "community": 39,
-      "community_name": "LoginHandler",
+      "community": 48,
+      "community_name": ".Login",
       "norm_label": ".login()"
     },
     {
@@ -1698,8 +1698,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_api_controllers_v1_authcontroller_cs_task",
-      "community": 39,
-      "community_name": "LoginHandler",
+      "community": 48,
+      "community_name": ".Login",
       "norm_label": "task"
     },
     {
@@ -1709,8 +1709,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "actionresult",
-      "community": 39,
-      "community_name": "LoginHandler",
+      "community": 48,
+      "community_name": ".Login",
       "norm_label": "actionresult"
     },
     {
@@ -1720,8 +1720,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "httppost",
-      "community": 39,
-      "community_name": "LoginHandler",
+      "community": 48,
+      "community_name": ".Login",
       "norm_label": "httppost"
     },
     {
@@ -1731,8 +1731,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "route",
-      "community": 39,
-      "community_name": "LoginHandler",
+      "community": 48,
+      "community_name": ".Login",
       "norm_label": "route"
     },
     {
@@ -1743,7 +1743,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_api_dependencyinjection",
       "community": 24,
-      "community_name": "AuthenticationService.API/DependencyInjection.cs",
+      "community_name": "AuthenticationService.API/Program.cs",
       "norm_label": "authenticationservice.api/dependencyinjection.cs"
     },
     {
@@ -1759,7 +1759,7 @@
       "_origin": "ast",
       "id": "csharp_namespace:2df1c8c6141ff373",
       "community": 24,
-      "community_name": "AuthenticationService.API/DependencyInjection.cs",
+      "community_name": "AuthenticationService.API/Program.cs",
       "norm_label": "authenticationservice.api"
     },
     {
@@ -1776,7 +1776,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_api_dependencyinjection_authenticationservice_api_dependencyinjection",
       "community": 24,
-      "community_name": "AuthenticationService.API/DependencyInjection.cs",
+      "community_name": "AuthenticationService.API/Program.cs",
       "norm_label": "dependencyinjection"
     },
     {
@@ -1793,7 +1793,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_api_dependencyinjection_authenticationservice_api_dependencyinjection_addapiservices",
       "community": 24,
-      "community_name": "AuthenticationService.API/DependencyInjection.cs",
+      "community_name": "AuthenticationService.API/Program.cs",
       "norm_label": ".addapiservices()"
     },
     {
@@ -1804,7 +1804,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_api_dependencyinjection_cs_iservicecollection",
       "community": 24,
-      "community_name": "AuthenticationService.API/DependencyInjection.cs",
+      "community_name": "AuthenticationService.API/Program.cs",
       "norm_label": "iservicecollection"
     },
     {
@@ -2058,8 +2058,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_api_program",
-      "community": 4,
-      "community_name": "AuthenticationService.Domain.Entities",
+      "community": 24,
+      "community_name": "AuthenticationService.API/Program.cs",
       "norm_label": "authenticationservice.api/program.cs"
     },
     {
@@ -2532,8 +2532,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_features_v1_login_getuserbyemailquery",
-      "community": 4,
-      "community_name": "AuthenticationService.Domain.Entities",
+      "community": 8,
+      "community_name": "User",
       "norm_label": "getuserbyemailquery.cs"
     },
     {
@@ -2548,8 +2548,8 @@
       },
       "_origin": "ast",
       "id": "csharp_namespace:155e9ccf2c8019d4",
-      "community": 4,
-      "community_name": "AuthenticationService.Domain.Entities",
+      "community": 39,
+      "community_name": "LoginHandler",
       "norm_label": "authenticationservice.application.features.v1.login"
     },
     {
@@ -2654,8 +2654,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_features_v1_login_loginhandler",
-      "community": 4,
-      "community_name": "AuthenticationService.Domain.Entities",
+      "community": 39,
+      "community_name": "LoginHandler",
       "norm_label": "loginhandler.cs"
     },
     {
@@ -2788,8 +2788,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_features_v1_login_loginvalidator",
-      "community": 21,
-      "community_name": "LoginValidatorTests",
+      "community": 39,
+      "community_name": "LoginHandler",
       "norm_label": "loginvalidator.cs"
     },
     {
@@ -2805,8 +2805,8 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_features_v1_login_loginvalidator_authenticationservice_application_features_v1_login_loginvalidator",
-      "community": 21,
-      "community_name": "LoginValidatorTests",
+      "community": 39,
+      "community_name": "LoginHandler",
       "norm_label": "loginvalidator"
     },
     {
@@ -2816,8 +2816,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "abstractvalidator",
-      "community": 21,
-      "community_name": "LoginValidatorTests",
+      "community": 39,
+      "community_name": "LoginHandler",
       "norm_label": "abstractvalidator"
     },
     {
@@ -2827,8 +2827,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_interfaces_ipermissionrepository",
-      "community": 37,
-      "community_name": "Permission",
+      "community": 4,
+      "community_name": "AuthenticationService.Domain.Entities",
       "norm_label": "ipermissionrepository.cs"
     },
     {
@@ -3062,8 +3062,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_interfaces_irolepermissionrepository",
-      "community": 58,
-      "community_name": "RolePermission",
+      "community": 4,
+      "community_name": "AuthenticationService.Domain.Entities",
       "norm_label": "irolepermissionrepository.cs"
     },
     {
@@ -3090,8 +3090,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_interfaces_irolerepository",
-      "community": 38,
-      "community_name": "Role",
+      "community": 4,
+      "community_name": "AuthenticationService.Domain.Entities",
       "norm_label": "irolerepository.cs"
     },
     {
@@ -3118,8 +3118,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_interfaces_iuserpermissionrepository",
-      "community": 18,
-      "community_name": "UserPermission",
+      "community": 4,
+      "community_name": "AuthenticationService.Domain.Entities",
       "norm_label": "iuserpermissionrepository.cs"
     },
     {
@@ -3135,8 +3135,8 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_interfaces_iuserpermissionrepository_authenticationservice_application_interfaces_iuserpermissionrepository",
-      "community": 18,
-      "community_name": "UserPermission",
+      "community": 37,
+      "community_name": "Permission",
       "norm_label": "iuserpermissionrepository"
     },
     {
@@ -3213,8 +3213,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_interfaces_iuserrolerepository",
-      "community": 36,
-      "community_name": "UserRole",
+      "community": 4,
+      "community_name": "AuthenticationService.Domain.Entities",
       "norm_label": "iuserrolerepository.cs"
     },
     {
@@ -3230,8 +3230,8 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_interfaces_iuserrolerepository_authenticationservice_application_interfaces_iuserrolerepository",
-      "community": 36,
-      "community_name": "UserRole",
+      "community": 38,
+      "community_name": "Role",
       "norm_label": "iuserrolerepository"
     },
     {
@@ -3241,8 +3241,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_application_interfaces_iusertokenrepository",
-      "community": 42,
-      "community_name": "UserToken",
+      "community": 4,
+      "community_name": "AuthenticationService.Domain.Entities",
       "norm_label": "iusertokenrepository.cs"
     },
     {
@@ -3496,8 +3496,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_domain_entities_userpermission",
-      "community": 18,
-      "community_name": "UserPermission",
+      "community": 37,
+      "community_name": "Permission",
       "norm_label": "userpermission.cs"
     },
     {
@@ -3513,8 +3513,8 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_domain_entities_userpermission_authenticationservice_domain_entities_userpermission",
-      "community": 18,
-      "community_name": "UserPermission",
+      "community": 37,
+      "community_name": "Permission",
       "norm_label": "userpermission"
     },
     {
@@ -3524,8 +3524,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_domain_entities_userpermission_cs_datetime",
-      "community": 18,
-      "community_name": "UserPermission",
+      "community": 37,
+      "community_name": "Permission",
       "norm_label": "datetime"
     },
     {
@@ -3535,8 +3535,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_domain_entities_userrole",
-      "community": 36,
-      "community_name": "UserRole",
+      "community": 38,
+      "community_name": "Role",
       "norm_label": "userrole.cs"
     },
     {
@@ -3552,8 +3552,8 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_domain_entities_userrole_authenticationservice_domain_entities_userrole",
-      "community": 36,
-      "community_name": "UserRole",
+      "community": 38,
+      "community_name": "Role",
       "norm_label": "userrole"
     },
     {
@@ -3563,8 +3563,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_domain_entities_userrole_cs_datetime",
-      "community": 36,
-      "community_name": "UserRole",
+      "community": 38,
+      "community_name": "Role",
       "norm_label": "datetime"
     },
     {
@@ -3702,7 +3702,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_databaseconfiguration_authenticationservicedbconfiguration",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "authenticationservicedbconfiguration.cs"
     },
     {
@@ -3735,7 +3735,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_databaseconfiguration_authenticationservicedbconfiguration_authenticationservice_infrastructure_databaseconfiguration_authenticationservicedbconfiguration",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "authenticationservicedbconfiguration"
     },
     {
@@ -3752,7 +3752,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_databaseconfiguration_authenticationservicedbconfiguration_authenticationservice_infrastructure_databaseconfiguration_authenticationservicedbconfiguration_adddatabaseconfiguration",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": ".adddatabaseconfiguration()"
     },
     {
@@ -3763,7 +3763,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_databaseconfiguration_authenticationservicedbconfiguration_cs_iservicecollection",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "iservicecollection"
     },
     {
@@ -3774,7 +3774,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_databaseconfiguration_authenticationservicedbconfiguration_cs_iconfiguration",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "iconfiguration"
     },
     {
@@ -3784,8 +3784,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_databaseconfiguration_authenticationservicedbcontext",
-      "community": 28,
-      "community_name": "AuthenticationServiceDbContext",
+      "community": 4,
+      "community_name": "AuthenticationService.Domain.Entities",
       "norm_label": "authenticationservicedbcontext.cs"
     },
     {
@@ -4169,8 +4169,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_dependencyinjection",
-      "community": 4,
-      "community_name": "AuthenticationService.Domain.Entities",
+      "community": 24,
+      "community_name": "AuthenticationService.API/Program.cs",
       "norm_label": "authenticationservice.infrastructure/dependencyinjection.cs"
     },
     {
@@ -4185,8 +4185,8 @@
       },
       "_origin": "ast",
       "id": "csharp_namespace:02c6622f626a72cc",
-      "community": 4,
-      "community_name": "AuthenticationService.Domain.Entities",
+      "community": 24,
+      "community_name": "AuthenticationService.API/Program.cs",
       "norm_label": "authenticationservice.infrastructure"
     },
     {
@@ -4202,8 +4202,8 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_dependencyinjection_authenticationservice_infrastructure_dependencyinjection",
-      "community": 56,
-      "community_name": ".AddInfrastructureServices",
+      "community": 24,
+      "community_name": "AuthenticationService.API/Program.cs",
       "norm_label": "dependencyinjection"
     },
     {
@@ -4219,8 +4219,8 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_dependencyinjection_authenticationservice_infrastructure_dependencyinjection_addinfrastructureservices",
-      "community": 56,
-      "community_name": ".AddInfrastructureServices",
+      "community": 24,
+      "community_name": "AuthenticationService.API/Program.cs",
       "norm_label": ".addinfrastructureservices()"
     },
     {
@@ -4230,8 +4230,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_dependencyinjection_cs_iservicecollection",
-      "community": 56,
-      "community_name": ".AddInfrastructureServices",
+      "community": 24,
+      "community_name": "AuthenticationService.API/Program.cs",
       "norm_label": "iservicecollection"
     },
     {
@@ -4241,8 +4241,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_dependencyinjection_cs_iconfiguration",
-      "community": 56,
-      "community_name": ".AddInfrastructureServices",
+      "community": 24,
+      "community_name": "AuthenticationService.API/Program.cs",
       "norm_label": "iconfiguration"
     },
     {
@@ -4253,7 +4253,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_auditableentitysavechangesinterceptor",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "auditableentitysavechangesinterceptor.cs"
     },
     {
@@ -4269,7 +4269,7 @@
       "_origin": "ast",
       "id": "csharp_namespace:8ade5e5d374c53f5",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "authenticationservice.infrastructure.interceptors"
     },
     {
@@ -4286,7 +4286,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_auditableentitysavechangesinterceptor_authenticationservice_infrastructure_interceptors_auditableentitysavechangesinterceptor",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "auditableentitysavechangesinterceptor"
     },
     {
@@ -4297,7 +4297,7 @@
       "_origin": "ast",
       "id": "savechangesinterceptor",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "savechangesinterceptor"
     },
     {
@@ -4314,7 +4314,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_auditableentitysavechangesinterceptor_authenticationservice_infrastructure_interceptors_auditableentitysavechangesinterceptor_savingchanges",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": ".savingchanges()"
     },
     {
@@ -4325,7 +4325,7 @@
       "_origin": "ast",
       "id": "dbcontexteventdata",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "dbcontexteventdata"
     },
     {
@@ -4336,7 +4336,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_auditableentitysavechangesinterceptor_cs_interceptionresult",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "interceptionresult"
     },
     {
@@ -4353,7 +4353,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_auditableentitysavechangesinterceptor_authenticationservice_infrastructure_interceptors_auditableentitysavechangesinterceptor_savingchangesasync",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": ".savingchangesasync()"
     },
     {
@@ -4364,7 +4364,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_auditableentitysavechangesinterceptor_cs_cancellationtoken",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "cancellationtoken"
     },
     {
@@ -4375,7 +4375,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_auditableentitysavechangesinterceptor_cs_valuetask",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "valuetask"
     },
     {
@@ -4392,7 +4392,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_auditableentitysavechangesinterceptor_authenticationservice_infrastructure_interceptors_auditableentitysavechangesinterceptor_updateentities",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": ".updateentities()"
     },
     {
@@ -4403,7 +4403,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_auditableentitysavechangesinterceptor_cs_dbcontext",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "dbcontext"
     },
     {
@@ -4414,7 +4414,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbcommandinterceptor",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "loggingdbcommandinterceptor.cs"
     },
     {
@@ -4430,7 +4430,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbcommandinterceptor_authenticationservice_infrastructure_interceptors_loggingdbcommandinterceptor",
-      "community": 7,
+      "community": 36,
       "community_name": "LoggingDbCommandInterceptor",
       "norm_label": "loggingdbcommandinterceptor"
     },
@@ -4441,7 +4441,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "dbcommandinterceptor",
-      "community": 7,
+      "community": 36,
       "community_name": "LoggingDbCommandInterceptor",
       "norm_label": "dbcommandinterceptor"
     },
@@ -4452,7 +4452,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbcommandinterceptor_cs_ilogger",
-      "community": 7,
+      "community": 36,
       "community_name": "LoggingDbCommandInterceptor",
       "norm_label": "ilogger"
     },
@@ -4469,7 +4469,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbcommandinterceptor_authenticationservice_infrastructure_interceptors_loggingdbcommandinterceptor_readerexecuting",
-      "community": 7,
+      "community": 36,
       "community_name": "LoggingDbCommandInterceptor",
       "norm_label": ".readerexecuting()"
     },
@@ -4480,7 +4480,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "dbcommand",
-      "community": 7,
+      "community": 36,
       "community_name": "LoggingDbCommandInterceptor",
       "norm_label": "dbcommand"
     },
@@ -4491,7 +4491,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "commandeventdata",
-      "community": 7,
+      "community": 36,
       "community_name": "LoggingDbCommandInterceptor",
       "norm_label": "commandeventdata"
     },
@@ -4502,7 +4502,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbcommandinterceptor_cs_interceptionresult",
-      "community": 7,
+      "community": 36,
       "community_name": "LoggingDbCommandInterceptor",
       "norm_label": "interceptionresult"
     },
@@ -4513,7 +4513,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "dbdatareader",
-      "community": 7,
+      "community": 36,
       "community_name": "LoggingDbCommandInterceptor",
       "norm_label": "dbdatareader"
     },
@@ -4530,7 +4530,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbcommandinterceptor_authenticationservice_infrastructure_interceptors_loggingdbcommandinterceptor_readerexecutingasync",
-      "community": 7,
+      "community": 36,
       "community_name": "LoggingDbCommandInterceptor",
       "norm_label": ".readerexecutingasync()"
     },
@@ -4541,7 +4541,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbcommandinterceptor_cs_cancellationtoken",
-      "community": 7,
+      "community": 36,
       "community_name": "LoggingDbCommandInterceptor",
       "norm_label": "cancellationtoken"
     },
@@ -4552,7 +4552,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbcommandinterceptor_cs_valuetask",
-      "community": 7,
+      "community": 36,
       "community_name": "LoggingDbCommandInterceptor",
       "norm_label": "valuetask"
     },
@@ -4569,7 +4569,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbcommandinterceptor_authenticationservice_infrastructure_interceptors_loggingdbcommandinterceptor_commandfailed",
-      "community": 7,
+      "community": 36,
       "community_name": "LoggingDbCommandInterceptor",
       "norm_label": ".commandfailed()"
     },
@@ -4580,7 +4580,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "commanderroreventdata",
-      "community": 7,
+      "community": 36,
       "community_name": "LoggingDbCommandInterceptor",
       "norm_label": "commanderroreventdata"
     },
@@ -4597,7 +4597,7 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbcommandinterceptor_authenticationservice_infrastructure_interceptors_loggingdbcommandinterceptor_commandfailedasync",
-      "community": 7,
+      "community": 36,
       "community_name": "LoggingDbCommandInterceptor",
       "norm_label": ".commandfailedasync()"
     },
@@ -4608,7 +4608,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbcommandinterceptor_cs_task",
-      "community": 7,
+      "community": 36,
       "community_name": "LoggingDbCommandInterceptor",
       "norm_label": "task"
     },
@@ -4620,7 +4620,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbconnectioninterceptor",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "loggingdbconnectioninterceptor.cs"
     },
     {
@@ -4637,7 +4637,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbconnectioninterceptor_authenticationservice_infrastructure_interceptors_loggingdbconnectioninterceptor",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "loggingdbconnectioninterceptor"
     },
     {
@@ -4648,7 +4648,7 @@
       "_origin": "ast",
       "id": "dbconnectioninterceptor",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "dbconnectioninterceptor"
     },
     {
@@ -4659,7 +4659,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbconnectioninterceptor_cs_ilogger",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "ilogger"
     },
     {
@@ -4676,7 +4676,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbconnectioninterceptor_authenticationservice_infrastructure_interceptors_loggingdbconnectioninterceptor_connectionopened",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": ".connectionopened()"
     },
     {
@@ -4687,7 +4687,7 @@
       "_origin": "ast",
       "id": "dbconnection",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "dbconnection"
     },
     {
@@ -4698,7 +4698,7 @@
       "_origin": "ast",
       "id": "connectionendeventdata",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "connectionendeventdata"
     },
     {
@@ -4715,7 +4715,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbconnectioninterceptor_authenticationservice_infrastructure_interceptors_loggingdbconnectioninterceptor_connectionopenedasync",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": ".connectionopenedasync()"
     },
     {
@@ -4726,7 +4726,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbconnectioninterceptor_cs_cancellationtoken",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "cancellationtoken"
     },
     {
@@ -4737,7 +4737,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbconnectioninterceptor_cs_task",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": "task"
     },
     {
@@ -4754,7 +4754,7 @@
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_interceptors_loggingdbconnectioninterceptor_authenticationservice_infrastructure_interceptors_loggingdbconnectioninterceptor_connectionclosed",
       "community": 7,
-      "community_name": "LoggingDbCommandInterceptor",
+      "community_name": ".SavingChangesAsync",
       "norm_label": ".connectionclosed()"
     },
     {
@@ -5245,8 +5245,8 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_repositories_userpermissionrepository_authenticationservice_infrastructure_repositories_userpermissionrepository",
-      "community": 18,
-      "community_name": "UserPermission",
+      "community": 37,
+      "community_name": "Permission",
       "norm_label": "userpermissionrepository"
     },
     {
@@ -5340,8 +5340,8 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_infrastructure_repositories_userrolerepository_authenticationservice_infrastructure_repositories_userrolerepository",
-      "community": 36,
-      "community_name": "UserRole",
+      "community": 38,
+      "community_name": "Role",
       "norm_label": "userrolerepository"
     },
     {
@@ -5576,8 +5576,8 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_unittests_application_features_v1_login_getuserbyemailqueryhandlertests_authenticationservice_unittests_application_features_v1_login_getuserbyemailqueryhandlertests",
-      "community": 48,
-      "community_name": "GetUserByEmailQueryHandlerTests",
+      "community": 8,
+      "community_name": "User",
       "norm_label": "getuserbyemailqueryhandlertests"
     },
     {
@@ -5587,8 +5587,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_unittests_application_features_v1_login_getuserbyemailqueryhandlertests_cs_mock",
-      "community": 48,
-      "community_name": "GetUserByEmailQueryHandlerTests",
+      "community": 8,
+      "community_name": "User",
       "norm_label": "mock"
     },
     {
@@ -5604,8 +5604,8 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_unittests_application_features_v1_login_getuserbyemailqueryhandlertests_authenticationservice_unittests_application_features_v1_login_getuserbyemailqueryhandlertests_handle_userexists_returnsuser",
-      "community": 48,
-      "community_name": "GetUserByEmailQueryHandlerTests",
+      "community": 8,
+      "community_name": "User",
       "norm_label": ".handle_userexists_returnsuser()"
     },
     {
@@ -5615,8 +5615,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_unittests_application_features_v1_login_getuserbyemailqueryhandlertests_cs_task",
-      "community": 48,
-      "community_name": "GetUserByEmailQueryHandlerTests",
+      "community": 8,
+      "community_name": "User",
       "norm_label": "task"
     },
     {
@@ -5626,8 +5626,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_unittests_application_features_v1_login_getuserbyemailqueryhandlertests_cs_fact",
-      "community": 48,
-      "community_name": "GetUserByEmailQueryHandlerTests",
+      "community": 8,
+      "community_name": "User",
       "norm_label": "fact"
     },
     {
@@ -5643,8 +5643,8 @@
       },
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_unittests_application_features_v1_login_getuserbyemailqueryhandlertests_authenticationservice_unittests_application_features_v1_login_getuserbyemailqueryhandlertests_handle_userdoesnotexist_returnsnull",
-      "community": 48,
-      "community_name": "GetUserByEmailQueryHandlerTests",
+      "community": 8,
+      "community_name": "User",
       "norm_label": ".handle_userdoesnotexist_returnsnull()"
     },
     {
@@ -5766,8 +5766,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_authentication_service_authenticationservice_unittests_application_features_v1_login_loginvalidatortests",
-      "community": 4,
-      "community_name": "AuthenticationService.Domain.Entities",
+      "community": 39,
+      "community_name": "LoginHandler",
       "norm_label": "loginvalidatortests.cs"
     },
     {
@@ -6817,8 +6817,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_shared_entities_iuser",
-      "community": 49,
-      "community_name": "Shared.Helpers.Interfaces",
+      "community": 50,
+      "community_name": "IJwtService",
       "norm_label": "iuser.cs"
     },
     {
@@ -6851,7 +6851,7 @@
       "_origin": "ast",
       "id": "backend_shared_entities_iuser_shared_entities_iuser",
       "community": 50,
-      "community_name": "JwtService",
+      "community_name": "IJwtService",
       "norm_label": "iuser"
     },
     {
@@ -6894,7 +6894,7 @@
       },
       "_origin": "ast",
       "id": "backend_shared_helpers_implements_jwtservice_shared_helpers_implements_jwtservice",
-      "community": 50,
+      "community": 56,
       "community_name": "JwtService",
       "norm_label": "jwtservice"
     },
@@ -6905,7 +6905,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_shared_helpers_implements_jwtservice_cs_iconfiguration",
-      "community": 50,
+      "community": 56,
       "community_name": "JwtService",
       "norm_label": "iconfiguration"
     },
@@ -6916,7 +6916,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_shared_helpers_implements_jwtservice_cs_string",
-      "community": 50,
+      "community": 56,
       "community_name": "JwtService",
       "norm_label": "string"
     },
@@ -6927,7 +6927,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_shared_helpers_implements_jwtservice_cs_int",
-      "community": 50,
+      "community": 56,
       "community_name": "JwtService",
       "norm_label": "int"
     },
@@ -6945,7 +6945,7 @@
       "_origin": "ast",
       "id": "backend_shared_helpers_implements_jwtservice_shared_helpers_implements_jwtservice_generateaccesstoken",
       "community": 50,
-      "community_name": "JwtService",
+      "community_name": "IJwtService",
       "norm_label": ".generateaccesstoken()"
     },
     {
@@ -6956,7 +6956,7 @@
       "_origin": "ast",
       "id": "backend_shared_helpers_implements_jwtservice_cs_ienumerable",
       "community": 50,
-      "community_name": "JwtService",
+      "community_name": "IJwtService",
       "norm_label": "ienumerable"
     },
     {
@@ -6972,7 +6972,7 @@
       },
       "_origin": "ast",
       "id": "backend_shared_helpers_implements_jwtservice_shared_helpers_implements_jwtservice_generaterefreshtoken",
-      "community": 50,
+      "community": 56,
       "community_name": "JwtService",
       "norm_label": ".generaterefreshtoken()"
     },
@@ -6989,7 +6989,7 @@
       },
       "_origin": "ast",
       "id": "backend_shared_helpers_implements_jwtservice_shared_helpers_implements_jwtservice_getprincipalfromtoken",
-      "community": 50,
+      "community": 56,
       "community_name": "JwtService",
       "norm_label": ".getprincipalfromtoken()"
     },
@@ -7000,7 +7000,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_shared_helpers_implements_jwtservice_cs_claimsprincipal",
-      "community": 50,
+      "community": 56,
       "community_name": "JwtService",
       "norm_label": "claimsprincipal"
     },
@@ -7017,7 +7017,7 @@
       },
       "_origin": "ast",
       "id": "backend_shared_helpers_implements_jwtservice_shared_helpers_implements_jwtservice_validatetoken",
-      "community": 50,
+      "community": 56,
       "community_name": "JwtService",
       "norm_label": ".validatetoken()"
     },
@@ -7124,7 +7124,7 @@
       "_origin": "ast",
       "id": "backend_shared_helpers_interfaces_ijwtservice_shared_helpers_interfaces_ijwtservice",
       "community": 50,
-      "community_name": "JwtService",
+      "community_name": "IJwtService",
       "norm_label": "ijwtservice"
     },
     {
@@ -7141,7 +7141,7 @@
       "_origin": "ast",
       "id": "backend_shared_helpers_interfaces_ijwtservice_shared_helpers_interfaces_ijwtservice_generateaccesstoken",
       "community": 50,
-      "community_name": "JwtService",
+      "community_name": "IJwtService",
       "norm_label": ".generateaccesstoken()"
     },
     {
@@ -7152,7 +7152,7 @@
       "_origin": "ast",
       "id": "backend_shared_helpers_interfaces_ijwtservice_cs_ienumerable",
       "community": 50,
-      "community_name": "JwtService",
+      "community_name": "IJwtService",
       "norm_label": "ienumerable"
     },
     {
@@ -7169,7 +7169,7 @@
       "_origin": "ast",
       "id": "backend_shared_helpers_interfaces_ijwtservice_shared_helpers_interfaces_ijwtservice_generaterefreshtoken",
       "community": 50,
-      "community_name": "JwtService",
+      "community_name": "IJwtService",
       "norm_label": ".generaterefreshtoken()"
     },
     {
@@ -7186,7 +7186,7 @@
       "_origin": "ast",
       "id": "backend_shared_helpers_interfaces_ijwtservice_shared_helpers_interfaces_ijwtservice_getprincipalfromtoken",
       "community": 50,
-      "community_name": "JwtService",
+      "community_name": "IJwtService",
       "norm_label": ".getprincipalfromtoken()"
     },
     {
@@ -7197,7 +7197,7 @@
       "_origin": "ast",
       "id": "backend_shared_helpers_interfaces_ijwtservice_cs_claimsprincipal",
       "community": 50,
-      "community_name": "JwtService",
+      "community_name": "IJwtService",
       "norm_label": "claimsprincipal"
     },
     {
@@ -7214,7 +7214,7 @@
       "_origin": "ast",
       "id": "backend_shared_helpers_interfaces_ijwtservice_shared_helpers_interfaces_ijwtservice_validatetoken",
       "community": 50,
-      "community_name": "JwtService",
+      "community_name": "IJwtService",
       "norm_label": ".validatetoken()"
     },
     {
@@ -7286,8 +7286,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_shared_models_baseapirequest",
-      "community": 39,
-      "community_name": "LoginHandler",
+      "community": 11,
+      "community_name": "GlobalExceptionMiddleware",
       "norm_label": "baseapirequest.cs"
     },
     {
@@ -7319,8 +7319,8 @@
       },
       "_origin": "ast",
       "id": "backend_shared_models_baseapirequest_shared_models_baseapirequest",
-      "community": 39,
-      "community_name": "LoginHandler",
+      "community": 11,
+      "community_name": "GlobalExceptionMiddleware",
       "norm_label": "baseapirequest"
     },
     {
@@ -7330,8 +7330,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_shared_models_baseapirequest_cs_datetime",
-      "community": 39,
-      "community_name": "LoginHandler",
+      "community": 11,
+      "community_name": "GlobalExceptionMiddleware",
       "norm_label": "datetime"
     },
     {
@@ -9384,8 +9384,8 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "frontend_src_presentation_context_cartcontext_cartprovider",
-      "community": 20,
-      "community_name": "presentation/context/CartContext.tsx",
+      "community": 9,
+      "community_name": "App.tsx",
       "norm_label": "cartprovider()"
     },
     {
@@ -10467,6 +10467,259 @@
       "norm_label": "\u26a1 6. building & running locally"
     },
     {
+      "label": "REACT_GUIDE.md",
+      "file_type": "document",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_react_guide",
+      "community": 18,
+      "community_name": "\u269b\ufe0f Comprehensive React & Frontend Architecture Guide",
+      "norm_label": "react_guide.md"
+    },
+    {
+      "label": "\u269b\ufe0f Comprehensive React & Frontend Architecture Guide",
+      "file_type": "document",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_react_guide_comprehensive_react_frontend_architecture_guide",
+      "community": 18,
+      "community_name": "\u269b\ufe0f Comprehensive React & Frontend Architecture Guide",
+      "norm_label": "\u269b\ufe0f comprehensive react & frontend architecture guide"
+    },
+    {
+      "label": "\ud83d\udccc Table of Contents",
+      "file_type": "document",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "frontend_react_guide_table_of_contents",
+      "community": 18,
+      "community_name": "\u269b\ufe0f Comprehensive React & Frontend Architecture Guide",
+      "norm_label": "\ud83d\udccc table of contents"
+    },
+    {
+      "label": "\ud83c\udfdb\ufe0f 1. Core Fundamentals of React",
+      "file_type": "document",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "frontend_react_guide_1_core_fundamentals_of_react",
+      "community": 18,
+      "community_name": "\u269b\ufe0f Comprehensive React & Frontend Architecture Guide",
+      "norm_label": "\ud83c\udfdb\ufe0f 1. core fundamentals of react"
+    },
+    {
+      "label": "1.1 Declarative vs. Imperative Programming",
+      "file_type": "document",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "frontend_react_guide_1_1_declarative_vs_imperative_programming",
+      "community": 18,
+      "community_name": "\u269b\ufe0f Comprehensive React & Frontend Architecture Guide",
+      "norm_label": "1.1 declarative vs. imperative programming"
+    },
+    {
+      "label": "1.2 Virtual DOM & Reconciliation",
+      "file_type": "document",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "frontend_react_guide_1_2_virtual_dom_reconciliation",
+      "community": 18,
+      "community_name": "\u269b\ufe0f Comprehensive React & Frontend Architecture Guide",
+      "norm_label": "1.2 virtual dom & reconciliation"
+    },
+    {
+      "label": "1.3 JSX / TSX (JavaScript/TypeScript XML)",
+      "file_type": "document",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "frontend_react_guide_1_3_jsx_tsx_javascript_typescript_xml",
+      "community": 18,
+      "community_name": "\u269b\ufe0f Comprehensive React & Frontend Architecture Guide",
+      "norm_label": "1.3 jsx / tsx (javascript/typescript xml)"
+    },
+    {
+      "label": "\ud83d\udee0\ufe0f 2. Basic Concepts & React Hooks",
+      "file_type": "document",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L78",
+      "_origin": "ast",
+      "id": "frontend_react_guide_2_basic_concepts_react_hooks",
+      "community": 18,
+      "community_name": "\u269b\ufe0f Comprehensive React & Frontend Architecture Guide",
+      "norm_label": "\ud83d\udee0\ufe0f 2. basic concepts & react hooks"
+    },
+    {
+      "label": "2.1 Components & Props",
+      "file_type": "document",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "frontend_react_guide_2_1_components_props",
+      "community": 18,
+      "community_name": "\u269b\ufe0f Comprehensive React & Frontend Architecture Guide",
+      "norm_label": "2.1 components & props"
+    },
+    {
+      "label": "2.2 Component State (`useState`)",
+      "file_type": "document",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L105",
+      "_origin": "ast",
+      "id": "frontend_react_guide_2_2_component_state_usestate",
+      "community": 18,
+      "community_name": "\u269b\ufe0f Comprehensive React & Frontend Architecture Guide",
+      "norm_label": "2.2 component state (`usestate`)"
+    },
+    {
+      "label": "2.3 Side Effects (`useEffect`)",
+      "file_type": "document",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L130",
+      "_origin": "ast",
+      "id": "frontend_react_guide_2_3_side_effects_useeffect",
+      "community": 18,
+      "community_name": "\u269b\ufe0f Comprehensive React & Frontend Architecture Guide",
+      "norm_label": "2.3 side effects (`useeffect`)"
+    },
+    {
+      "label": "2.4 Lists & Keys",
+      "file_type": "document",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L168",
+      "_origin": "ast",
+      "id": "frontend_react_guide_2_4_lists_keys",
+      "community": 18,
+      "community_name": "\u269b\ufe0f Comprehensive React & Frontend Architecture Guide",
+      "norm_label": "2.4 lists & keys"
+    },
+    {
+      "label": "\u26a1 3. Advanced Concepts & React Design Patterns",
+      "file_type": "document",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L182",
+      "_origin": "ast",
+      "id": "frontend_react_guide_3_advanced_concepts_react_design_patterns",
+      "community": 18,
+      "community_name": "\u269b\ufe0f Comprehensive React & Frontend Architecture Guide",
+      "norm_label": "\u26a1 3. advanced concepts & react design patterns"
+    },
+    {
+      "label": "3.1 Custom Hooks Pattern",
+      "file_type": "document",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L184",
+      "_origin": "ast",
+      "id": "frontend_react_guide_3_1_custom_hooks_pattern",
+      "community": 18,
+      "community_name": "\u269b\ufe0f Comprehensive React & Frontend Architecture Guide",
+      "norm_label": "3.1 custom hooks pattern"
+    },
+    {
+      "label": "3.2 Context API & Global State (`createContext` + `useContext`)",
+      "file_type": "document",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L213",
+      "_origin": "ast",
+      "id": "frontend_react_guide_3_2_context_api_global_state_createcontext_usecontext",
+      "community": 18,
+      "community_name": "\u269b\ufe0f Comprehensive React & Frontend Architecture Guide",
+      "norm_label": "3.2 context api & global state (`createcontext` + `usecontext`)"
+    },
+    {
+      "label": "3.3 Performance Optimization Techniques",
+      "file_type": "document",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L254",
+      "_origin": "ast",
+      "id": "frontend_react_guide_3_3_performance_optimization_techniques",
+      "community": 18,
+      "community_name": "\u269b\ufe0f Comprehensive React & Frontend Architecture Guide",
+      "norm_label": "3.3 performance optimization techniques"
+    },
+    {
+      "label": "\ud83c\udfdb\ufe0f 4. Clean Architecture in React Frontend",
+      "file_type": "document",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L274",
+      "_origin": "ast",
+      "id": "frontend_react_guide_4_clean_architecture_in_react_frontend",
+      "community": 18,
+      "community_name": "\u269b\ufe0f Comprehensive React & Frontend Architecture Guide",
+      "norm_label": "\ud83c\udfdb\ufe0f 4. clean architecture in react frontend"
+    },
+    {
+      "label": "Key Clean Architecture Rules:",
+      "file_type": "document",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L302",
+      "_origin": "ast",
+      "id": "frontend_react_guide_key_clean_architecture_rules",
+      "community": 18,
+      "community_name": "\u269b\ufe0f Comprehensive React & Frontend Architecture Guide",
+      "norm_label": "key clean architecture rules:"
+    },
+    {
+      "label": "\ud83e\udde9 5. The Component Triplet Pattern (HTML, CSS, JS Separation)",
+      "file_type": "document",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L311",
+      "_origin": "ast",
+      "id": "frontend_react_guide_5_the_component_triplet_pattern_html_css_js_separation",
+      "community": 18,
+      "community_name": "\u269b\ufe0f Comprehensive React & Frontend Architecture Guide",
+      "norm_label": "\ud83e\udde9 5. the component triplet pattern (html, css, js separation)"
+    },
+    {
+      "label": "File 1: `useProductCard.ts` (JS / TS Logic)",
+      "file_type": "document",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L323",
+      "_origin": "ast",
+      "id": "frontend_react_guide_file_1_useproductcard_ts_js_ts_logic",
+      "community": 18,
+      "community_name": "\u269b\ufe0f Comprehensive React & Frontend Architecture Guide",
+      "norm_label": "file 1: `useproductcard.ts` (js / ts logic)"
+    },
+    {
+      "label": "File 2: `ProductCard.module.css` (CSS Styles)",
+      "file_type": "document",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L352",
+      "_origin": "ast",
+      "id": "frontend_react_guide_file_2_productcard_module_css_css_styles",
+      "community": 18,
+      "community_name": "\u269b\ufe0f Comprehensive React & Frontend Architecture Guide",
+      "norm_label": "file 2: `productcard.module.css` (css styles)"
+    },
+    {
+      "label": "File 3: `ProductCard.tsx` (HTML / JSX View)",
+      "file_type": "document",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L376",
+      "_origin": "ast",
+      "id": "frontend_react_guide_file_3_productcard_tsx_html_jsx_view",
+      "community": 18,
+      "community_name": "\u269b\ufe0f Comprehensive React & Frontend Architecture Guide",
+      "norm_label": "file 3: `productcard.tsx` (html / jsx view)"
+    },
+    {
+      "label": "\ud83d\udccb 6. Best Practices & Performance Checklist",
+      "file_type": "document",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L409",
+      "_origin": "ast",
+      "id": "frontend_react_guide_6_best_practices_performance_checklist",
+      "community": 18,
+      "community_name": "\u269b\ufe0f Comprehensive React & Frontend Architecture Guide",
+      "norm_label": "\ud83d\udccb 6. best practices & performance checklist"
+    },
+    {
       "label": "Frontend/README.md",
       "file_type": "document",
       "source_file": "Frontend/README.md",
@@ -10489,21 +10742,21 @@
       "norm_label": "hungryman - react + typescript clean architecture storefront"
     },
     {
-      "label": "\ud83d\udcd6 Architecture & Technology Documentation",
+      "label": "\ud83d\udcd6 Architecture & Learning Guides",
       "file_type": "document",
       "source_file": "Frontend/README.md",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "frontend_readme_architecture_technology_documentation",
+      "id": "frontend_readme_architecture_learning_guides",
       "community": 34,
       "community_name": "HungryMan - React + TypeScript Clean Architecture Storefront",
-      "norm_label": "\ud83d\udcd6 architecture & technology documentation"
+      "norm_label": "\ud83d\udcd6 architecture & learning guides"
     },
     {
       "label": "\ud83d\ude80 Quick Start",
       "file_type": "document",
       "source_file": "Frontend/README.md",
-      "source_location": "L15",
+      "source_location": "L14",
       "_origin": "ast",
       "id": "frontend_readme_quick_start",
       "community": 34,
@@ -10514,7 +10767,7 @@
       "label": "1. Install Dependencies",
       "file_type": "document",
       "source_file": "Frontend/README.md",
-      "source_location": "L17",
+      "source_location": "L16",
       "_origin": "ast",
       "id": "frontend_readme_1_install_dependencies",
       "community": 34,
@@ -10525,7 +10778,7 @@
       "label": "2. Start Development Server",
       "file_type": "document",
       "source_file": "Frontend/README.md",
-      "source_location": "L22",
+      "source_location": "L21",
       "_origin": "ast",
       "id": "frontend_readme_2_start_development_server",
       "community": 34,
@@ -10536,7 +10789,7 @@
       "label": "3. Build for Production",
       "file_type": "document",
       "source_file": "Frontend/README.md",
-      "source_location": "L27",
+      "source_location": "L26",
       "_origin": "ast",
       "id": "frontend_readme_3_build_for_production",
       "community": 34,
@@ -10547,7 +10800,7 @@
       "label": "\ud83d\udd11 Offline Developer Credentials",
       "file_type": "document",
       "source_file": "Frontend/README.md",
-      "source_location": "L34",
+      "source_location": "L33",
       "_origin": "ast",
       "id": "frontend_readme_offline_developer_credentials",
       "community": 34,
@@ -27212,6 +27465,248 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "frontend_react_guide",
+      "target": "frontend_react_guide_comprehensive_react_frontend_architecture_guide",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "frontend_react_guide_comprehensive_react_frontend_architecture_guide",
+      "target": "frontend_react_guide_1_core_fundamentals_of_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "frontend_react_guide_comprehensive_react_frontend_architecture_guide",
+      "target": "frontend_react_guide_2_basic_concepts_react_hooks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L182",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "frontend_react_guide_comprehensive_react_frontend_architecture_guide",
+      "target": "frontend_react_guide_3_advanced_concepts_react_design_patterns",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L274",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "frontend_react_guide_comprehensive_react_frontend_architecture_guide",
+      "target": "frontend_react_guide_4_clean_architecture_in_react_frontend",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L311",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "frontend_react_guide_comprehensive_react_frontend_architecture_guide",
+      "target": "frontend_react_guide_5_the_component_triplet_pattern_html_css_js_separation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L409",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "frontend_react_guide_comprehensive_react_frontend_architecture_guide",
+      "target": "frontend_react_guide_6_best_practices_performance_checklist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "frontend_react_guide_comprehensive_react_frontend_architecture_guide",
+      "target": "frontend_react_guide_table_of_contents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "frontend_react_guide_1_core_fundamentals_of_react",
+      "target": "frontend_react_guide_1_1_declarative_vs_imperative_programming",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "frontend_react_guide_1_core_fundamentals_of_react",
+      "target": "frontend_react_guide_1_2_virtual_dom_reconciliation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "frontend_react_guide_1_core_fundamentals_of_react",
+      "target": "frontend_react_guide_1_3_jsx_tsx_javascript_typescript_xml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "frontend_react_guide_2_basic_concepts_react_hooks",
+      "target": "frontend_react_guide_2_1_components_props",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L105",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "frontend_react_guide_2_basic_concepts_react_hooks",
+      "target": "frontend_react_guide_2_2_component_state_usestate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L130",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "frontend_react_guide_2_basic_concepts_react_hooks",
+      "target": "frontend_react_guide_2_3_side_effects_useeffect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L168",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "frontend_react_guide_2_basic_concepts_react_hooks",
+      "target": "frontend_react_guide_2_4_lists_keys",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L184",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "frontend_react_guide_3_advanced_concepts_react_design_patterns",
+      "target": "frontend_react_guide_3_1_custom_hooks_pattern",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L213",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "frontend_react_guide_3_advanced_concepts_react_design_patterns",
+      "target": "frontend_react_guide_3_2_context_api_global_state_createcontext_usecontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L254",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "frontend_react_guide_3_advanced_concepts_react_design_patterns",
+      "target": "frontend_react_guide_3_3_performance_optimization_techniques",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L302",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "frontend_react_guide_4_clean_architecture_in_react_frontend",
+      "target": "frontend_react_guide_key_clean_architecture_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L323",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "frontend_react_guide_5_the_component_triplet_pattern_html_css_js_separation",
+      "target": "frontend_react_guide_file_1_useproductcard_ts_js_ts_logic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L352",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "frontend_react_guide_5_the_component_triplet_pattern_html_css_js_separation",
+      "target": "frontend_react_guide_file_2_productcard_module_css_css_styles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/REACT_GUIDE.md",
+      "source_location": "L376",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "frontend_react_guide_5_the_component_triplet_pattern_html_css_js_separation",
+      "target": "frontend_react_guide_file_3_productcard_tsx_html_jsx_view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "Frontend/README.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -27228,14 +27723,14 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "frontend_readme_hungryman_react_typescript_clean_architecture_storefront",
-      "target": "frontend_readme_architecture_technology_documentation",
+      "target": "frontend_readme_architecture_learning_guides",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "Frontend/README.md",
-      "source_location": "L34",
+      "source_location": "L33",
       "weight": 1.0,
       "_origin": "ast",
       "source": "frontend_readme_hungryman_react_typescript_clean_architecture_storefront",
@@ -27246,7 +27741,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "Frontend/README.md",
-      "source_location": "L15",
+      "source_location": "L14",
       "weight": 1.0,
       "_origin": "ast",
       "source": "frontend_readme_hungryman_react_typescript_clean_architecture_storefront",
@@ -27257,7 +27752,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "Frontend/README.md",
-      "source_location": "L17",
+      "source_location": "L16",
       "weight": 1.0,
       "_origin": "ast",
       "source": "frontend_readme_quick_start",
@@ -27268,7 +27763,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "Frontend/README.md",
-      "source_location": "L22",
+      "source_location": "L21",
       "weight": 1.0,
       "_origin": "ast",
       "source": "frontend_readme_quick_start",
@@ -27279,7 +27774,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "Frontend/README.md",
-      "source_location": "L27",
+      "source_location": "L26",
       "weight": 1.0,
       "_origin": "ast",
       "source": "frontend_readme_quick_start",
@@ -27288,5 +27783,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "9cd5f7b84745b9cf019faad733af90d05bfd63f9"
+  "built_at_commit": "77785e74383d7f6933b62dd6bba7131424dd376c"
 }
